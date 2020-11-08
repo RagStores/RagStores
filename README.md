@@ -34,8 +34,10 @@ All features are totally **free** to use forever and ever. &nbsp;&nbsp;&nbsp; °
 - Updated list of the game items
 - Advanced search for items 
 
+
 ## :video_game: Supported Servers and Language
-[bRO] - Brazil Official Server (Portuguese) &nbsp;&nbsp;&nbsp; (=`ω´=)
+**[bRO]** - Brazil Official Server (Portuguese) &nbsp;&nbsp;&nbsp; (=`ω´=)
+
 
 ## :heart_eyes: Others Libraries
 This project uses this below libraries, our sincerely **thanks**.
@@ -46,3 +48,5 @@ This project uses this below libraries, our sincerely **thanks**.
 - [jQuery Mask Plugin](https://github.com/igorescobar/jQuery-Mask-Plugin)
 - [Tilt.js](https://github.com/gijsroge/tilt.js)
 - [Divine Pride Tooltip](https://divine-pride.net/tools/tooltips)
+
+---

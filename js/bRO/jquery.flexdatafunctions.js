@@ -129,7 +129,7 @@ jQuery(document).ready(function($) {
      maxShownResults: 5
 	});
 
-  $("#txtCharms").flexdatalist({
+  $("#txtEnchants").flexdatalist({
      limitOfValues: 4,
      valueProperty: "name", // Changed to createBriefTable works
      searchIn: "name",
@@ -141,7 +141,7 @@ jQuery(document).ready(function($) {
      allowDuplicateValues: true,
      maxShownResults: 5
   });
-  //$("#txtCharms").val("FOR +1, FOR +2"); // For Debug
+  //$("#txtEnchants").val("FOR +1, FOR +2"); // For Debug
 
   
   $("#txtQtd").flexdatalist({
@@ -184,7 +184,7 @@ jQuery(document).ready(function($) {
     "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",{
       //reverse: true,
       translation: {
-        'A': {pattern: /[A-zÀ-ÿ0-9 @#!>?_-+]/, optional: true}
+        'A': {pattern: /[A-zÀ-ÿ0-9@#!>?\_\-\+]/, optional: true}
       }
       
   });
