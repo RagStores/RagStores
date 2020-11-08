@@ -2,8 +2,8 @@
 
 ![RagStores Logo](https://ragstores.com/wp-content/uploads/2020/06/logo_r.png)
 
-![GitHub](https://img.shields.io/github/license/LeonardoFeriato/RagStores.com)
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/LeonardoFeriato/RagStores.com)
+![GitHub](https://img.shields.io/github/license/RagStores/RagStores)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/RagStores/RagStores)
 
 ![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fragstores.com%2F)
 ![](https://img.shields.io/badge/server-bRO-blue)
