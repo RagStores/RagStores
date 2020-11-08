@@ -1,14 +1,13 @@
 jQuery(document).ready(function($) {
-
   /**
-	 * Validate some fields before submit
-   * https://stackoverflow.com/questions/28123236/validate-form-before-submit-jquery
-   *
+	 ** Validate some fields before submit
+   ** https://stackoverflow.com/questions/28123236/validate-form-before-submit-jquery
 	 */
 
-  /*
-   * Scroll to element
-   * https://stackoverflow.com/questions/6677035/jquery-scroll-to-element
+   
+  /**
+   ** Scroll to element
+   ** https://stackoverflow.com/questions/6677035/jquery-scroll-to-element
    */ 
   $.scroll = function(elem) {
     $([document.documentElement, document.body]).animate({
@@ -20,8 +19,8 @@ jQuery(document).ready(function($) {
   $(document).on("click", "form #btnSubmit", function(e) {
     
    /**
-    * Validate is table has values
-    * https://stackoverflow.com/questions/16805288/jquery-get-values-from-html-table
+    ** Validate is table has values
+    ** https://stackoverflow.com/questions/16805288/jquery-get-values-from-html-table
     */
     var dataTable = $("#tbBrief tr.dataRow").map(function (index, elem) { // Get all data and insert in a single array
       var ret = [];
@@ -41,8 +40,8 @@ jQuery(document).ready(function($) {
 
 
     /**
-     * Validate a group of checkboxs
-     * https://stackoverflow.com/questions/6218494/using-the-html5-required-attribute-for-a-group-of-checkboxes
+     ** Validate a group of checkboxs
+     ** https://stackoverflow.com/questions/6218494/using-the-html5-required-attribute-for-a-group-of-checkboxes
      */
     if ($(".checkbox-group-time.required :checkbox:checked").length > 0 && // Checkbox Time
         $(".checkbox-group-week.required :checkbox:checked").length > 0 && // Checkbox Week
@@ -63,8 +62,8 @@ jQuery(document).ready(function($) {
       e.preventDefault(); // Prevent the default action
 
       /**
-       * Variable to control where to scroll
-       * step-one has priority under step-two and three 
+       ** Variable to control where to scroll
+       ** step-one has priority under step-two and three 
        */
       var needScroll = 3;
 
@@ -115,7 +114,7 @@ jQuery(document).ready(function($) {
       }
 
       /**
-       * Deprecated
+       *! Deprecated
        * Using reCaptcha as validator
        *
        *
@@ -168,10 +167,9 @@ jQuery(document).ready(function($) {
 
 
 
-  /**
-   * ============================
-   *     Remove Erro Warnings
-   * ============================
+  /***********************************
+   **     Remove Erro Warnings
+   ************************************
   */
   /**
    * Select any checkbox
@@ -204,12 +202,5 @@ jQuery(document).ready(function($) {
       $(".final-step .checkbox-group-enter div").addClass("hide");
     }
   });
-
-
-
-
-    
-
-
 
 })

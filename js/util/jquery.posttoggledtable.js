@@ -1,14 +1,10 @@
 jQuery(document).ready(function($) {
 
 	/**
-	 * This functions will make a post item table show and hide row's information.
-   * https://stackoverflow.com/questions/13450771/toggle-table-row-with-jquery
-   * There is an easy way to show and hide elements, see:
-   * https://www.w3schools.com/jquery/jquery_hide_show.asp
-   *
-   * JS Version:
-   * 1.1
-   *
+	 ** This functions will make a post item table show and hide row's information.
+   ** https://stackoverflow.com/questions/13450771/toggle-table-row-with-jquery
+   ** There is an easy way to show and hide elements, see:
+   ** https://www.w3schools.com/jquery/jquery_hide_show.asp
 	 */
 
   // Post Item Detail
