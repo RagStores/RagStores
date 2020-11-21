@@ -256,7 +256,7 @@ blockquote {
 .sale-content-single .table-sale-form-post i.fas {
     font-size: 12px;
 }
-.sale-content-single .table-sale-form-post tr:nth-child(even), .search-result .table-sale-form-post tr:nth-child(even) {
+.sale-content-single .table-sale-form-post tr:nth-child(even), .search-result .table-sale-form-post tr:nth-child(even), .sale-form-group .table-brief-form tr:nth-child(even) {
     background-color: #fbf7e2;
 }
 .sale-content-single .table-sale-form-post .child td.child-value {
@@ -502,9 +502,11 @@ blockquote {
 .sale-form-group .table-brief-form td {
     font-size: 12px;
 }
+/*
 .sale-form-group .table-brief-form tr:nth-child(even) {
     background-color: #fcfef8;
 }
+*/
 .sale-form-group .table-brief-form select {
     padding: 0px 8px;
 
