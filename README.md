@@ -12,6 +12,10 @@ This is a public repository of RagStores, a free fan-site about the MMORPG Ragna
 
 The main objective is to be an online catalog of the shops created by the players within the game servers. Actually there is just one server supported, **bRO** an official Brazilian server, but the idea is in the future have more servers from different countries like US, Japan, Korea and others.
 
+
+:strawberry: **Try it Out:**
+https://ragstores.com/try-it-out
+
 ## :sparkles: Features
 All features are totally **free** to use forever and ever. &nbsp;&nbsp;&nbsp; °˖✧◝(⁰▿⁰)◜✧˖°
 
@@ -42,7 +46,7 @@ All features are totally **free** to use forever and ever. &nbsp;&nbsp;&nbsp; °
 ## :heart_eyes: Others Libraries
 This project uses this below libraries, our sincerely **thanks**.
 
-☆’ﾟ･:*:･｡,★’ﾟ･:*:･｡: (≧▽≦) :｡･:*:･ﾟ’★,｡･:*:･ﾟ’☆
+★’ﾟ･:*:･｡: (≧▽≦) :｡･:*:･ﾟ’★
 
 - [jQuery.Flexdatalist](https://github.com/sergiodlopes/jquery-flexdatalist)
 - [jQuery Mask Plugin](https://github.com/igorescobar/jQuery-Mask-Plugin)
