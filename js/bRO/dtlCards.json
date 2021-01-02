@@ -1,1 +1,2766 @@
-[{"id":"4001","name":"Carta Poring"},{"id":"4002","name":"Carta Fabre"},{"id":"4003","name":"Carta Pupa"},{"id":"4004","name":"Carta Drops"},{"id":"4005","name":"Carta Poring Noel"},{"id":"4006","name":"Carta Lunático"},{"id":"4007","name":"Carta Ovo de PecoPeco"},{"id":"4008","name":"Carta Picky"},{"id":"4009","name":"Carta Chonchon"},{"id":"4010","name":"Carta Salgueiro"},{"id":"4011","name":"Carta Picky com casca"},{"id":"4012","name":"Carta Ovo de Besouro-Ladrão"},{"id":"4013","name":"Carta Ovo de Andre"},{"id":"4014","name":"Carta Sapo de Rodda"},{"id":"4015","name":"Carta Condor"},{"id":"4016","name":"Carta Besouro-Ladrão"},{"id":"4017","name":"Carta Bebê Selvagem"},{"id":"4018","name":"Carta Larva de Andre"},{"id":"4019","name":"Carta Zangão"},{"id":"4020","name":"Carta Familiar"},{"id":"4021","name":"Carta Rocker"},{"id":"4022","name":"Carta Esporo"},{"id":"4023","name":"Carta Filhote de Lobo do Deserto"},{"id":"4024","name":"Carta Plankton"},{"id":"4025","name":"Carta Esqueleto"},{"id":"4026","name":"Carta Besouro-Ladrão Fêmea"},{"id":"4027","name":"Carta Kukre"},{"id":"4028","name":"Carta Tarou"},{"id":"4029","name":"Carta Lobo"},{"id":"4030","name":"Carta Mandrágora"},{"id":"4031","name":"Carta PecoPeco"},{"id":"4032","name":"Carta Ambernite"},{"id":"4033","name":"Carta Poporing"},{"id":"4034","name":"Carta Rabo-de-Verme"},{"id":"4035","name":"Carta Hidra"},{"id":"4036","name":"Carta Muka"},{"id":"4037","name":"Carta Jibóia"},{"id":"4038","name":"Carta Zumbi"},{"id":"4039","name":"Carta Percevejo"},{"id":"4040","name":"Carta Creamy"},{"id":"4041","name":"Carta Koko"},{"id":"4042","name":"Carta Chonchon de Aço"},{"id":"4043","name":"Carta Andre"},{"id":"4044","name":"Carta Fumacento"},{"id":"4045","name":"Carta Besouro-Chifre"},{"id":"4046","name":"Carta Martin"},{"id":"4047","name":"Carta Ghostring"},{"id":"4048","name":"Carta Esporo Venenoso"},{"id":"4049","name":"Carta Vadon"},{"id":"4050","name":"Carta Besouro-Ladrão Macho"},{"id":"4051","name":"Carta Yoyo"},{"id":"4052","name":"Carta Salgueiro Ancião"},{"id":"4053","name":"Carta Vitata"},{"id":"4054","name":"Carta Angeling"},{"id":"4055","name":"Carta Marina"},{"id":"4056","name":"Carta Poeira"},{"id":"4057","name":"Carta Metaller"},{"id":"4058","name":"Carta Sapo de Thara"},{"id":"4059","name":"Carta Soldado Andre"},{"id":"4060","name":"Carta Goblin"},{"id":"4061","name":"Carta Cornutus"},{"id":"4062","name":"Carta Anaconda"},{"id":"4063","name":"Carta Caramelo"},{"id":"4064","name":"Carta Zerom"},{"id":"4065","name":"Carta Kaho"},{"id":"4066","name":"Carta Guerreiro Orc"},{"id":"4067","name":"Carta Megalodon"},{"id":"4068","name":"Carta Escorpião"},{"id":"4069","name":"Carta Drainliar"},{"id":"4070","name":"Carta Eggyra"},{"id":"4071","name":"Carta Orc Zumbi"},{"id":"4072","name":"Carta Golem"},{"id":"4073","name":"Carta Esqueleto Pirata"},{"id":"4074","name":"Carta Pé-Grande"},{"id":"4075","name":"Carta Argos"},{"id":"4076","name":"Carta Magnólia"},{"id":"4077","name":"Carta Fen"},{"id":"4078","name":"Carta Selvagem"},{"id":"4079","name":"Carta Louva-a-Deus"},{"id":"4080","name":"Carta Flora"},{"id":"4081","name":"Carta Hode"},{"id":"4082","name":"Carta Lobo do Deserto"},{"id":"4083","name":"Carta Rafflesia"},{"id":"4084","name":"Carta Esfera Marinha"},{"id":"4085","name":"Carta Orc Esqueleto"},{"id":"4086","name":"Carta Esqueleto Soldado"},{"id":"4087","name":"Carta Giearth"},{"id":"4088","name":"Carta Frilldora"},{"id":"4089","name":"Carta Peixe-Espada"},{"id":"4090","name":"Carta Munak"},{"id":"4091","name":"Carta Kobold"},{"id":"4092","name":"Carta Esqueleto Operário"},{"id":"4093","name":"Carta Obeaune"},{"id":"4094","name":"Carta Esqueleto Arqueiro"},{"id":"4095","name":"Carta Marte"},{"id":"4096","name":"Carta Zenorc"},{"id":"4097","name":"Carta Matyr"},{"id":"4098","name":"Carta Dokebi"},{"id":"4099","name":"Carta Pasana"},{"id":"4100","name":"Carta Sohee"},{"id":"4101","name":"Carta Arenoso"},{"id":"4102","name":"Carta Sussurro"},{"id":"4103","name":"Carta Horong"},{"id":"4104","name":"Carta Réquiem"},{"id":"4105","name":"Carta Cavalo-Marinho"},{"id":"4106","name":"Carta Múmia"},{"id":"4107","name":"Carta Verit"},{"id":"4108","name":"Carta Névoa"},{"id":"4109","name":"Carta Jakk"},{"id":"4110","name":"Carta Carniçal"},{"id":"4111","name":"Carta Strouf"},{"id":"4112","name":"Carta Marduk"},{"id":"4113","name":"Carta Marionete"},{"id":"4114","name":"Carta Argiope"},{"id":"4115","name":"Carta Mosca Caçadora"},{"id":"4116","name":"Carta Ísis"},{"id":"4117","name":"Carta Sorrateiro"},{"id":"4118","name":"Carta Petite"},{"id":"4119","name":"Carta Bathory"},{"id":"4120","name":"Carta Petite Voador"},{"id":"4121","name":"Carta Freeoni"},{"id":"4122","name":"Carta Deviruchi"},{"id":"4123","name":"Carta Eddga"},{"id":"4124","name":"Carta Medusa"},{"id":"4125","name":"Carta Deviace"},{"id":"4126","name":"Carta Minorous"},{"id":"4127","name":"Carta Pesadelo"},{"id":"4128","name":"Carta Besouro-Ladrão Dourado"},{"id":"4129","name":"Carta Bafomé Jr."},{"id":"4130","name":"Carta Rei Escorpião"},{"id":"4131","name":"Carta Flor do Luar"},{"id":"4132","name":"Carta Abelha-Rainha"},{"id":"4133","name":"Carta Raydric"},{"id":"4134","name":"Carta Drácula"},{"id":"4135","name":"Carta Senhor dos Orcs"},{"id":"4136","name":"Carta Khalitzburg"},{"id":"4137","name":"Carta Drake"},{"id":"4138","name":"Carta Anubis"},{"id":"4139","name":"Carta Coringa"},{"id":"4140","name":"Carta Cavaleiro do Abismo"},{"id":"4141","name":"Carta Druida Maligno"},{"id":"4142","name":"Carta Doppelganger"},{"id":"4143","name":"Carta Orc Herói"},{"id":"4144","name":"Carta Osíris"},{"id":"4145","name":"Carta Belzebu"},{"id":"4146","name":"Carta Maya"},{"id":"4147","name":"Carta Bafomé"},{"id":"4148","name":"Carta Faraó"},{"id":"4149","name":"Carta Gárgula"},{"id":"4150","name":"Carta Bode"},{"id":"4151","name":"Carta Gajomart"},{"id":"4152","name":"Carta Pingu"},{"id":"4153","name":"Carta Caranguejo"},{"id":"4154","name":"Carta Pirralho"},{"id":"4155","name":"Carta Líder Goblin"},{"id":"4156","name":"Carta Goblin a Vapor"},{"id":"4157","name":"Carta Goblin Arqueiro"},{"id":"4158","name":"Carta Exterminador Voador"},{"id":"4159","name":"Carta Nove Caudas"},{"id":"4160","name":"Carta Zumbi Atirador"},{"id":"4161","name":"Carta Grand Peco"},{"id":"4162","name":"Carta Grizzly"},{"id":"4163","name":"Carta Grifo"},{"id":"4164","name":"Carta Gullinbursti"},{"id":"4165","name":"Carta Ferrão"},{"id":"4166","name":"Carta Pesadelo Sombrio"},{"id":"4167","name":"Carta Nereida"},{"id":"4168","name":"Carta Senhor das Trevas"},{"id":"4169","name":"Carta Ilusão das Trevas"},{"id":"4170","name":"Carta Moldura Maldita"},{"id":"4171","name":"Carta Sacerdote Maldito"},{"id":"4172","name":"Carta Papel"},{"id":"4173","name":"Carta Pungus"},{"id":"4174","name":"Carta Deviling"},{"id":"4175","name":"Carta Sapo Venenoso"},{"id":"4176","name":"Carta Dullahan"},{"id":"4177","name":"Carta Dríade"},{"id":"4178","name":"Carta Lavadeira"},{"id":"4179","name":"Carta Libélula"},{"id":"4180","name":"Carta Furador"},{"id":"4181","name":"Carta Mascarado"},{"id":"4182","name":"Carta Diabolik"},{"id":"4183","name":"Carta Lobo Errante"},{"id":"4184","name":"Carta Golem de Lava"},{"id":"4185","name":"Carta Rideword"},{"id":"4186","name":"Carta Raggler"},{"id":"4187","name":"Carta Raydric Arqueiro"},{"id":"4188","name":"Carta Leib Olmai"},{"id":"4189","name":"Carta Aparição"},{"id":"4190","name":"Carta Alma Penada"},{"id":"4191","name":"Carta Loli Ruri"},{"id":"4192","name":"Carta Giro-Goblin"},{"id":"4193","name":"Carta Lude"},{"id":"4194","name":"Carta Rybio"},{"id":"4195","name":"Carta Gato de Folha"},{"id":"4196","name":"Carta Marin"},{"id":"4197","name":"Carta Mastering"},{"id":"4198","name":"Carta Maya Macho"},{"id":"4199","name":"Carta Tritão"},{"id":"4200","name":"Carta Megalith"},{"id":"4201","name":"Carta Majoruros"},{"id":"4202","name":"Carta Mao Guai"},{"id":"4203","name":"Carta Dragão Mutante"},{"id":"4204","name":"Carta Diabinho"},{"id":"4205","name":"Carta Mímico"},{"id":"4206","name":"Carta Presente"},{"id":"4207","name":"Carta Mysteltainn"},{"id":"4208","name":"Carta Boneco de Miyabi"},{"id":"4209","name":"Carta Violinista"},{"id":"4210","name":"Carta Andarilho"},{"id":"4211","name":"Carta Vocal"},{"id":"4212","name":"Carta Bongun"},{"id":"4213","name":"Carta Escaravelho"},{"id":"4214","name":"Carta Serial Killer"},{"id":"4215","name":"Carta Labareda"},{"id":"4216","name":"Carta Sasquatch"},{"id":"4217","name":"Carta Pessegueira Encantada"},{"id":"4218","name":"Carta Succubus"},{"id":"4219","name":"Carta Verme Sábio"},{"id":"4220","name":"Carta Soldado"},{"id":"4221","name":"Carta Esqueleto General"},{"id":"4222","name":"Carta Esqueleto Prisioneiro"},{"id":"4223","name":"Carta Golem Estalactítico"},{"id":"4224","name":"Carta Talo de Verme"},{"id":"4225","name":"Carta Atirador de Pedras"},{"id":"4226","name":"Carta Sting"},{"id":"4227","name":"Carta Coelho"},{"id":"4228","name":"Carta Rochoso"},{"id":"4229","name":"Carta Gerente"},{"id":"4230","name":"Carta Shinobi"},{"id":"4231","name":"Carta Mi Gao"},{"id":"4232","name":"Carta Ermitão Selvagem"},{"id":"4233","name":"Carta Leopardo Filhote"},{"id":"4234","name":"Carta Anolian"},{"id":"4235","name":"Carta Cookie Natalino"},{"id":"4236","name":"Carta Amon-Ra"},{"id":"4237","name":"Carta Duque Coruja"},{"id":"4238","name":"Carta Barão Coruja"},{"id":"4239","name":"Carta Mão de Ferro"},{"id":"4240","name":"Carta Arclouse"},{"id":"4241","name":"Carta ArchAngeling"},{"id":"4242","name":"Carta Apocalipse"},{"id":"4243","name":"Carta Antonio"},{"id":"4244","name":"Carta Alarme"},{"id":"4245","name":"Carta Am Mut"},{"id":"4246","name":"Carta Agressor"},{"id":"4247","name":"Carta Estrela-do-Mar"},{"id":"4248","name":"Carta Múmia Anciã"},{"id":"4249","name":"Carta Verme Ancião"},{"id":"4250","name":"Carta Executor"},{"id":"4251","name":"Carta Ancião"},{"id":"4252","name":"Carta Crocodilo"},{"id":"4253","name":"Carta Alice"},{"id":"4254","name":"Carta Tirfing"},{"id":"4255","name":"Carta Senhora Orc"},{"id":"4256","name":"Carta Orc Arqueiro"},{"id":"4257","name":"Carta Rosa Selvagem"},{"id":"4258","name":"Carta Ninfa Perversa"},{"id":"4259","name":"Carta Golem de Madeira"},{"id":"4260","name":"Carta Artilheiro Wootan"},{"id":"4261","name":"Carta Guerreiro Wootan"},{"id":"4262","name":"Carta Ermitão Maligno"},{"id":"4263","name":"Carta Samurai Encarnado"},{"id":"4264","name":"Carta Xamã do Vento"},{"id":"4265","name":"Carta Jing Guai"},{"id":"4266","name":"Carta Eclipse"},{"id":"4267","name":"Carta Estrondo"},{"id":"4268","name":"Carta Injustiçado"},{"id":"4269","name":"Carta Inccubus"},{"id":"4270","name":"Carta Aranha Gigante"},{"id":"4271","name":"Carta Zangão Gigante"},{"id":"4272","name":"Carta Zhu Po Long"},{"id":"4273","name":"Carta Molusco"},{"id":"4274","name":"Carta Zumbi Mestre"},{"id":"4275","name":"Carta Zumbi Prisioneiro"},{"id":"4276","name":"Carta Senhor dos Mortos"},{"id":"4277","name":"Carta Jirtas"},{"id":"4278","name":"Carta Árvore Maldita"},{"id":"4279","name":"Carta Exterminador Terrestre"},{"id":"4280","name":"Carta Planta Carnívora"},{"id":"4281","name":"Carta Zipper"},{"id":"4282","name":"Carta Tengu"},{"id":"4283","name":"Carta Guardião da Floresta"},{"id":"4284","name":"Carta Chepet"},{"id":"4285","name":"Carta Choco"},{"id":"4286","name":"Carta Karakasa"},{"id":"4287","name":"Carta Kapha"},{"id":"4288","name":"Carta Carat"},{"id":"4289","name":"Carta Lagarta"},{"id":"4290","name":"Carta Gato de Nove Caudas"},{"id":"4291","name":"Carta Líder Kobold"},{"id":"4292","name":"Carta Kobold Arqueiro"},{"id":"4293","name":"Carta Cookie"},{"id":"4294","name":"Carta Quve"},{"id":"4295","name":"Carta Kraben"},{"id":"4296","name":"Carta Cãibra"},{"id":"4297","name":"Carta Soldadinho de Chumbo"},{"id":"4298","name":"Carta Creamy Ameaçador"},{"id":"4299","name":"Carta Relógio"},{"id":"4300","name":"Carta Quimera"},{"id":"4301","name":"Carta Mantis Assassino"},{"id":"4302","name":"Carta Tao Gunka"},{"id":"4303","name":"Carta Cochicho"},{"id":"4304","name":"Carta Tamruan"},{"id":"4305","name":"Carta General Tartaruga"},{"id":"4306","name":"Carta Sapo-Cururu"},{"id":"4307","name":"Carta Encouraçado"},{"id":"4308","name":"Carta Trilobita"},{"id":"4309","name":"Carta Parasita"},{"id":"4310","name":"Carta Panzer Goblin"},{"id":"4311","name":"Carta Batedor"},{"id":"4312","name":"Carta Foca"},{"id":"4313","name":"Carta Punk"},{"id":"4314","name":"Carta Penomena"},{"id":"4315","name":"Carta Peste"},{"id":"4316","name":"Carta Anjo Fajuto"},{"id":"4317","name":"Carta Yakuza"},{"id":"4318","name":"Carta Cavaleiro da Tempestade"},{"id":"4319","name":"Carta Congelador"},{"id":"4320","name":"Carta Cavaleiro Sanguinário"},{"id":"4321","name":"Carta Poltergeist"},{"id":"4322","name":"Carta Grand Orc"},{"id":"4323","name":"Carta Filhote de Hatii"},{"id":"4324","name":"Carta Hatii"},{"id":"4325","name":"Carta Harpia"},{"id":"4326","name":"Carta Lontra"},{"id":"4327","name":"Carta Borboleta Sanguinária"},{"id":"4328","name":"Carta Yao Jun"},{"id":"4329","name":"Carta Fendark"},{"id":"4330","name":"Carta Serpente Suprema"},{"id":"4331","name":"Carta Aquecedor"},{"id":"4332","name":"Carta Fornalha Velha"},{"id":"4333","name":"Carta Nuvem Venenosa"},{"id":"4334","name":"Carta Nuvem Tóxica"},{"id":"4335","name":"Carta Minérios"},{"id":"4336","name":"Carta Ungoliant"},{"id":"4337","name":"Carta Porcellio"},{"id":"4338","name":"Carta Obsidiana"},{"id":"4339","name":"Carta Mineral"},{"id":"4340","name":"Carta Ursinho"},{"id":"4341","name":"Carta Metaling"},{"id":"4342","name":"Carta RSX-0806"},{"id":"4343","name":"Carta Holden"},{"id":"4344","name":"Carta Anopheles"},{"id":"4345","name":"Carta Vento da Colina"},{"id":"4346","name":"Carta Egnigem Cenia"},{"id":"4347","name":"Carta Armeyer Dinze"},{"id":"4348","name":"Carta Wickebine Tres"},{"id":"4349","name":"Carta Errende Ebecee"},{"id":"4350","name":"Carta Laurell Weinder"},{"id":"4351","name":"Carta Kavach Icarus"},{"id":"4352","name":"Carta Espadachim Egnigem"},{"id":"4353","name":"Carta Remover"},{"id":"4354","name":"Carta Gemini-S58"},{"id":"4355","name":"Carta Gremlin"},{"id":"4356","name":"Carta Beholder"},{"id":"4357","name":"Carta Lorde Seyren"},{"id":"4358","name":"Carta Seyren Windsor"},{"id":"4359","name":"Carta Algoz Eremes"},{"id":"4360","name":"Carta Eremes Guile"},{"id":"4361","name":"Carta Mestre-ferreiro Howard"},{"id":"4362","name":"Carta Howard Alt-Eisen"},{"id":"4363","name":"Carta Sumo Sacerdotisa Margaretha"},{"id":"4364","name":"Carta Margaretha Sorin"},{"id":"4365","name":"Carta Arquimaga Kathryne"},{"id":"4366","name":"Carta Kathryne Keyron"},{"id":"4367","name":"Carta Atirador de Elite Cecil"},{"id":"4368","name":"Carta Cecil Damon"},{"id":"4369","name":"Carta Venatu"},{"id":"4370","name":"Carta Dimik"},{"id":"4371","name":"Carta Archdam"},{"id":"4372","name":"Carta Lady Branca"},{"id":"4373","name":"Carta Donzela Verde"},{"id":"4374","name":"Carta Vesper"},{"id":"4375","name":"Carta Filhote de Orc"},{"id":"4376","name":"Carta Lady Tanee"},{"id":"4377","name":"Carta Grove"},{"id":"4378","name":"Carta Acidus Dourado"},{"id":"4379","name":"Carta Acidus Azul"},{"id":"4380","name":"Carta Ferus Escarlate"},{"id":"4381","name":"Carta Ferus Verde"},{"id":"4382","name":"Carta Novus Dourado"},{"id":"4383","name":"Carta Novus Escarlate"},{"id":"4384","name":"Carta Hydrolancer"},{"id":"4385","name":"Carta Ovo de Dragão"},{"id":"4386","name":"Carta Detardeurus"},{"id":"4387","name":"Carta Mimico Antigo"},{"id":"4388","name":"Carta Palavra Morta"},{"id":"4389","name":"Carta Plasma"},{"id":"4390","name":"Carta Breeze"},{"id":"4391","name":"Carta Baronesa da Retribuição"},{"id":"4392","name":"Carta Dama da Guarda"},{"id":"4393","name":"Carta Senhora do Abrigo"},{"id":"4394","name":"Carta Senhora do Conforto"},{"id":"4395","name":"Carta Maero de Thanatos"},{"id":"4396","name":"Carta Odium de Thanatos"},{"id":"4397","name":"Carta Despero de Thanatos"},{"id":"4398","name":"Carta Pesar de Thanatos"},{"id":"4399","name":"Carta Memória de Thanatos"},{"id":"4400","name":"Carta Aliza"},{"id":"4401","name":"Carta Alicel"},{"id":"4402","name":"Carta Aliot"},{"id":"4403","name":"Carta Kiel-D-01"},{"id":"4404","name":"Carta Skogul"},{"id":"4405","name":"Carta Frus"},{"id":"4406","name":"Carta Skeggiold"},{"id":"4407","name":"Carta Valkyrie Randgris"},{"id":"4408","name":"Carta Pesar Noturno"},{"id":"4409","name":"Carta Agav"},{"id":"4410","name":"Carta Echio"},{"id":"4411","name":"Carta Vanberk"},{"id":"4412","name":"Carta Isilla"},{"id":"4413","name":"Carta Hodremlin"},{"id":"4414","name":"Carta Rastreador"},{"id":"4415","name":"Carta Yeti"},{"id":"4416","name":"Carta Siroma"},{"id":"4417","name":"Carta Titã de Gelo"},{"id":"4418","name":"Carta Gazeti"},{"id":"4419","name":"Carta Ktullanux"},{"id":"4420","name":"Carta Muscipular"},{"id":"4421","name":"Carta Drosera"},{"id":"4422","name":"Carta Roween"},{"id":"4423","name":"Carta Galion"},{"id":"4424","name":"Carta Stapo"},{"id":"4425","name":"Carta Atroce"},{"id":"4426","name":"Carta Byorgue"},{"id":"4427","name":"Carta Espadachim Guardião"},{"id":"4428","name":"Carta Arqueiro Guardião"},{"id":"4429","name":"Carta Salamandra"},{"id":"4430","name":"Carta Ifrit"},{"id":"4431","name":"Carta Kasa"},{"id":"4432","name":"Carta Magmaring"},{"id":"4433","name":"Carta Imp"},{"id":"4434","name":"Carta Golpeador"},{"id":"4435","name":"Carta Massacre"},{"id":"4436","name":"Carta Zumbi Dilacerado"},{"id":"4437","name":"Carta Cão Infernal"},{"id":"4438","name":"Carta Banshee"},{"id":"4439","name":"Carta Crânio Flamejante"},{"id":"4440","name":"Carta Necromante"},{"id":"4441","name":"Carta Bispo Decadente"},{"id":"4442","name":"Carta Tatacho"},{"id":"4443","name":"Carta Elemental da Água"},{"id":"4444","name":"Carta Draco"},{"id":"4445","name":"Carta Vespa Vagalume"},{"id":"4446","name":"Carta Esqueleto Imortal"},{"id":"4447","name":"Carta Centopéia"},{"id":"4448","name":"Carta Cornus"},{"id":"4449","name":"Carta Sombra Obscura"},{"id":"4450","name":"Carta Banshee Master"},{"id":"4451","name":"Carta Entweihen Crothen"},{"id":"4452","name":"Carta Larva de Centopéia"},{"id":"4453","name":"Carta Leão da Montanha"},{"id":"4454","name":"Carta da Falquíria"},{"id":"4455","name":"Carta da Falquíria"},{"id":"4456","name":"Carta Sombra do Guardião"},{"id":"4457","name":"Carta Naght Sieger"},{"id":"4458","name":"Carta Duneyrr"},{"id":"4459","name":"Carta Rata"},{"id":"4460","name":"Carta Rhyncho"},{"id":"4461","name":"Carta Phylla"},{"id":"4462","name":"Carta Mamute Rochoso"},{"id":"4463","name":"Carta Leão de Vinhas"},{"id":"4464","name":"Carta Aunoe"},{"id":"4465","name":"Carta Fanat"},{"id":"4466","name":"Carta Mestre Beholder"},{"id":"4467","name":"Carta Heavy Metaling"},{"id":"4468","name":"Carta Pinguicula Sombria"},{"id":"4469","name":"Carta Naga"},{"id":"4470","name":"Carta Nepenthes"},{"id":"4471","name":"Carta Ovo de Draco"},{"id":"4472","name":"Carta Golem de Bradium"},{"id":"4473","name":"Carta Árvore Anciã"},{"id":"4474","name":"Carta Zakudam"},{"id":"4475","name":"Carta Cobalto"},{"id":"4476","name":"Carta Pinguicula"},{"id":"4477","name":"Carta Apocalipse Infernal"},{"id":"4478","name":"Carta Falquíria"},{"id":"4479","name":"Carta Falquíria"},{"id":"4480","name":"Carta Kiel Selada"},{"id":"4481","name":"Carta Ktullanux Selada"},{"id":"4482","name":"Carta Egnigem Cenia Selada"},{"id":"4483","name":"Carta Dracula Selada"},{"id":"4484","name":"Carta Abelha Rainha Selada"},{"id":"4485","name":"Carta Pesar Noturno Selada"},{"id":"4486","name":"Carta Belzebu Selada"},{"id":"4491","name":"Carta Atiradora de Elite Cecil Selada"},{"id":"4494","name":"Carta General Tartaruga Selada"},{"id":"4495","name":"Carta Amon Ra Selada"},{"id":"4497","name":"Carta Cavaleiro da Tempestade Selada"},{"id":"4498","name":"Carta Lady Tanee Selada"},{"id":"4499","name":"Carta Samurai Encarnado Selada"},{"id":"4500","name":"Carta Senhor dos Orcs Selada"},{"id":"4501","name":"Carta Sumo-Sacerdotisa Margareta Selada"},{"id":"4502","name":"Carta Mestre-ferreiro Howard Selada"},{"id":"4503","name":"Carta Vesper Selada"},{"id":"4504","name":"Carta Eddga Selada"},{"id":"4505","name":"Carta Scaraba"},{"id":"4506","name":"Carta Dolomedes"},{"id":"4507","name":"Carta Rainha Scaraba"},{"id":"4508","name":"Carta Scaraba Dourado"},{"id":"4509","name":"Carta Rainha Scaraba Dourada"},{"id":"4510","name":"Carta Plagiador"},{"id":"4511","name":"Carta Pequeno Fatum"},{"id":"4512","name":"Carta Chapim"},{"id":"4513","name":"Carta Louva-a-deus Angra"},{"id":"4514","name":"Carta Aranha Pom"},{"id":"4515","name":"Carta Rafflesia Alnoldi"},{"id":"4516","name":"Carta Comodo"},{"id":"4517","name":"Carta Cendrawasih"},{"id":"4518","name":"Carta Banaspaty"},{"id":"4519","name":"Carta Butoijo"},{"id":"4520","name":"Carta Leak"},{"id":"4521","name":"Carta Sedora"},{"id":"4522","name":"Carta Sropho"},{"id":"4523","name":"Carta Dofle"},{"id":"4524","name":"Carta Dramoh Rei"},{"id":"4525","name":"Carta Kraken"},{"id":"4526","name":"Carta Celacanto Cruel"},{"id":"4527","name":"Carta Celacanto Sombrio"},{"id":"4528","name":"Carta Celacanto Mutante"},{"id":"4529","name":"Carta Celacanto Violento"},{"id":"4530","name":"Carta Siorava"},{"id":"4531","name":"Carta Eruma Vermelho"},{"id":"4532","name":"Carta Montaria Selvagem"},{"id":"4533","name":"Carta Pequeno Polvo"},{"id":"4534","name":"Carta Polvo Gigante"},{"id":"4539","name":"Carta Bispo Decadente Selada"},{"id":"4545","name":"Carta Bebê Poring"},{"id":"4556","name":"Carta Fenrir"},{"id":"4557","name":"Carta Fenris"},{"id":"4559","name":"Carta do Rei Morroc"},{"id":"4560","name":"Carta Menestrel Alphoccio"},{"id":"4561","name":"Carta Professora Celia"},{"id":"4562","name":"Carta Mestre Chen"},{"id":"4563","name":"Carta Criador Flamel"},{"id":"4564","name":"Carta Desordeira Gertie"},{"id":"4565","name":"Carta Paladino Randel"},{"id":"4566","name":"Carta Cigana Trentini"},{"id":"4567","name":"Carta Alphoccio Basil"},{"id":"4568","name":"Carta Celia Alde"},{"id":"4569","name":"Carta Chen Liu"},{"id":"4570","name":"Carta Flamel Emul"},{"id":"4571","name":"Carta Gertie Wie"},{"id":"4572","name":"Carta Randel Lawrence"},{"id":"4573","name":"Carta Trentini"},{"id":"4574","name":"Carta General Daehyun"},{"id":"4575","name":"Carta Samurai Soheon"},{"id":"4576","name":"Carta Gioia"},{"id":"4577","name":"Carta Elvira"},{"id":"4578","name":"Carta Pyuriel Furiosa"},{"id":"4579","name":"Carta Guerreira Laura"},{"id":"4580","name":"Carta Guardião Morto Kades"},{"id":"4581","name":"Carta Rudo"},{"id":"4582","name":"Carta Bungisngis"},{"id":"4583","name":"Carta Engkanto"},{"id":"4584","name":"Carta Manananggal"},{"id":"4585","name":"Carta Mangkukulam"},{"id":"4586","name":"Carta Tikbalang"},{"id":"4587","name":"Carta Tiyanak"},{"id":"4588","name":"Carta Wakwak"},{"id":"4589","name":"Carta Jejeling"},{"id":"4590","name":"Carta Bangungot"},{"id":"4591","name":"Carta Bakonawa"},{"id":"4592","name":"Carta Buwaya"},{"id":"4593","name":"Carta Menblatt"},{"id":"4594","name":"Carta Petal"},{"id":"4595","name":"Carta Cenere"},{"id":"4596","name":"Carta Antigo Livro Danificado"},{"id":"4597","name":"Carta Lichtern Laguz"},{"id":"4598","name":"Carta Lichtern Anzus"},{"id":"4599","name":"Carta Lichtern Kenaz"},{"id":"4600","name":"Carta Lichtern Inguz"},{"id":"4601","name":"Carta Amdarais"},{"id":"4602","name":"Carta Amdarais Sombrio"},{"id":"4603","name":"Carta Origem da Maldição"},{"id":"4604","name":"Carta Origem da Escuridão"},{"id":"4605","name":"Carta Cavaleiro Desmorto"},{"id":"4606","name":"Carta Cavaleira Desmorta"},{"id":"4607","name":"Carta Gerente de Bifröst"},{"id":"4608","name":"Carta Cavaleiro Branco"},{"id":"4609","name":"Carta Cavaleira Khalitzburg"},{"id":"4624","name":"Carta Tao Gunka Selada"},{"id":"4625","name":"Carta Vigia do Tempo"},{"id":"4626","name":"Carta Marca-Tempo"},{"id":"4627","name":"Carta Despertador"},{"id":"4628","name":"Carta Neo Punk"},{"id":"4629","name":"Carta Ancião Ancestral"},{"id":"4630","name":"Carta Diretor"},{"id":"4631","name":"Carta Visconde Coruja"},{"id":"4632","name":"Carta Marquês Coruja"},{"id":"4633","name":"Carta Arqueiro Imortal"},{"id":"4634","name":"Carta Soldado Imortal"},{"id":"4635","name":"Carta Amdarais Imortal"},{"id":"4636","name":"Carta Bijou"},{"id":"4637","name":"Carta Legião Imortal"},{"id":"4638","name":"Carta Observador"},{"id":"4639","name":"Carta Tappy"},{"id":"4640","name":"Carta Lobo de Gelo"},{"id":"4641","name":"Carta Zumbi da Guarda"},{"id":"4652","name":"Carta Amon Ra do Pesadelo"},{"id":"4653","name":"Carta Arclouse do Pesadelo"},{"id":"4654","name":"Carta Mímico do Pesadelo"},{"id":"4655","name":"Carta Minorous do Pesadelo"},{"id":"4656","name":"Carta Múmia do Pesadelo"},{"id":"4657","name":"Carta Múmia Anciã do Pesadelo"},{"id":"4658","name":"Carta Verit do Pesadelo"},{"id":"4659","name":"Carta Omeleting"},{"id":"4660","name":"Carta Basilisco Guarda"},{"id":"4661","name":"Carta Basilisco Guerreiro"},{"id":"4662","name":"Carta Gemaring"},{"id":"4663","name":"Carta Lunático Folhado"},{"id":"4664","name":"Carta Fabre Gramíneo"},{"id":"4665","name":"Carta Zangão Selvagem"},{"id":"4666","name":"Carta Sapo de Rodda Doce"},{"id":"4667","name":"Carta Filhote de Lobo Caçador"},{"id":"4668","name":"Carta Esporo de Água Doce"},{"id":"4669","name":"Carta Mandrágora da Selva"},{"id":"4670","name":"Carta Aranha Pomar"},{"id":"4697","name":"Carta Charleston 03"},{"id":"4698","name":"Carta Roboring"},{"id":"4699","name":"Carta Mecha v2.0"},{"id":"5536","name":"Carta Imperfeita"},{"id":"6012","name":"Carta Azul C"},{"id":"6043","name":"Carta de Lugen"},{"id":"6044","name":"Carta de Otto"},{"id":"6485","name":"Carta Azul 2"},{"id":"6486","name":"Carta Azul 0"},{"id":"6487","name":"Carta Azul 1"},{"id":"6546","name":"Carta do Irmão"},{"id":"6925","name":"Carta do Prisioneiro"},{"id":"6929","name":"Carta com Selo"},{"id":"7148","name":"Carta da Mamãe"},{"id":"7183","name":"Carta da Irmã"},{"id":"7416","name":"Carta de Recomendação"},{"id":"7461","name":"Carta com a letra A"},{"id":"7463","name":"Carta com a letra F"},{"id":"7464","name":"Carta com a letra H"},{"id":"7465","name":"Carta com a letra L"},{"id":"7466","name":"Carta com a letra N"},{"id":"7468","name":"Carta com a letra P"},{"id":"7469","name":"Carta com a letra U"},{"id":"7470","name":"Carta Azul W"},{"id":"7471","name":"Carta com a letra Y"},{"id":"7490","name":"Carta para Elly"},{"id":"7501","name":"Carta de K.H."},{"id":"7602","name":"Carta Azul R"},{"id":"7643","name":"Carta Ensanguentada"},{"id":"7942","name":"Carta de Chico"},{"id":"19306","name":"Carta de Comodo"},{"id":"22511","name":"Carta Fenris Fenrir"},{"id":"27012","name":"Carta Transistor"},{"id":"27013","name":"Carta Mecha v1.6"},{"id":"27014","name":"Carta Fumaça Verde"},{"id":"27015","name":"Carta Robô Reparador Turbo"},{"id":"27016","name":"Carta Robô Explorador Turbo"},{"id":"27017","name":"Carta Robô de Sucata"},{"id":"27018","name":"Carta GC109"},{"id":"27019","name":"Carta DR815"},{"id":"27020","name":"Carta T W O"},{"id":"27120","name":"Carta Iara"},{"id":"27121","name":"Carta Espírito da Água"},{"id":"27122","name":"Carta Curupira"},{"id":"27123","name":"Carta Espírito do Vento"},{"id":"27124","name":"Carta Espírito da Terra"},{"id":"27125","name":"Carta Mula Sem Cabeça"},{"id":"27126","name":"Carta Boitatá"},{"id":"27157","name":"Carta Leshij"},{"id":"27158","name":"Carta Les"},{"id":"27159","name":"Carta Kikimora"},{"id":"27160","name":"Carta Baba-Yaga"},{"id":"27161","name":"Carta Mavka"},{"id":"27162","name":"Carta Gorynych"},{"id":"27163","name":"Carta Verme com Rosto"},{"id":"27164","name":"Carta Rainha Verme"},{"id":"27165","name":"Carta Verme Sombrio com Rosto"},{"id":"27166","name":"Carta Ovo de Verme com Rosto"},{"id":"27167","name":"Carta Larva de Verme"},{"id":"27168","name":"Carta Lorde Irine"},{"id":"27169","name":"Carta Guarda de Payon"},{"id":"31016","name":"Carta Árvore Maldita Decorada"},{"id":"31017","name":"Carta Cookie Aterrorizante"},{"id":"31018","name":"Carta Presente das Trevas"},{"id":"31019","name":"Carta Lude Grotesco"},{"id":"31020","name":"Carta Poltergeist Sangrento"},{"id":"31021","name":"Carta Marionete Demoníaca"},{"id":"31022","name":"Carta Ursinho Abominável"},{"id":"31023","name":"Carta Celine Kimi"},{"id":"31024","name":"Carta Cavaleiro Imortal"},{"id":"31025","name":"Carta Xamã Imortal"},{"id":"31026","name":"Carta Jack Wolf"}]
+[
+    {
+      "id": "4001",
+      "name": "Carta Poring"
+    },
+    {
+      "id": "4002",
+      "name": "Carta Fabre"
+    },
+    {
+      "id": "4003",
+      "name": "Carta Pupa"
+    },
+    {
+      "id": "4004",
+      "name": "Carta Drops"
+    },
+    {
+      "id": "4005",
+      "name": "Carta Poring Noel"
+    },
+    {
+      "id": "4006",
+      "name": "Carta Lunático"
+    },
+    {
+      "id": "4007",
+      "name": "Carta Ovo de PecoPeco"
+    },
+    {
+      "id": "4008",
+      "name": "Carta Picky"
+    },
+    {
+      "id": "4009",
+      "name": "Carta Chonchon"
+    },
+    {
+      "id": "4010",
+      "name": "Carta Salgueiro"
+    },
+    {
+      "id": "4011",
+      "name": "Carta Picky com casca"
+    },
+    {
+      "id": "4012",
+      "name": "Carta Ovo de Besouro-Ladrão"
+    },
+    {
+      "id": "4013",
+      "name": "Carta Ovo de Andre"
+    },
+    {
+      "id": "4014",
+      "name": "Carta Sapo de Rodda"
+    },
+    {
+      "id": "4015",
+      "name": "Carta Condor"
+    },
+    {
+      "id": "4016",
+      "name": "Carta Besouro-Ladrão"
+    },
+    {
+      "id": "4017",
+      "name": "Carta Bebê Selvagem"
+    },
+    {
+      "id": "4018",
+      "name": "Carta Larva de Andre"
+    },
+    {
+      "id": "4019",
+      "name": "Carta Zangão"
+    },
+    {
+      "id": "4020",
+      "name": "Carta Familiar"
+    },
+    {
+      "id": "4021",
+      "name": "Carta Rocker"
+    },
+    {
+      "id": "4022",
+      "name": "Carta Esporo"
+    },
+    {
+      "id": "4023",
+      "name": "Carta Filhote de Lobo do Deserto"
+    },
+    {
+      "id": "4024",
+      "name": "Carta Plankton"
+    },
+    {
+      "id": "4025",
+      "name": "Carta Esqueleto"
+    },
+    {
+      "id": "4026",
+      "name": "Carta Besouro-Ladrão Fêmea"
+    },
+    {
+      "id": "4027",
+      "name": "Carta Kukre"
+    },
+    {
+      "id": "4028",
+      "name": "Carta Tarou"
+    },
+    {
+      "id": "4029",
+      "name": "Carta Lobo"
+    },
+    {
+      "id": "4030",
+      "name": "Carta Mandrágora"
+    },
+    {
+      "id": "4031",
+      "name": "Carta PecoPeco"
+    },
+    {
+      "id": "4032",
+      "name": "Carta Ambernite"
+    },
+    {
+      "id": "4033",
+      "name": "Carta Poporing"
+    },
+    {
+      "id": "4034",
+      "name": "Carta Rabo-de-Verme"
+    },
+    {
+      "id": "4035",
+      "name": "Carta Hidra"
+    },
+    {
+      "id": "4036",
+      "name": "Carta Muka"
+    },
+    {
+      "id": "4037",
+      "name": "Carta Jibóia"
+    },
+    {
+      "id": "4038",
+      "name": "Carta Zumbi"
+    },
+    {
+      "id": "4039",
+      "name": "Carta Percevejo"
+    },
+    {
+      "id": "4040",
+      "name": "Carta Creamy"
+    },
+    {
+      "id": "4041",
+      "name": "Carta Koko"
+    },
+    {
+      "id": "4042",
+      "name": "Carta Chonchon de Aço"
+    },
+    {
+      "id": "4043",
+      "name": "Carta Andre"
+    },
+    {
+      "id": "4044",
+      "name": "Carta Fumacento"
+    },
+    {
+      "id": "4045",
+      "name": "Carta Besouro-Chifre"
+    },
+    {
+      "id": "4046",
+      "name": "Carta Martin"
+    },
+    {
+      "id": "4047",
+      "name": "Carta Ghostring"
+    },
+    {
+      "id": "4048",
+      "name": "Carta Esporo Venenoso"
+    },
+    {
+      "id": "4049",
+      "name": "Carta Vadon"
+    },
+    {
+      "id": "4050",
+      "name": "Carta Besouro-Ladrão Macho"
+    },
+    {
+      "id": "4051",
+      "name": "Carta Yoyo"
+    },
+    {
+      "id": "4052",
+      "name": "Carta Salgueiro Ancião"
+    },
+    {
+      "id": "4053",
+      "name": "Carta Vitata"
+    },
+    {
+      "id": "4054",
+      "name": "Carta Angeling"
+    },
+    {
+      "id": "4055",
+      "name": "Carta Marina"
+    },
+    {
+      "id": "4056",
+      "name": "Carta Poeira"
+    },
+    {
+      "id": "4057",
+      "name": "Carta Metaller"
+    },
+    {
+      "id": "4058",
+      "name": "Carta Sapo de Thara"
+    },
+    {
+      "id": "4059",
+      "name": "Carta Soldado Andre"
+    },
+    {
+      "id": "4060",
+      "name": "Carta Goblin"
+    },
+    {
+      "id": "4061",
+      "name": "Carta Cornutus"
+    },
+    {
+      "id": "4062",
+      "name": "Carta Anaconda"
+    },
+    {
+      "id": "4063",
+      "name": "Carta Caramelo"
+    },
+    {
+      "id": "4064",
+      "name": "Carta Zerom"
+    },
+    {
+      "id": "4065",
+      "name": "Carta Kaho"
+    },
+    {
+      "id": "4066",
+      "name": "Carta Guerreiro Orc"
+    },
+    {
+      "id": "4067",
+      "name": "Carta Megalodon"
+    },
+    {
+      "id": "4068",
+      "name": "Carta Escorpião"
+    },
+    {
+      "id": "4069",
+      "name": "Carta Drainliar"
+    },
+    {
+      "id": "4070",
+      "name": "Carta Eggyra"
+    },
+    {
+      "id": "4071",
+      "name": "Carta Orc Zumbi"
+    },
+    {
+      "id": "4072",
+      "name": "Carta Golem"
+    },
+    {
+      "id": "4073",
+      "name": "Carta Esqueleto Pirata"
+    },
+    {
+      "id": "4074",
+      "name": "Carta Pé-Grande"
+    },
+    {
+      "id": "4075",
+      "name": "Carta Argos"
+    },
+    {
+      "id": "4076",
+      "name": "Carta Magnólia"
+    },
+    {
+      "id": "4077",
+      "name": "Carta Fen"
+    },
+    {
+      "id": "4078",
+      "name": "Carta Selvagem"
+    },
+    {
+      "id": "4079",
+      "name": "Carta Louva-a-Deus"
+    },
+    {
+      "id": "4080",
+      "name": "Carta Flora"
+    },
+    {
+      "id": "4081",
+      "name": "Carta Hode"
+    },
+    {
+      "id": "4082",
+      "name": "Carta Lobo do Deserto"
+    },
+    {
+      "id": "4083",
+      "name": "Carta Rafflesia"
+    },
+    {
+      "id": "4084",
+      "name": "Carta Esfera Marinha"
+    },
+    {
+      "id": "4085",
+      "name": "Carta Orc Esqueleto"
+    },
+    {
+      "id": "4086",
+      "name": "Carta Esqueleto Soldado"
+    },
+    {
+      "id": "4087",
+      "name": "Carta Giearth"
+    },
+    {
+      "id": "4088",
+      "name": "Carta Frilldora"
+    },
+    {
+      "id": "4089",
+      "name": "Carta Peixe-Espada"
+    },
+    {
+      "id": "4090",
+      "name": "Carta Munak"
+    },
+    {
+      "id": "4091",
+      "name": "Carta Kobold"
+    },
+    {
+      "id": "4092",
+      "name": "Carta Esqueleto Operário"
+    },
+    {
+      "id": "4093",
+      "name": "Carta Obeaune"
+    },
+    {
+      "id": "4094",
+      "name": "Carta Esqueleto Arqueiro"
+    },
+    {
+      "id": "4095",
+      "name": "Carta Marte"
+    },
+    {
+      "id": "4096",
+      "name": "Carta Zenorc"
+    },
+    {
+      "id": "4097",
+      "name": "Carta Matyr"
+    },
+    {
+      "id": "4098",
+      "name": "Carta Dokebi"
+    },
+    {
+      "id": "4099",
+      "name": "Carta Pasana"
+    },
+    {
+      "id": "4100",
+      "name": "Carta Sohee"
+    },
+    {
+      "id": "4101",
+      "name": "Carta Arenoso"
+    },
+    {
+      "id": "4102",
+      "name": "Carta Sussurro"
+    },
+    {
+      "id": "4103",
+      "name": "Carta Horong"
+    },
+    {
+      "id": "4104",
+      "name": "Carta Réquiem"
+    },
+    {
+      "id": "4105",
+      "name": "Carta Cavalo-Marinho"
+    },
+    {
+      "id": "4106",
+      "name": "Carta Múmia"
+    },
+    {
+      "id": "4107",
+      "name": "Carta Verit"
+    },
+    {
+      "id": "4108",
+      "name": "Carta Névoa"
+    },
+    {
+      "id": "4109",
+      "name": "Carta Jakk"
+    },
+    {
+      "id": "4110",
+      "name": "Carta Carniçal"
+    },
+    {
+      "id": "4111",
+      "name": "Carta Strouf"
+    },
+    {
+      "id": "4112",
+      "name": "Carta Marduk"
+    },
+    {
+      "id": "4113",
+      "name": "Carta Marionete"
+    },
+    {
+      "id": "4114",
+      "name": "Carta Argiope"
+    },
+    {
+      "id": "4115",
+      "name": "Carta Mosca Caçadora"
+    },
+    {
+      "id": "4116",
+      "name": "Carta Ísis"
+    },
+    {
+      "id": "4117",
+      "name": "Carta Sorrateiro"
+    },
+    {
+      "id": "4118",
+      "name": "Carta Petite"
+    },
+    {
+      "id": "4119",
+      "name": "Carta Bathory"
+    },
+    {
+      "id": "4120",
+      "name": "Carta Petite Voador"
+    },
+    {
+      "id": "4121",
+      "name": "Carta Freeoni"
+    },
+    {
+      "id": "4122",
+      "name": "Carta Deviruchi"
+    },
+    {
+      "id": "4123",
+      "name": "Carta Eddga"
+    },
+    {
+      "id": "4124",
+      "name": "Carta Medusa"
+    },
+    {
+      "id": "4125",
+      "name": "Carta Deviace"
+    },
+    {
+      "id": "4126",
+      "name": "Carta Minorous"
+    },
+    {
+      "id": "4127",
+      "name": "Carta Pesadelo"
+    },
+    {
+      "id": "4128",
+      "name": "Carta Besouro-Ladrão Dourado"
+    },
+    {
+      "id": "4129",
+      "name": "Carta Bafomé Jr."
+    },
+    {
+      "id": "4130",
+      "name": "Carta Rei Escorpião"
+    },
+    {
+      "id": "4131",
+      "name": "Carta Flor do Luar"
+    },
+    {
+      "id": "4132",
+      "name": "Carta Abelha-Rainha"
+    },
+    {
+      "id": "4133",
+      "name": "Carta Raydric"
+    },
+    {
+      "id": "4134",
+      "name": "Carta Drácula"
+    },
+    {
+      "id": "4135",
+      "name": "Carta Senhor dos Orcs"
+    },
+    {
+      "id": "4136",
+      "name": "Carta Khalitzburg"
+    },
+    {
+      "id": "4137",
+      "name": "Carta Drake"
+    },
+    {
+      "id": "4138",
+      "name": "Carta Anubis"
+    },
+    {
+      "id": "4139",
+      "name": "Carta Coringa"
+    },
+    {
+      "id": "4140",
+      "name": "Carta Cavaleiro do Abismo"
+    },
+    {
+      "id": "4141",
+      "name": "Carta Druida Maligno"
+    },
+    {
+      "id": "4142",
+      "name": "Carta Doppelganger"
+    },
+    {
+      "id": "4143",
+      "name": "Carta Orc Herói"
+    },
+    {
+      "id": "4144",
+      "name": "Carta Osíris"
+    },
+    {
+      "id": "4145",
+      "name": "Carta Belzebu"
+    },
+    {
+      "id": "4146",
+      "name": "Carta Maya"
+    },
+    {
+      "id": "4147",
+      "name": "Carta Bafomé"
+    },
+    {
+      "id": "4148",
+      "name": "Carta Faraó"
+    },
+    {
+      "id": "4149",
+      "name": "Carta Gárgula"
+    },
+    {
+      "id": "4150",
+      "name": "Carta Bode"
+    },
+    {
+      "id": "4151",
+      "name": "Carta Gajomart"
+    },
+    {
+      "id": "4152",
+      "name": "Carta Pingu"
+    },
+    {
+      "id": "4153",
+      "name": "Carta Caranguejo"
+    },
+    {
+      "id": "4154",
+      "name": "Carta Pirralho"
+    },
+    {
+      "id": "4155",
+      "name": "Carta Líder Goblin"
+    },
+    {
+      "id": "4156",
+      "name": "Carta Goblin a Vapor"
+    },
+    {
+      "id": "4157",
+      "name": "Carta Goblin Arqueiro"
+    },
+    {
+      "id": "4158",
+      "name": "Carta Exterminador Voador"
+    },
+    {
+      "id": "4159",
+      "name": "Carta Nove Caudas"
+    },
+    {
+      "id": "4160",
+      "name": "Carta Zumbi Atirador"
+    },
+    {
+      "id": "4161",
+      "name": "Carta Grand Peco"
+    },
+    {
+      "id": "4162",
+      "name": "Carta Grizzly"
+    },
+    {
+      "id": "4163",
+      "name": "Carta Grifo"
+    },
+    {
+      "id": "4164",
+      "name": "Carta Gullinbursti"
+    },
+    {
+      "id": "4165",
+      "name": "Carta Ferrão"
+    },
+    {
+      "id": "4166",
+      "name": "Carta Pesadelo Sombrio"
+    },
+    {
+      "id": "4167",
+      "name": "Carta Nereida"
+    },
+    {
+      "id": "4168",
+      "name": "Carta Senhor das Trevas"
+    },
+    {
+      "id": "4169",
+      "name": "Carta Ilusão das Trevas"
+    },
+    {
+      "id": "4170",
+      "name": "Carta Moldura Maldita"
+    },
+    {
+      "id": "4171",
+      "name": "Carta Sacerdote Maldito"
+    },
+    {
+      "id": "4172",
+      "name": "Carta Papel"
+    },
+    {
+      "id": "4173",
+      "name": "Carta Pungus"
+    },
+    {
+      "id": "4174",
+      "name": "Carta Deviling"
+    },
+    {
+      "id": "4175",
+      "name": "Carta Sapo Venenoso"
+    },
+    {
+      "id": "4176",
+      "name": "Carta Dullahan"
+    },
+    {
+      "id": "4177",
+      "name": "Carta Dríade"
+    },
+    {
+      "id": "4178",
+      "name": "Carta Lavadeira"
+    },
+    {
+      "id": "4179",
+      "name": "Carta Libélula"
+    },
+    {
+      "id": "4180",
+      "name": "Carta Furador"
+    },
+    {
+      "id": "4181",
+      "name": "Carta Mascarado"
+    },
+    {
+      "id": "4182",
+      "name": "Carta Diabolik"
+    },
+    {
+      "id": "4183",
+      "name": "Carta Lobo Errante"
+    },
+    {
+      "id": "4184",
+      "name": "Carta Golem de Lava"
+    },
+    {
+      "id": "4185",
+      "name": "Carta Rideword"
+    },
+    {
+      "id": "4186",
+      "name": "Carta Raggler"
+    },
+    {
+      "id": "4187",
+      "name": "Carta Raydric Arqueiro"
+    },
+    {
+      "id": "4188",
+      "name": "Carta Leib Olmai"
+    },
+    {
+      "id": "4189",
+      "name": "Carta Aparição"
+    },
+    {
+      "id": "4190",
+      "name": "Carta Alma Penada"
+    },
+    {
+      "id": "4191",
+      "name": "Carta Loli Ruri"
+    },
+    {
+      "id": "4192",
+      "name": "Carta Giro-Goblin"
+    },
+    {
+      "id": "4193",
+      "name": "Carta Lude"
+    },
+    {
+      "id": "4194",
+      "name": "Carta Rybio"
+    },
+    {
+      "id": "4195",
+      "name": "Carta Gato de Folha"
+    },
+    {
+      "id": "4196",
+      "name": "Carta Marin"
+    },
+    {
+      "id": "4197",
+      "name": "Carta Mastering"
+    },
+    {
+      "id": "4198",
+      "name": "Carta Maya Macho"
+    },
+    {
+      "id": "4199",
+      "name": "Carta Tritão"
+    },
+    {
+      "id": "4200",
+      "name": "Carta Megalith"
+    },
+    {
+      "id": "4201",
+      "name": "Carta Majoruros"
+    },
+    {
+      "id": "4202",
+      "name": "Carta Mao Guai"
+    },
+    {
+      "id": "4203",
+      "name": "Carta Dragão Mutante"
+    },
+    {
+      "id": "4204",
+      "name": "Carta Diabinho"
+    },
+    {
+      "id": "4205",
+      "name": "Carta Mímico"
+    },
+    {
+      "id": "4206",
+      "name": "Carta Presente"
+    },
+    {
+      "id": "4207",
+      "name": "Carta Mysteltainn"
+    },
+    {
+      "id": "4208",
+      "name": "Carta Boneco de Miyabi"
+    },
+    {
+      "id": "4209",
+      "name": "Carta Violinista"
+    },
+    {
+      "id": "4210",
+      "name": "Carta Andarilho"
+    },
+    {
+      "id": "4211",
+      "name": "Carta Vocal"
+    },
+    {
+      "id": "4212",
+      "name": "Carta Bongun"
+    },
+    {
+      "id": "4213",
+      "name": "Carta Escaravelho"
+    },
+    {
+      "id": "4214",
+      "name": "Carta Serial Killer"
+    },
+    {
+      "id": "4215",
+      "name": "Carta Labareda"
+    },
+    {
+      "id": "4216",
+      "name": "Carta Sasquatch"
+    },
+    {
+      "id": "4217",
+      "name": "Carta Pessegueira Encantada"
+    },
+    {
+      "id": "4218",
+      "name": "Carta Succubus"
+    },
+    {
+      "id": "4219",
+      "name": "Carta Verme Sábio"
+    },
+    {
+      "id": "4220",
+      "name": "Carta Soldado"
+    },
+    {
+      "id": "4221",
+      "name": "Carta Esqueleto General"
+    },
+    {
+      "id": "4222",
+      "name": "Carta Esqueleto Prisioneiro"
+    },
+    {
+      "id": "4223",
+      "name": "Carta Golem Estalactítico"
+    },
+    {
+      "id": "4224",
+      "name": "Carta Talo de Verme"
+    },
+    {
+      "id": "4225",
+      "name": "Carta Atirador de Pedras"
+    },
+    {
+      "id": "4226",
+      "name": "Carta Sting"
+    },
+    {
+      "id": "4227",
+      "name": "Carta Coelho"
+    },
+    {
+      "id": "4228",
+      "name": "Carta Rochoso"
+    },
+    {
+      "id": "4229",
+      "name": "Carta Gerente"
+    },
+    {
+      "id": "4230",
+      "name": "Carta Shinobi"
+    },
+    {
+      "id": "4231",
+      "name": "Carta Mi Gao"
+    },
+    {
+      "id": "4232",
+      "name": "Carta Ermitão Selvagem"
+    },
+    {
+      "id": "4233",
+      "name": "Carta Leopardo Filhote"
+    },
+    {
+      "id": "4234",
+      "name": "Carta Anolian"
+    },
+    {
+      "id": "4235",
+      "name": "Carta Cookie Natalino"
+    },
+    {
+      "id": "4236",
+      "name": "Carta Amon-Ra"
+    },
+    {
+      "id": "4237",
+      "name": "Carta Duque Coruja"
+    },
+    {
+      "id": "4238",
+      "name": "Carta Barão Coruja"
+    },
+    {
+      "id": "4239",
+      "name": "Carta Mão de Ferro"
+    },
+    {
+      "id": "4240",
+      "name": "Carta Arclouse"
+    },
+    {
+      "id": "4241",
+      "name": "Carta ArchAngeling"
+    },
+    {
+      "id": "4242",
+      "name": "Carta Apocalipse"
+    },
+    {
+      "id": "4243",
+      "name": "Carta Antonio"
+    },
+    {
+      "id": "4244",
+      "name": "Carta Alarme"
+    },
+    {
+      "id": "4245",
+      "name": "Carta Am Mut"
+    },
+    {
+      "id": "4246",
+      "name": "Carta Agressor"
+    },
+    {
+      "id": "4247",
+      "name": "Carta Estrela-do-Mar"
+    },
+    {
+      "id": "4248",
+      "name": "Carta Múmia Anciã"
+    },
+    {
+      "id": "4249",
+      "name": "Carta Verme Ancião"
+    },
+    {
+      "id": "4250",
+      "name": "Carta Executor"
+    },
+    {
+      "id": "4251",
+      "name": "Carta Ancião"
+    },
+    {
+      "id": "4252",
+      "name": "Carta Crocodilo"
+    },
+    {
+      "id": "4253",
+      "name": "Carta Alice"
+    },
+    {
+      "id": "4254",
+      "name": "Carta Tirfing"
+    },
+    {
+      "id": "4255",
+      "name": "Carta Senhora Orc"
+    },
+    {
+      "id": "4256",
+      "name": "Carta Orc Arqueiro"
+    },
+    {
+      "id": "4257",
+      "name": "Carta Rosa Selvagem"
+    },
+    {
+      "id": "4258",
+      "name": "Carta Ninfa Perversa"
+    },
+    {
+      "id": "4259",
+      "name": "Carta Golem de Madeira"
+    },
+    {
+      "id": "4260",
+      "name": "Carta Artilheiro Wootan"
+    },
+    {
+      "id": "4261",
+      "name": "Carta Guerreiro Wootan"
+    },
+    {
+      "id": "4262",
+      "name": "Carta Ermitão Maligno"
+    },
+    {
+      "id": "4263",
+      "name": "Carta Samurai Encarnado"
+    },
+    {
+      "id": "4264",
+      "name": "Carta Xamã do Vento"
+    },
+    {
+      "id": "4265",
+      "name": "Carta Jing Guai"
+    },
+    {
+      "id": "4266",
+      "name": "Carta Eclipse"
+    },
+    {
+      "id": "4267",
+      "name": "Carta Estrondo"
+    },
+    {
+      "id": "4268",
+      "name": "Carta Injustiçado"
+    },
+    {
+      "id": "4269",
+      "name": "Carta Inccubus"
+    },
+    {
+      "id": "4270",
+      "name": "Carta Aranha Gigante"
+    },
+    {
+      "id": "4271",
+      "name": "Carta Zangão Gigante"
+    },
+    {
+      "id": "4272",
+      "name": "Carta Zhu Po Long"
+    },
+    {
+      "id": "4273",
+      "name": "Carta Molusco"
+    },
+    {
+      "id": "4274",
+      "name": "Carta Zumbi Mestre"
+    },
+    {
+      "id": "4275",
+      "name": "Carta Zumbi Prisioneiro"
+    },
+    {
+      "id": "4276",
+      "name": "Carta Senhor dos Mortos"
+    },
+    {
+      "id": "4277",
+      "name": "Carta Jirtas"
+    },
+    {
+      "id": "4278",
+      "name": "Carta Árvore Maldita"
+    },
+    {
+      "id": "4279",
+      "name": "Carta Exterminador Terrestre"
+    },
+    {
+      "id": "4280",
+      "name": "Carta Planta Carnívora"
+    },
+    {
+      "id": "4281",
+      "name": "Carta Zipper"
+    },
+    {
+      "id": "4282",
+      "name": "Carta Tengu"
+    },
+    {
+      "id": "4283",
+      "name": "Carta Guardião da Floresta"
+    },
+    {
+      "id": "4284",
+      "name": "Carta Chepet"
+    },
+    {
+      "id": "4285",
+      "name": "Carta Choco"
+    },
+    {
+      "id": "4286",
+      "name": "Carta Karakasa"
+    },
+    {
+      "id": "4287",
+      "name": "Carta Kapha"
+    },
+    {
+      "id": "4288",
+      "name": "Carta Carat"
+    },
+    {
+      "id": "4289",
+      "name": "Carta Lagarta"
+    },
+    {
+      "id": "4290",
+      "name": "Carta Gato de Nove Caudas"
+    },
+    {
+      "id": "4291",
+      "name": "Carta Líder Kobold"
+    },
+    {
+      "id": "4292",
+      "name": "Carta Kobold Arqueiro"
+    },
+    {
+      "id": "4293",
+      "name": "Carta Cookie"
+    },
+    {
+      "id": "4294",
+      "name": "Carta Quve"
+    },
+    {
+      "id": "4295",
+      "name": "Carta Kraben"
+    },
+    {
+      "id": "4296",
+      "name": "Carta Cãibra"
+    },
+    {
+      "id": "4297",
+      "name": "Carta Soldadinho de Chumbo"
+    },
+    {
+      "id": "4298",
+      "name": "Carta Creamy Ameaçador"
+    },
+    {
+      "id": "4299",
+      "name": "Carta Relógio"
+    },
+    {
+      "id": "4300",
+      "name": "Carta Quimera"
+    },
+    {
+      "id": "4301",
+      "name": "Carta Mantis Assassino"
+    },
+    {
+      "id": "4302",
+      "name": "Carta Tao Gunka"
+    },
+    {
+      "id": "4303",
+      "name": "Carta Cochicho"
+    },
+    {
+      "id": "4304",
+      "name": "Carta Tamruan"
+    },
+    {
+      "id": "4305",
+      "name": "Carta General Tartaruga"
+    },
+    {
+      "id": "4306",
+      "name": "Carta Sapo-Cururu"
+    },
+    {
+      "id": "4307",
+      "name": "Carta Encouraçado"
+    },
+    {
+      "id": "4308",
+      "name": "Carta Trilobita"
+    },
+    {
+      "id": "4309",
+      "name": "Carta Parasita"
+    },
+    {
+      "id": "4310",
+      "name": "Carta Panzer Goblin"
+    },
+    {
+      "id": "4311",
+      "name": "Carta Batedor"
+    },
+    {
+      "id": "4312",
+      "name": "Carta Foca"
+    },
+    {
+      "id": "4313",
+      "name": "Carta Punk"
+    },
+    {
+      "id": "4314",
+      "name": "Carta Penomena"
+    },
+    {
+      "id": "4315",
+      "name": "Carta Peste"
+    },
+    {
+      "id": "4316",
+      "name": "Carta Anjo Fajuto"
+    },
+    {
+      "id": "4317",
+      "name": "Carta Yakuza"
+    },
+    {
+      "id": "4318",
+      "name": "Carta Cavaleiro da Tempestade"
+    },
+    {
+      "id": "4319",
+      "name": "Carta Congelador"
+    },
+    {
+      "id": "4320",
+      "name": "Carta Cavaleiro Sanguinário"
+    },
+    {
+      "id": "4321",
+      "name": "Carta Poltergeist"
+    },
+    {
+      "id": "4322",
+      "name": "Carta Grand Orc"
+    },
+    {
+      "id": "4323",
+      "name": "Carta Filhote de Hatii"
+    },
+    {
+      "id": "4324",
+      "name": "Carta Hatii"
+    },
+    {
+      "id": "4325",
+      "name": "Carta Harpia"
+    },
+    {
+      "id": "4326",
+      "name": "Carta Lontra"
+    },
+    {
+      "id": "4327",
+      "name": "Carta Borboleta Sanguinária"
+    },
+    {
+      "id": "4328",
+      "name": "Carta Yao Jun"
+    },
+    {
+      "id": "4329",
+      "name": "Carta Fendark"
+    },
+    {
+      "id": "4330",
+      "name": "Carta Serpente Suprema"
+    },
+    {
+      "id": "4331",
+      "name": "Carta Aquecedor"
+    },
+    {
+      "id": "4332",
+      "name": "Carta Fornalha Velha"
+    },
+    {
+      "id": "4333",
+      "name": "Carta Nuvem Venenosa"
+    },
+    {
+      "id": "4334",
+      "name": "Carta Nuvem Tóxica"
+    },
+    {
+      "id": "4335",
+      "name": "Carta Minérios"
+    },
+    {
+      "id": "4336",
+      "name": "Carta Ungoliant"
+    },
+    {
+      "id": "4337",
+      "name": "Carta Porcellio"
+    },
+    {
+      "id": "4338",
+      "name": "Carta Obsidiana"
+    },
+    {
+      "id": "4339",
+      "name": "Carta Mineral"
+    },
+    {
+      "id": "4340",
+      "name": "Carta Ursinho"
+    },
+    {
+      "id": "4341",
+      "name": "Carta Metaling"
+    },
+    {
+      "id": "4342",
+      "name": "Carta RSX-0806"
+    },
+    {
+      "id": "4343",
+      "name": "Carta Holden"
+    },
+    {
+      "id": "4344",
+      "name": "Carta Anopheles"
+    },
+    {
+      "id": "4345",
+      "name": "Carta Vento da Colina"
+    },
+    {
+      "id": "4346",
+      "name": "Carta Egnigem Cenia"
+    },
+    {
+      "id": "4347",
+      "name": "Carta Armeyer Dinze"
+    },
+    {
+      "id": "4348",
+      "name": "Carta Wickebine Tres"
+    },
+    {
+      "id": "4349",
+      "name": "Carta Errende Ebecee"
+    },
+    {
+      "id": "4350",
+      "name": "Carta Laurell Weinder"
+    },
+    {
+      "id": "4351",
+      "name": "Carta Kavach Icarus"
+    },
+    {
+      "id": "4352",
+      "name": "Carta Espadachim Egnigem"
+    },
+    {
+      "id": "4353",
+      "name": "Carta Remover"
+    },
+    {
+      "id": "4354",
+      "name": "Carta Gemini-S58"
+    },
+    {
+      "id": "4355",
+      "name": "Carta Gremlin"
+    },
+    {
+      "id": "4356",
+      "name": "Carta Beholder"
+    },
+    {
+      "id": "4357",
+      "name": "Carta Lorde Seyren"
+    },
+    {
+      "id": "4358",
+      "name": "Carta Seyren Windsor"
+    },
+    {
+      "id": "4359",
+      "name": "Carta Algoz Eremes"
+    },
+    {
+      "id": "4360",
+      "name": "Carta Eremes Guile"
+    },
+    {
+      "id": "4361",
+      "name": "Carta Mestre-ferreiro Howard"
+    },
+    {
+      "id": "4362",
+      "name": "Carta Howard Alt-Eisen"
+    },
+    {
+      "id": "4363",
+      "name": "Carta Sumo Sacerdotisa Margaretha"
+    },
+    {
+      "id": "4364",
+      "name": "Carta Margaretha Sorin"
+    },
+    {
+      "id": "4365",
+      "name": "Carta Arquimaga Kathryne"
+    },
+    {
+      "id": "4366",
+      "name": "Carta Kathryne Keyron"
+    },
+    {
+      "id": "4367",
+      "name": "Carta Atirador de Elite Cecil"
+    },
+    {
+      "id": "4368",
+      "name": "Carta Cecil Damon"
+    },
+    {
+      "id": "4369",
+      "name": "Carta Venatu"
+    },
+    {
+      "id": "4370",
+      "name": "Carta Dimik"
+    },
+    {
+      "id": "4371",
+      "name": "Carta Archdam"
+    },
+    {
+      "id": "4372",
+      "name": "Carta Lady Branca"
+    },
+    {
+      "id": "4373",
+      "name": "Carta Donzela Verde"
+    },
+    {
+      "id": "4374",
+      "name": "Carta Vesper"
+    },
+    {
+      "id": "4375",
+      "name": "Carta Filhote de Orc"
+    },
+    {
+      "id": "4376",
+      "name": "Carta Lady Tanee"
+    },
+    {
+      "id": "4377",
+      "name": "Carta Grove"
+    },
+    {
+      "id": "4378",
+      "name": "Carta Acidus Dourado"
+    },
+    {
+      "id": "4379",
+      "name": "Carta Acidus Azul"
+    },
+    {
+      "id": "4380",
+      "name": "Carta Ferus Escarlate"
+    },
+    {
+      "id": "4381",
+      "name": "Carta Ferus Verde"
+    },
+    {
+      "id": "4382",
+      "name": "Carta Novus Dourado"
+    },
+    {
+      "id": "4383",
+      "name": "Carta Novus Escarlate"
+    },
+    {
+      "id": "4384",
+      "name": "Carta Hydrolancer"
+    },
+    {
+      "id": "4385",
+      "name": "Carta Ovo de Dragão"
+    },
+    {
+      "id": "4386",
+      "name": "Carta Detardeurus"
+    },
+    {
+      "id": "4387",
+      "name": "Carta Mimico Antigo"
+    },
+    {
+      "id": "4388",
+      "name": "Carta Palavra Morta"
+    },
+    {
+      "id": "4389",
+      "name": "Carta Plasma"
+    },
+    {
+      "id": "4390",
+      "name": "Carta Breeze"
+    },
+    {
+      "id": "4391",
+      "name": "Carta Baronesa da Retribuição"
+    },
+    {
+      "id": "4392",
+      "name": "Carta Dama da Guarda"
+    },
+    {
+      "id": "4393",
+      "name": "Carta Senhora do Abrigo"
+    },
+    {
+      "id": "4394",
+      "name": "Carta Senhora do Conforto"
+    },
+    {
+      "id": "4395",
+      "name": "Carta Maero de Thanatos"
+    },
+    {
+      "id": "4396",
+      "name": "Carta Odium de Thanatos"
+    },
+    {
+      "id": "4397",
+      "name": "Carta Despero de Thanatos"
+    },
+    {
+      "id": "4398",
+      "name": "Carta Pesar de Thanatos"
+    },
+    {
+      "id": "4399",
+      "name": "Carta Memória de Thanatos"
+    },
+    {
+      "id": "4400",
+      "name": "Carta Aliza"
+    },
+    {
+      "id": "4401",
+      "name": "Carta Alicel"
+    },
+    {
+      "id": "4402",
+      "name": "Carta Aliot"
+    },
+    {
+      "id": "4403",
+      "name": "Carta Kiel-D-01"
+    },
+    {
+      "id": "4404",
+      "name": "Carta Skogul"
+    },
+    {
+      "id": "4405",
+      "name": "Carta Frus"
+    },
+    {
+      "id": "4406",
+      "name": "Carta Skeggiold"
+    },
+    {
+      "id": "4407",
+      "name": "Carta Valkyrie Randgris"
+    },
+    {
+      "id": "4408",
+      "name": "Carta Pesar Noturno"
+    },
+    {
+      "id": "4409",
+      "name": "Carta Agav"
+    },
+    {
+      "id": "4410",
+      "name": "Carta Echio"
+    },
+    {
+      "id": "4411",
+      "name": "Carta Vanberk"
+    },
+    {
+      "id": "4412",
+      "name": "Carta Isilla"
+    },
+    {
+      "id": "4413",
+      "name": "Carta Hodremlin"
+    },
+    {
+      "id": "4414",
+      "name": "Carta Rastreador"
+    },
+    {
+      "id": "4415",
+      "name": "Carta Yeti"
+    },
+    {
+      "id": "4416",
+      "name": "Carta Siroma"
+    },
+    {
+      "id": "4417",
+      "name": "Carta Titã de Gelo"
+    },
+    {
+      "id": "4418",
+      "name": "Carta Gazeti"
+    },
+    {
+      "id": "4419",
+      "name": "Carta Ktullanux"
+    },
+    {
+      "id": "4420",
+      "name": "Carta Muscipular"
+    },
+    {
+      "id": "4421",
+      "name": "Carta Drosera"
+    },
+    {
+      "id": "4422",
+      "name": "Carta Roween"
+    },
+    {
+      "id": "4423",
+      "name": "Carta Galion"
+    },
+    {
+      "id": "4424",
+      "name": "Carta Stapo"
+    },
+    {
+      "id": "4425",
+      "name": "Carta Atroce"
+    },
+    {
+      "id": "4426",
+      "name": "Carta Byorgue"
+    },
+    {
+      "id": "4427",
+      "name": "Carta Espadachim Guardião"
+    },
+    {
+      "id": "4428",
+      "name": "Carta Arqueiro Guardião"
+    },
+    {
+      "id": "4429",
+      "name": "Carta Salamandra"
+    },
+    {
+      "id": "4430",
+      "name": "Carta Ifrit"
+    },
+    {
+      "id": "4431",
+      "name": "Carta Kasa"
+    },
+    {
+      "id": "4432",
+      "name": "Carta Magmaring"
+    },
+    {
+      "id": "4433",
+      "name": "Carta Imp"
+    },
+    {
+      "id": "4434",
+      "name": "Carta Golpeador"
+    },
+    {
+      "id": "4435",
+      "name": "Carta Massacre"
+    },
+    {
+      "id": "4436",
+      "name": "Carta Zumbi Dilacerado"
+    },
+    {
+      "id": "4437",
+      "name": "Carta Cão Infernal"
+    },
+    {
+      "id": "4438",
+      "name": "Carta Banshee"
+    },
+    {
+      "id": "4439",
+      "name": "Carta Crânio Flamejante"
+    },
+    {
+      "id": "4440",
+      "name": "Carta Necromante"
+    },
+    {
+      "id": "4441",
+      "name": "Carta Bispo Decadente"
+    },
+    {
+      "id": "4442",
+      "name": "Carta Tatacho"
+    },
+    {
+      "id": "4443",
+      "name": "Carta Elemental da Água"
+    },
+    {
+      "id": "4444",
+      "name": "Carta Draco"
+    },
+    {
+      "id": "4445",
+      "name": "Carta Vespa Vagalume"
+    },
+    {
+      "id": "4446",
+      "name": "Carta Esqueleto Imortal"
+    },
+    {
+      "id": "4447",
+      "name": "Carta Centopéia"
+    },
+    {
+      "id": "4448",
+      "name": "Carta Cornus"
+    },
+    {
+      "id": "4449",
+      "name": "Carta Sombra Obscura"
+    },
+    {
+      "id": "4450",
+      "name": "Carta Banshee Master"
+    },
+    {
+      "id": "4451",
+      "name": "Carta Entweihen Crothen"
+    },
+    {
+      "id": "4452",
+      "name": "Carta Larva de Centopéia"
+    },
+    {
+      "id": "4453",
+      "name": "Carta Leão da Montanha"
+    },
+    {
+      "id": "4454",
+      "name": "Carta da Falquíria"
+    },
+    {
+      "id": "4455",
+      "name": "Carta da Falquíria"
+    },
+    {
+      "id": "4456",
+      "name": "Carta Sombra do Guardião"
+    },
+    {
+      "id": "4457",
+      "name": "Carta Naght Sieger"
+    },
+    {
+      "id": "4458",
+      "name": "Carta Duneyrr"
+    },
+    {
+      "id": "4459",
+      "name": "Carta Rata"
+    },
+    {
+      "id": "4460",
+      "name": "Carta Rhyncho"
+    },
+    {
+      "id": "4461",
+      "name": "Carta Phylla"
+    },
+    {
+      "id": "4462",
+      "name": "Carta Mamute Rochoso"
+    },
+    {
+      "id": "4463",
+      "name": "Carta Leão de Vinhas"
+    },
+    {
+      "id": "4464",
+      "name": "Carta Aunoe"
+    },
+    {
+      "id": "4465",
+      "name": "Carta Fanat"
+    },
+    {
+      "id": "4466",
+      "name": "Carta Mestre Beholder"
+    },
+    {
+      "id": "4467",
+      "name": "Carta Heavy Metaling"
+    },
+    {
+      "id": "4468",
+      "name": "Carta Pinguicula Sombria"
+    },
+    {
+      "id": "4469",
+      "name": "Carta Naga"
+    },
+    {
+      "id": "4470",
+      "name": "Carta Nepenthes"
+    },
+    {
+      "id": "4471",
+      "name": "Carta Ovo de Draco"
+    },
+    {
+      "id": "4472",
+      "name": "Carta Golem de Bradium"
+    },
+    {
+      "id": "4473",
+      "name": "Carta Árvore Anciã"
+    },
+    {
+      "id": "4474",
+      "name": "Carta Zakudam"
+    },
+    {
+      "id": "4475",
+      "name": "Carta Cobalto"
+    },
+    {
+      "id": "4476",
+      "name": "Carta Pinguicula"
+    },
+    {
+      "id": "4477",
+      "name": "Carta Apocalipse Infernal"
+    },
+    {
+      "id": "4478",
+      "name": "Carta Falquíria"
+    },
+    {
+      "id": "4479",
+      "name": "Carta Falquíria"
+    },
+    {
+      "id": "4480",
+      "name": "Carta Kiel Selada"
+    },
+    {
+      "id": "4481",
+      "name": "Carta Ktullanux Selada"
+    },
+    {
+      "id": "4482",
+      "name": "Carta Egnigem Cenia Selada"
+    },
+    {
+      "id": "4483",
+      "name": "Carta Dracula Selada"
+    },
+    {
+      "id": "4484",
+      "name": "Carta Abelha Rainha Selada"
+    },
+    {
+      "id": "4485",
+      "name": "Carta Pesar Noturno Selada"
+    },
+    {
+      "id": "4486",
+      "name": "Carta Belzebu Selada"
+    },
+    {
+      "id": "4491",
+      "name": "Carta Atiradora de Elite Cecil Selada"
+    },
+    {
+      "id": "4494",
+      "name": "Carta General Tartaruga Selada"
+    },
+    {
+      "id": "4495",
+      "name": "Carta Amon Ra Selada"
+    },
+    {
+      "id": "4497",
+      "name": "Carta Cavaleiro da Tempestade Selada"
+    },
+    {
+      "id": "4498",
+      "name": "Carta Lady Tanee Selada"
+    },
+    {
+      "id": "4499",
+      "name": "Carta Samurai Encarnado Selada"
+    },
+    {
+      "id": "4500",
+      "name": "Carta Senhor dos Orcs Selada"
+    },
+    {
+      "id": "4501",
+      "name": "Carta Sumo-Sacerdotisa Margareta Selada"
+    },
+    {
+      "id": "4502",
+      "name": "Carta Mestre-ferreiro Howard Selada"
+    },
+    {
+      "id": "4503",
+      "name": "Carta Vesper Selada"
+    },
+    {
+      "id": "4504",
+      "name": "Carta Eddga Selada"
+    },
+    {
+      "id": "4505",
+      "name": "Carta Scaraba"
+    },
+    {
+      "id": "4506",
+      "name": "Carta Dolomedes"
+    },
+    {
+      "id": "4507",
+      "name": "Carta Rainha Scaraba"
+    },
+    {
+      "id": "4508",
+      "name": "Carta Scaraba Dourado"
+    },
+    {
+      "id": "4509",
+      "name": "Carta Rainha Scaraba Dourada"
+    },
+    {
+      "id": "4510",
+      "name": "Carta Plagiador"
+    },
+    {
+      "id": "4511",
+      "name": "Carta Pequeno Fatum"
+    },
+    {
+      "id": "4512",
+      "name": "Carta Chapim"
+    },
+    {
+      "id": "4513",
+      "name": "Carta Louva-a-deus Angra"
+    },
+    {
+      "id": "4514",
+      "name": "Carta Aranha Pom"
+    },
+    {
+      "id": "4515",
+      "name": "Carta Rafflesia Alnoldi"
+    },
+    {
+      "id": "4516",
+      "name": "Carta Comodo"
+    },
+    {
+      "id": "4517",
+      "name": "Carta Cendrawasih"
+    },
+    {
+      "id": "4518",
+      "name": "Carta Banaspaty"
+    },
+    {
+      "id": "4519",
+      "name": "Carta Butoijo"
+    },
+    {
+      "id": "4520",
+      "name": "Carta Leak"
+    },
+    {
+      "id": "4521",
+      "name": "Carta Sedora"
+    },
+    {
+      "id": "4522",
+      "name": "Carta Sropho"
+    },
+    {
+      "id": "4523",
+      "name": "Carta Dofle"
+    },
+    {
+      "id": "4524",
+      "name": "Carta Dramoh Rei"
+    },
+    {
+      "id": "4525",
+      "name": "Carta Kraken"
+    },
+    {
+      "id": "4526",
+      "name": "Carta Celacanto Cruel"
+    },
+    {
+      "id": "4527",
+      "name": "Carta Celacanto Sombrio"
+    },
+    {
+      "id": "4528",
+      "name": "Carta Celacanto Mutante"
+    },
+    {
+      "id": "4529",
+      "name": "Carta Celacanto Violento"
+    },
+    {
+      "id": "4530",
+      "name": "Carta Siorava"
+    },
+    {
+      "id": "4531",
+      "name": "Carta Eruma Vermelho"
+    },
+    {
+      "id": "4532",
+      "name": "Carta Montaria Selvagem"
+    },
+    {
+      "id": "4533",
+      "name": "Carta Pequeno Polvo"
+    },
+    {
+      "id": "4534",
+      "name": "Carta Polvo Gigante"
+    },
+    {
+      "id": "4539",
+      "name": "Carta Bispo Decadente Selada"
+    },
+    {
+      "id": "4545",
+      "name": "Carta Bebê Poring"
+    },
+    {
+      "id": "4556",
+      "name": "Carta Fenrir"
+    },
+    {
+      "id": "4557",
+      "name": "Carta Fenris"
+    },
+    {
+      "id": "4559",
+      "name": "Carta do Rei Morroc"
+    },
+    {
+      "id": "4560",
+      "name": "Carta Menestrel Alphoccio"
+    },
+    {
+      "id": "4561",
+      "name": "Carta Professora Celia"
+    },
+    {
+      "id": "4562",
+      "name": "Carta Mestre Chen"
+    },
+    {
+      "id": "4563",
+      "name": "Carta Criador Flamel"
+    },
+    {
+      "id": "4564",
+      "name": "Carta Desordeira Gertie"
+    },
+    {
+      "id": "4565",
+      "name": "Carta Paladino Randel"
+    },
+    {
+      "id": "4566",
+      "name": "Carta Cigana Trentini"
+    },
+    {
+      "id": "4567",
+      "name": "Carta Alphoccio Basil"
+    },
+    {
+      "id": "4568",
+      "name": "Carta Celia Alde"
+    },
+    {
+      "id": "4569",
+      "name": "Carta Chen Liu"
+    },
+    {
+      "id": "4570",
+      "name": "Carta Flamel Emul"
+    },
+    {
+      "id": "4571",
+      "name": "Carta Gertie Wie"
+    },
+    {
+      "id": "4572",
+      "name": "Carta Randel Lawrence"
+    },
+    {
+      "id": "4573",
+      "name": "Carta Trentini"
+    },
+    {
+      "id": "4574",
+      "name": "Carta General Daehyun"
+    },
+    {
+      "id": "4575",
+      "name": "Carta Samurai Soheon"
+    },
+    {
+      "id": "4576",
+      "name": "Carta Gioia"
+    },
+    {
+      "id": "4577",
+      "name": "Carta Elvira"
+    },
+    {
+      "id": "4578",
+      "name": "Carta Pyuriel Furiosa"
+    },
+    {
+      "id": "4579",
+      "name": "Carta Guerreira Laura"
+    },
+    {
+      "id": "4580",
+      "name": "Carta Guardião Morto Kades"
+    },
+    {
+      "id": "4581",
+      "name": "Carta Rudo"
+    },
+    {
+      "id": "4582",
+      "name": "Carta Bungisngis"
+    },
+    {
+      "id": "4583",
+      "name": "Carta Engkanto"
+    },
+    {
+      "id": "4584",
+      "name": "Carta Manananggal"
+    },
+    {
+      "id": "4585",
+      "name": "Carta Mangkukulam"
+    },
+    {
+      "id": "4586",
+      "name": "Carta Tikbalang"
+    },
+    {
+      "id": "4587",
+      "name": "Carta Tiyanak"
+    },
+    {
+      "id": "4588",
+      "name": "Carta Wakwak"
+    },
+    {
+      "id": "4589",
+      "name": "Carta Jejeling"
+    },
+    {
+      "id": "4590",
+      "name": "Carta Bangungot"
+    },
+    {
+      "id": "4591",
+      "name": "Carta Bakonawa"
+    },
+    {
+      "id": "4592",
+      "name": "Carta Buwaya"
+    },
+    {
+      "id": "4593",
+      "name": "Carta Menblatt"
+    },
+    {
+      "id": "4594",
+      "name": "Carta Petal"
+    },
+    {
+      "id": "4595",
+      "name": "Carta Cenere"
+    },
+    {
+      "id": "4596",
+      "name": "Carta Antigo Livro Danificado"
+    },
+    {
+      "id": "4597",
+      "name": "Carta Lichtern Laguz"
+    },
+    {
+      "id": "4598",
+      "name": "Carta Lichtern Anzus"
+    },
+    {
+      "id": "4599",
+      "name": "Carta Lichtern Kenaz"
+    },
+    {
+      "id": "4600",
+      "name": "Carta Lichtern Inguz"
+    },
+    {
+      "id": "4601",
+      "name": "Carta Amdarais"
+    },
+    {
+      "id": "4602",
+      "name": "Carta Amdarais Sombrio"
+    },
+    {
+      "id": "4603",
+      "name": "Carta Origem da Maldição"
+    },
+    {
+      "id": "4604",
+      "name": "Carta Origem da Escuridão"
+    },
+    {
+      "id": "4605",
+      "name": "Carta Cavaleiro Desmorto"
+    },
+    {
+      "id": "4606",
+      "name": "Carta Cavaleira Desmorta"
+    },
+    {
+      "id": "4607",
+      "name": "Carta Gerente de Bifröst"
+    },
+    {
+      "id": "4608",
+      "name": "Carta Cavaleiro Branco"
+    },
+    {
+      "id": "4609",
+      "name": "Carta Cavaleira Khalitzburg"
+    },
+    {
+      "id": "4624",
+      "name": "Carta Tao Gunka Selada"
+    },
+    {
+      "id": "4625",
+      "name": "Carta Vigia do Tempo"
+    },
+    {
+      "id": "4626",
+      "name": "Carta Marca-Tempo"
+    },
+    {
+      "id": "4627",
+      "name": "Carta Despertador"
+    },
+    {
+      "id": "4628",
+      "name": "Carta Neo Punk"
+    },
+    {
+      "id": "4629",
+      "name": "Carta Ancião Ancestral"
+    },
+    {
+      "id": "4630",
+      "name": "Carta Diretor"
+    },
+    {
+      "id": "4631",
+      "name": "Carta Visconde Coruja"
+    },
+    {
+      "id": "4632",
+      "name": "Carta Marquês Coruja"
+    },
+    {
+      "id": "4633",
+      "name": "Carta Arqueiro Imortal"
+    },
+    {
+      "id": "4634",
+      "name": "Carta Soldado Imortal"
+    },
+    {
+      "id": "4635",
+      "name": "Carta Amdarais Imortal"
+    },
+    {
+      "id": "4636",
+      "name": "Carta Bijou"
+    },
+    {
+      "id": "4637",
+      "name": "Carta Legião Imortal"
+    },
+    {
+      "id": "4638",
+      "name": "Carta Observador"
+    },
+    {
+      "id": "4639",
+      "name": "Carta Tappy"
+    },
+    {
+      "id": "4640",
+      "name": "Carta Lobo de Gelo"
+    },
+    {
+      "id": "4641",
+      "name": "Carta Zumbi da Guarda"
+    },
+    {
+      "id": "4652",
+      "name": "Carta Amon Ra do Pesadelo"
+    },
+    {
+      "id": "4653",
+      "name": "Carta Arclouse do Pesadelo"
+    },
+    {
+      "id": "4654",
+      "name": "Carta Mímico do Pesadelo"
+    },
+    {
+      "id": "4655",
+      "name": "Carta Minorous do Pesadelo"
+    },
+    {
+      "id": "4656",
+      "name": "Carta Múmia do Pesadelo"
+    },
+    {
+      "id": "4657",
+      "name": "Carta Múmia Anciã do Pesadelo"
+    },
+    {
+      "id": "4658",
+      "name": "Carta Verit do Pesadelo"
+    },
+    {
+      "id": "4659",
+      "name": "Carta Omeleting"
+    },
+    {
+      "id": "4660",
+      "name": "Carta Basilisco Guarda"
+    },
+    {
+      "id": "4661",
+      "name": "Carta Basilisco Guerreiro"
+    },
+    {
+      "id": "4662",
+      "name": "Carta Gemaring"
+    },
+    {
+      "id": "4663",
+      "name": "Carta Lunático Folhado"
+    },
+    {
+      "id": "4664",
+      "name": "Carta Fabre Gramíneo"
+    },
+    {
+      "id": "4665",
+      "name": "Carta Zangão Selvagem"
+    },
+    {
+      "id": "4666",
+      "name": "Carta Sapo de Rodda Doce"
+    },
+    {
+      "id": "4667",
+      "name": "Carta Filhote de Lobo Caçador"
+    },
+    {
+      "id": "4668",
+      "name": "Carta Esporo de Água Doce"
+    },
+    {
+      "id": "4669",
+      "name": "Carta Mandrágora da Selva"
+    },
+    {
+      "id": "4670",
+      "name": "Carta Aranha Pomar"
+    },
+    {
+      "id": "4697",
+      "name": "Carta Charleston 03"
+    },
+    {
+      "id": "4698",
+      "name": "Carta Roboring"
+    },
+    {
+      "id": "4699",
+      "name": "Carta Mecha v2.0"
+    },
+    {
+      "id": "5536",
+      "name": "Carta Imperfeita"
+    },
+    {
+      "id": "6012",
+      "name": "Carta Azul C"
+    },
+    {
+      "id": "6043",
+      "name": "Carta de Lugen"
+    },
+    {
+      "id": "6044",
+      "name": "Carta de Otto"
+    },
+    {
+      "id": "6485",
+      "name": "Carta Azul 2"
+    },
+    {
+      "id": "6486",
+      "name": "Carta Azul 0"
+    },
+    {
+      "id": "6487",
+      "name": "Carta Azul 1"
+    },
+    {
+      "id": "6546",
+      "name": "Carta do Irmão"
+    },
+    {
+      "id": "6925",
+      "name": "Carta do Prisioneiro"
+    },
+    {
+      "id": "6929",
+      "name": "Carta com Selo"
+    },
+    {
+      "id": "7148",
+      "name": "Carta da Mamãe"
+    },
+    {
+      "id": "7183",
+      "name": "Carta da Irmã"
+    },
+    {
+      "id": "7416",
+      "name": "Carta de Recomendação"
+    },
+    {
+      "id": "7461",
+      "name": "Carta com a letra A"
+    },
+    {
+      "id": "7463",
+      "name": "Carta com a letra F"
+    },
+    {
+      "id": "7464",
+      "name": "Carta com a letra H"
+    },
+    {
+      "id": "7465",
+      "name": "Carta com a letra L"
+    },
+    {
+      "id": "7466",
+      "name": "Carta com a letra N"
+    },
+    {
+      "id": "7468",
+      "name": "Carta com a letra P"
+    },
+    {
+      "id": "7469",
+      "name": "Carta com a letra U"
+    },
+    {
+      "id": "7470",
+      "name": "Carta Azul W"
+    },
+    {
+      "id": "7471",
+      "name": "Carta com a letra Y"
+    },
+    {
+      "id": "7490",
+      "name": "Carta para Elly"
+    },
+    {
+      "id": "7501",
+      "name": "Carta de K.H."
+    },
+    {
+      "id": "7602",
+      "name": "Carta Azul R"
+    },
+    {
+      "id": "7643",
+      "name": "Carta Ensanguentada"
+    },
+    {
+      "id": "7942",
+      "name": "Carta de Chico"
+    },
+    {
+      "id": "19306",
+      "name": "Carta de Comodo"
+    },
+    {
+      "id": "22511",
+      "name": "Carta Fenris Fenrir"
+    },
+    {
+      "id": "27012",
+      "name": "Carta Transistor"
+    },
+    {
+      "id": "27013",
+      "name": "Carta Mecha v1.6"
+    },
+    {
+      "id": "27014",
+      "name": "Carta Fumaça Verde"
+    },
+    {
+      "id": "27015",
+      "name": "Carta Robô Reparador Turbo"
+    },
+    {
+      "id": "27016",
+      "name": "Carta Robô Explorador Turbo"
+    },
+    {
+      "id": "27017",
+      "name": "Carta Robô de Sucata"
+    },
+    {
+      "id": "27018",
+      "name": "Carta GC109"
+    },
+    {
+      "id": "27019",
+      "name": "Carta DR815"
+    },
+    {
+      "id": "27020",
+      "name": "Carta T W O"
+    },
+    {
+      "id": "27120",
+      "name": "Carta Iara"
+    },
+    {
+      "id": "27121",
+      "name": "Carta Espírito da Água"
+    },
+    {
+      "id": "27122",
+      "name": "Carta Curupira"
+    },
+    {
+      "id": "27123",
+      "name": "Carta Espírito do Vento"
+    },
+    {
+      "id": "27124",
+      "name": "Carta Espírito da Terra"
+    },
+    {
+      "id": "27125",
+      "name": "Carta Mula Sem Cabeça"
+    },
+    {
+      "id": "27126",
+      "name": "Carta Boitatá"
+    },
+    {
+      "id": "27157",
+      "name": "Carta Leshij"
+    },
+    {
+      "id": "27158",
+      "name": "Carta Les"
+    },
+    {
+      "id": "27159",
+      "name": "Carta Kikimora"
+    },
+    {
+      "id": "27160",
+      "name": "Carta Baba-Yaga"
+    },
+    {
+      "id": "27161",
+      "name": "Carta Mavka"
+    },
+    {
+      "id": "27162",
+      "name": "Carta Gorynych"
+    },
+    {
+      "id": "27163",
+      "name": "Carta Verme com Rosto"
+    },
+    {
+      "id": "27164",
+      "name": "Carta Rainha Verme"
+    },
+    {
+      "id": "27165",
+      "name": "Carta Verme Sombrio com Rosto"
+    },
+    {
+      "id": "27166",
+      "name": "Carta Ovo de Verme com Rosto"
+    },
+    {
+      "id": "27167",
+      "name": "Carta Larva de Verme"
+    },
+    {
+      "id": "27168",
+      "name": "Carta Lorde Irine"
+    },
+    {
+      "id": "27169",
+      "name": "Carta Guarda de Payon"
+    },
+    {
+      "id": "31016",
+      "name": "Carta Árvore Maldita Decorada"
+    },
+    {
+      "id": "31017",
+      "name": "Carta Cookie Aterrorizante"
+    },
+    {
+      "id": "31018",
+      "name": "Carta Presente das Trevas"
+    },
+    {
+      "id": "31019",
+      "name": "Carta Lude Grotesco"
+    },
+    {
+      "id": "31020",
+      "name": "Carta Poltergeist Sangrento"
+    },
+    {
+      "id": "31021",
+      "name": "Carta Marionete Demoníaca"
+    },
+    {
+      "id": "31022",
+      "name": "Carta Ursinho Abominável"
+    },
+    {
+      "id": "31023",
+      "name": "Carta Celine Kimi"
+    },
+    {
+      "id": "31024",
+      "name": "Carta Cavaleiro Imortal"
+    },
+    {
+      "id": "31025",
+      "name": "Carta Xamã Imortal"
+    },
+    {
+      "id": "31026",
+      "name": "Carta Jack Wolf"
+    }
+]

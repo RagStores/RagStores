@@ -5,23 +5,23 @@ jQuery(document).ready(function($) {
 	 */
 
    
-  /**
+  /************************************************************************
    ** Scroll to element
    ** https://stackoverflow.com/questions/6677035/jquery-scroll-to-element
-   */ 
+   ***********************************************************************/ 
   $.scroll = function(elem) {
     $([document.documentElement, document.body]).animate({
         scrollTop: $(elem).offset().top
     }, 500);
   }
 
-
+  // Page Form-Page
   $(document).on("click", "form #btnSubmit", function(e) {
     
-   /**
+   /**********************************************************************************
     ** Validate is table has values
     ** https://stackoverflow.com/questions/16805288/jquery-get-values-from-html-table
-    */
+    *********************************************************************************/
     var dataTable = $("#tbBrief tr.dataRow").map(function (index, elem) { // Get all data and insert in a single array
       var ret = [];
 
@@ -39,10 +39,10 @@ jQuery(document).ready(function($) {
     // console.log(dataTable);
 
 
-    /**
+    /********************************************************************
      ** Validate a group of checkboxs
      ** https://stackoverflow.com/questions/6218494/using-the-html5-required-attribute-for-a-group-of-checkboxes
-     */
+     ********************************************************************/
     if ($(".checkbox-group-time.required :checkbox:checked").length > 0 && // Checkbox Time
         $(".checkbox-group-week.required :checkbox:checked").length > 0 && // Checkbox Week
         dataTable.length > 0 && // Brief Table
@@ -51,12 +51,12 @@ jQuery(document).ready(function($) {
         $("#txtLocal").val() // Local
         ) {
       // The checkboxes are selected and table has an item, RUN PHP File
-  
-
       // Prevent the default action
-      //e.preventDefault(); 
+      ////e.preventDefault(); 
 
-
+      // Unclickable button
+      $("form #btnSubmit").css({ opacity: 0.2 }).attr("disabled");
+      $("form .animatedLoading").removeClass("hide");
 
     } else {
       e.preventDefault(); // Prevent the default action
@@ -114,7 +114,7 @@ jQuery(document).ready(function($) {
       }
 
       /**
-       *! Deprecated
+       *! DEPRECATED
        * Using reCaptcha as validator
        *
        *
@@ -122,8 +122,8 @@ jQuery(document).ready(function($) {
         $(".final-step .hint-error-div").removeClass("hide");
         $(".final-step .checkbox-group-enter div").removeClass("hide");
 
-      }
-      */
+      }*/
+
       if(grecaptcha.getResponse().length == 0) {
         $(".final-step .hint-error-div").removeClass("hide");
         $(".final-step .checkbox-group-enter div").removeClass("hide");
@@ -166,13 +166,22 @@ jQuery(document).ready(function($) {
   });
 
 
+  /**********************
+   ** Page Account
+   **********************/
+  //Page Account
+  $("#txtAccountSocial").on("change", function() {
+    //alert($("#txtAccountSocial").val());
+    $("#searchsubmit").prop("disabled", false); // Element(s) are now enabled.
+  });
+
+
 
   /***********************************
    **     Remove Erro Warnings
-   ************************************
-  */
+   ***********************************/
   /**
-   * Select any checkbox
+   ** Select any checkbox
    */
   $(".checkbox-group-time.required :checkbox").change(function() {
     if(this.checked) {

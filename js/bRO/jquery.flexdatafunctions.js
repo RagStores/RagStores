@@ -77,7 +77,7 @@ jQuery(document).ready(function($) {
 */
 
 
-	$("#txtRefine").flexdatalist({ //Localizando a Tag HTML pelo id
+	$("#txtRefine").flexdatalist({ // Localizando a Tag HTML pelo id
      minLength: 1,
      limitOfValues: 1,
      valueProperty: "name",
@@ -89,9 +89,15 @@ jQuery(document).ready(function($) {
      selectionRequired: true,
      multiple: true,
      maxShownResults: 5
-	});
+  });
+  
+  $("#txtAccountSocial").flexdatalist({ // Account Page
+    limitOfValues: 1,
+    multiple: true,
+    minLength: 999
+  });
 
-	$("#txtItens").flexdatalist({ //Search HTML tag by id
+	$("#txtItens").flexdatalist({ // Search HTML tag by id
      minLength: 1,
      limitOfValues: 1,
      valueProperty: "*",
@@ -103,7 +109,7 @@ jQuery(document).ready(function($) {
      multiple: true,
      maxShownResults: 5
 	});
-  $(".item-search-bar").flexdatalist({
+  $(".item-search-bar").flexdatalist({ // Search Bar
      minLength: 1,
      limitOfValues: 1,
      valueProperty: "id",
@@ -141,8 +147,18 @@ jQuery(document).ready(function($) {
      allowDuplicateValues: true,
      maxShownResults: 5
   });
-  //$("#txtEnchants").val("FOR +1, FOR +2"); // For Debug
+  // $("#txtEnchants").val("FOR +1, FOR +2"); // For Debug
 
+  $("#txtChar").flexdatalist({
+    limitOfValues: 1,
+    multiple: true,
+    minLength: 999
+  });
+
+  /**
+   ** Todos os elementos que usam MASK devem ficar em último no arquivo
+   ** Pois se o arquivos não carregar o MASK os demais elementos já foram carregados
+  */
   
   $("#txtQtd").flexdatalist({
      limitOfValues: 1,
@@ -166,14 +182,7 @@ jQuery(document).ready(function($) {
     "00000000000",{ // Commons for some reason break the value remove function
       reverse: true
   });
-  //$("#txtPrice").val("5000"); // For Debug
-
-
-  $("#txtChar").flexdatalist({
-     limitOfValues: 1,
-     multiple: true,
-     minLength: 999
-  });
+  // $("#txtPrice").val("5000"); // For Debug
 
   $("#txtTitleDeal").flexdatalist({
      limitOfValues: 1,
