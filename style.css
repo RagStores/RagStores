@@ -52,7 +52,7 @@ h1.hestia-title.title-in-content{
     text-align: center;
 }
 .sale-content-single h1.hestia-title.title-in-content{
-    text-align: justify;
+    text-align: left;
     max-width: 78%;
 }
 
@@ -222,9 +222,16 @@ blockquote {
 .sale-content-single p.author.meta-in-content {
     display: none;
 }
-/* Ultimate Member author display  */
+/* Ultimate Member author display   
 .sale-content-single > .entry-content .card.card-profile.card-plain {
-    /*max-width: 560px;*/
+    display: none;
+    max-width: 560px;
+} */
+.rs_user_social { /* Link de Referência */
+    font-size: 14px;
+}
+.rs_user_achievement { /* Pins */
+    font-size: 14px;
 }
 .sale-content-single .card-profile .col-md-10 {
     text-align: justify;
@@ -279,7 +286,7 @@ blockquote {
     width: 38px;
 }
 .sale-content-single span.hint {
-    font-size: 10px;
+    font-size: 11px;
 }
 .sale-content-single .policies {
     margin-top: 50px;
@@ -319,6 +326,8 @@ blockquote {
 }
 .delete-post {
     text-align: right;
+    padding-right: 15px;
+    margin-right: 6.5%;
 }
 .delete-post .delete-button {
     background-color: #ff4114 !important;
@@ -426,7 +435,6 @@ blockquote {
 .sale-form-group .um-field-checkbox, .sale-form-group .um-field-checkbox .um-field-area { /* Have no idea why it hide in this form */
     display: block !important;
 }
-
 .sale-form-group .steps {
     margin-bottom: 15px;
     text-align: center;
@@ -434,7 +442,6 @@ blockquote {
     margin-left: auto;
     margin-right:auto;
 }
-
 .sale-form-group img.kawaii {
     width: 25%;
     position: absolute;
@@ -460,12 +467,10 @@ blockquote {
     bottom: 2%;
     width: 30%;
 }
-
 .sale-form-group .steps.final-step .um-field.um-field-c {
     text-align: center !important;
     text-align-last: center !important;
 }
-
 .sale-form-group .steps .union-group {
     text-align-last: left;
     /*margin-bottom: 40px;*/
@@ -484,7 +489,7 @@ blockquote {
     border-top: 1px solid #eee;
     padding-top: 6px;
 }
-.sale-form-group .hint, .delete-post .hint {
+.sale-form-group .hint, .delete-post .hint, .form-account-social span.hint {
     font-size: 13px;
 }
 .sale-form-group .hint-error {
@@ -560,8 +565,10 @@ blockquote {
 .sale-form-group i.fas.fa-trash-alt {
     color: #b04a65;
 }
-.sale-form-group i.fas.fa-pencil-alt {
-    color: #85598F;
+.sale-form-group .animatedLoading {
+    position: absolute;
+    right: 46%;
+    top: 35%;
 }
 
 /* Seta */
@@ -575,7 +582,7 @@ blockquote {
     background-position: center;
 }
 
-/* Seacrh Page */
+/* Search Page */
 .search-results h1.hestia-title.title-in-content {
     margin-bottom: 45px;
 }
@@ -617,7 +624,7 @@ blockquote {
     bottom: -10%;
     filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
 }
-.form-sale-searchbar .step-one.um-form.form-group {
+.form-sale-searchbar .step-one.um-form.form-group, .account-social .step-one.um-form.form-group {
     max-width: 50%;
 }
 .search-title-result {
@@ -639,6 +646,18 @@ blockquote {
 }
 
 
+
+
+/* Account Page */
+.um-account.um-editing {
+    display: none;
+}
+.um-item-meta span:nth-child(3) {
+    display: none;
+}
+a.um-profile-edit-a.um-profile-save {
+    display: none;
+}
 
 
 /* Report Content */
@@ -670,7 +689,7 @@ blockquote {
     /* width: 100%; */
     /* max-width: 920px; */
     /* margin: 0px 5px 0px 16px; */
-    /* padding: 3px 6px !important; */
+    padding: 13px 16px !important;
     border-radius: 28px;
     border-top: none !important;
     background: #fefdf8 !important;
@@ -784,11 +803,6 @@ input[type="submit"]:not(.search-submit) {
     padding-left: 35px;
     padding-right: 35px;
 }*/
-
-/* Account Page */
-.um-item-meta span:nth-child(3) {
-    display: none;
-}
 
 
 
