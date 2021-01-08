@@ -15,7 +15,9 @@ jQuery(document).ready(function($) {
     }, 500);
   }
 
-  // Page Form-Page
+  /**********************
+   ** Form Page
+   **********************/
   $(document).on("click", "form #btnSubmit", function(e) {
     
    /**********************************************************************************
@@ -164,15 +166,40 @@ jQuery(document).ready(function($) {
     }
 
   });
+  /** 
+   ** Disable form submit on Enter
+   ** https://stackoverflow.com/questions/11235622/jquery-disable-form-submit-on-enter 
+  */
+  $("#sale-form").on("keyup keypress", function(e) {
+    var keyCode = e.keyCode || e.which;
+    if (keyCode === 13) { 
+      e.preventDefault();
+      return false;
+    }
+  });
+
 
 
   /**********************
-   ** Page Account
+   ** Account Page
    **********************/
-  //Page Account
+  // Account Page
   $("#txtAccountSocial").on("change", function() {
     //alert($("#txtAccountSocial").val());
-    $("#searchsubmit").prop("disabled", false); // Element(s) are now enabled.
+    $("#btnAcchountSocial").prop("disabled", false); // Element(s) are now enabled.
+    $(".hint-error-div").addClass("hide"); // Hide error
+  });
+  $(document).on("click", "#btnAcchountSocial", function(e) {
+
+    if ($("#txtAccountSocial").val().toLowerCase().indexOf("facebook") < 0 &&
+    $("#txtAccountSocial").val().toLowerCase().indexOf("twitter") < 0) { // Has no FB ou Twiiter - ERROR
+      // Prevent the default action
+      e.preventDefault();
+
+      $(".hint-error-div").removeClass("hide"); // Show error
+      $(".account-social li").addClass("has-error is-focused"); // Highlight the field
+    }
+
   });
 
 

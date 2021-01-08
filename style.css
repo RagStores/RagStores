@@ -311,6 +311,7 @@ blockquote {
 .sale-content-single img.avatar {
     /*transform: skew(10deg, -10deg);*/
     filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    width: 75%;
 }
 .sale-content-single img.kawaii {
     width: 25%;
@@ -329,11 +330,11 @@ blockquote {
     padding-right: 15px;
     margin-right: 6.5%;
 }
-.delete-post .delete-button {
+.delete-button {
     background-color: #ff4114 !important;
     font-size: 14px;
 }
-.button.delete-button.sale-button:hover {
+.button.delete-button:hover {
     -webkit-box-shadow: 0 14px 26px -12px rgba(255,84,43,0.42), 0 4px 23px 0 rgba(0,0,0,0.12), 0 8px 10px -5px rgba(255,84,43,0.2) !important;
     box-shadow: 0 14px 26px -12px rgba(255,84,43,0.42), 0 4px 23px 0 rgba(0,0,0,0.12), 0 8px 10px -5px rgba(255,84,43,0.2) !important;
 }
@@ -492,7 +493,7 @@ blockquote {
 .sale-form-group .hint, .delete-post .hint, .form-account-social span.hint {
     font-size: 13px;
 }
-.sale-form-group .hint-error {
+.hint-error{
     color: #f44336;
 }
 .sale-form-group .title {
@@ -703,7 +704,8 @@ a.um-profile-edit-a.um-profile-save {
     margin-bottom: 25px;
 }
 .wprc-container {
-    margin: 0px 0px 70px 0px;
+    margin: 0px 6.5% 70px 0px;
+    padding-right: 15px;
 }
 /*
 .wprc-container button {
@@ -790,6 +792,15 @@ input[type="submit"]:not(.search-submit) {
 .front_page_donate .btnDonate, img.btnDonate {
     filter: drop-shadow(0px 0px 2px rgba(95, 66, 50, 0.7));
     cursor: pointer;
+}
+
+/* Search All Itens */
+.page-template-search-all-itens .blog-posts-wrap {
+    margin-left: 2%;
+    width: 97%;
+}
+.page-template-search-all-itens td.child-value{
+    font-size: 11px;
 }
 
 /*button {
