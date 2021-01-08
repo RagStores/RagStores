@@ -415,6 +415,30 @@ jQuery(document).ready(function ($) {
     //console.log(strCurrentBrief);
   };
 
+  /****************************************************
+   ** Clear all inputs
+   ****************************************************/
+  var clearInputs = function(){
+    // Clear inputs
+    $("#txtRefine").val("");
+    $(".step-three .item-one li").css("display", "");
+
+    $("#txtItens").val("");
+    $(".step-three .item-two li").css("display", "");
+
+    $("#txtCards").val("");
+    $(".step-three .item-three li").css("display", "");
+
+    $("#txtEnchants").val("");
+    $(".step-three .item-four li").css("display", "");
+
+    $("#txtQtd").val("");
+    $(".step-three .item-five li").css("display", "");
+
+    $("#txtPrice").val("");
+    $(".step-three .item-six li").css("display", "");
+  };
+
 
   /*************************************************************************************
    ** Create a Mask for item's price
@@ -482,14 +506,18 @@ jQuery(document).ready(function ($) {
       $("#txtQtd").val() &&
       $("#txtPrice").val() &&
       rowCount < 12
-    ) {
+    ) { // All good
       e.preventDefault();
       rowCount++; // Controller increase +1
 
       // Render the HTML table
       createBriefTable(true);
 
-    } else {
+      // Clear all
+      clearInputs();
+
+    } else { // Something is wrong
+
       e.preventDefault();
       // Wich field has no value?
 
@@ -555,7 +583,7 @@ jQuery(document).ready(function ($) {
       jsonGlobalBrief = clearBriefJSON(jsonGlobalBrief,rowIndex,txtRefine,txtCards,txtEnchants,txtQtd,txtPrice);
 
       // Clear all
-      //! clearInputs(); Doesn't a good option
+      clearInputs();
 
       // Set to the HTML the JSON of Table, used to create the post
       createHTMLJSON(JSON.stringify(jsonGlobalBrief));
