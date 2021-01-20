@@ -40,7 +40,13 @@ a.navbar-brand {
 */
 body {
     color: #292f33 !important;
+    /*cursor: url(/wp-content/uploads/2021/01/main-cursor.gif);*/
 }
+
+input, a, ul, li, li span, button, .um-field-radio-state, .um-field-checkbox-state, .nsl-button {
+    cursor: url("/wp-content/uploads/2021/01/hand-cursor.gif"), auto !important;
+}
+
 
 /* Backgorund */
 .main {
@@ -704,8 +710,9 @@ a.um-profile-edit-a.um-profile-save {
     margin-bottom: 25px;
 }
 .wprc-container {
-    margin: 0px 6.5% 70px 0px;
-    padding-right: 15px;
+    /*margin: 0px 6.5% 70px 0px;
+    padding-right: 15px;*/
+    margin: 0px 0 70px 0px;
 }
 /*
 .wprc-container button {
