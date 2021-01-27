@@ -184,10 +184,15 @@ jQuery(document).ready(function($) {
    ** Account Page
    **********************/
   // Account Page
+  $("#txtAccountNickname").on("change", function() {
+    $("#btnAcchountNickname").prop("disabled", false); // Element(s) are now enabled.
+    $(".account-nickname .hint-error-div").addClass("hide"); // Hide error
+  });
+
   $("#txtAccountSocial").on("change", function() {
     //alert($("#txtAccountSocial").val());
     $("#btnAcchountSocial").prop("disabled", false); // Element(s) are now enabled.
-    $(".hint-error-div").addClass("hide"); // Hide error
+    $(".account-social .hint-error-div").addClass("hide"); // Hide error
   });
   $(document).on("click", "#btnAcchountSocial", function(e) {
 
@@ -196,12 +201,22 @@ jQuery(document).ready(function($) {
       // Prevent the default action
       e.preventDefault();
 
-      $(".hint-error-div").removeClass("hide"); // Show error
+      $(".account-social .hint-error-div").removeClass("hide"); // Show error
       $(".account-social li").addClass("has-error is-focused"); // Highlight the field
     }
 
   });
 
+  $("#btnEyeAccount .fa-eye-slash").on("click", function() {
+    $("#rs-account-id input").attr("type", "text");
+    $("#btnEyeAccount .fa-eye").removeClass("hide");
+    $("#btnEyeAccount .fa-eye-slash").addClass("hide");
+  });
+  $("#btnEyeAccount .fa-eye").on("click", function() {
+    $("#rs-account-id input").attr("type", "password");
+    $("#btnEyeAccount .fa-eye-slash").removeClass("hide");
+    $("#btnEyeAccount .fa-eye").addClass("hide");
+  });
 
 
   /***********************************
