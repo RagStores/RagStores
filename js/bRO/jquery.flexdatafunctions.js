@@ -90,6 +90,12 @@ jQuery(document).ready(function($) {
      multiple: true,
      maxShownResults: 5
   });
+
+  $("#txtAccountNickname").flexdatalist({ // Account Page
+    limitOfValues: 1,
+    multiple: true,
+    minLength: 999
+  });
   
   $("#txtAccountSocial").flexdatalist({ // Account Page
     limitOfValues: 1,
@@ -209,6 +215,15 @@ jQuery(document).ready(function($) {
       //reverse: true,
       translation: {
         'A': {pattern: /[a-z0-9_.-]/, optional: true}
+      }
+      
+  });
+
+  $("#txtAccountNickname-flexdatalist").mask( // Account Page
+    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",{
+      //reverse: true,
+      translation: {
+        'A': {pattern: /[ A-z0-9_-]/}
       }
       
   });

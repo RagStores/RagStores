@@ -317,7 +317,7 @@ blockquote {
 .sale-content-single img.avatar {
     /*transform: skew(10deg, -10deg);*/
     filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
-    width: 75%;
+    /*width: 75%;*/
 }
 .sale-content-single img.kawaii {
     width: 25%;
@@ -471,7 +471,7 @@ blockquote {
 }
 .sale-form-group .steps.final-step img.kawaii {
     right: -8%;
-    bottom: 2%;
+    bottom: -2%;
     width: 30%;
 }
 .sale-form-group .steps.final-step .um-field.um-field-c {
@@ -496,7 +496,7 @@ blockquote {
     border-top: 1px solid #eee;
     padding-top: 6px;
 }
-.sale-form-group .hint, .delete-post .hint, .form-account-social span.hint {
+.sale-form-group .hint, .delete-post .hint, .form-account-social span.hint, .form-account-nickname span.hint {
     font-size: 13px;
 }
 .hint-error{
@@ -631,7 +631,7 @@ blockquote {
     bottom: -10%;
     filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
 }
-.form-sale-searchbar .step-one.um-form.form-group, .account-social .step-one.um-form.form-group {
+.form-sale-searchbar .step-one.um-form.form-group, .account-social .step-one.um-form.form-group, .account-nickname .step-one.um-form.form-group {
     max-width: 50%;
 }
 .search-title-result {
@@ -708,6 +708,13 @@ a.um-profile-edit-a.um-profile-save {
 }
 .wprc-container button.wprc-switch {
     margin-bottom: 25px;
+}
+button.wprc-switch:after {
+    content: url('/wp-content/uploads/2021/01/1051.gif');
+    position: absolute;
+    z-index: 2;
+    right: -10px;
+    /* top: 4px; */
 }
 .wprc-container {
     /*margin: 0px 6.5% 70px 0px;
