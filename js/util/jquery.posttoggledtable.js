@@ -62,6 +62,7 @@ jQuery(document).ready(function($) {
               $("#"+idOfParent+" .map-dataRow").addClass("table-vertical-top");
               $("#"+idOfParent+" .deal-title-dataRow").addClass("table-vertical-top");
               $("#"+idOfParent+" .char-dataRow").addClass("table-vertical-top");
+              $("#"+idOfParent+" .server-dataRow").addClass("table-vertical-top");
               
               
             } else {
@@ -80,6 +81,7 @@ jQuery(document).ready(function($) {
               $("#"+idOfParent+" .map-dataRow").removeClass("table-vertical-top");
               $("#"+idOfParent+" .deal-title-dataRow").removeClass("table-vertical-top");
               $("#"+idOfParent+" .char-dataRow").removeClass("table-vertical-top");
+              $("#"+idOfParent+" .server-dataRow").removeClass("table-vertical-top");
             }
             
         });

@@ -51,6 +51,7 @@ This project uses this below libraries, our sincerely **thanks**.
 - [jQuery.Flexdatalist](https://github.com/sergiodlopes/jquery-flexdatalist)
 - [jQuery Mask Plugin](https://github.com/igorescobar/jQuery-Mask-Plugin)
 - [Tilt.js](https://github.com/gijsroge/tilt.js)
+- [DataTable.js](https://datatables.net/)
 - [animatedCursor.js](https://github.com/alienmelon/animatedCursor.js)
 - [Divine Pride Tooltip](https://divine-pride.net/tools/tooltips)
 
