@@ -3,7 +3,6 @@ jQuery(document).ready(function($) {
 	 ** Validate some fields before submit
    ** https://stackoverflow.com/questions/28123236/validate-form-before-submit-jquery
 	 */
-
    
   /************************************************************************
    ** Scroll to element
@@ -197,7 +196,8 @@ jQuery(document).ready(function($) {
   $(document).on("click", "#btnAcchountSocial", function(e) {
 
     if ($("#txtAccountSocial").val().toLowerCase().indexOf("facebook") < 0 &&
-    $("#txtAccountSocial").val().toLowerCase().indexOf("twitter") < 0) { // Has no FB ou Twiiter - ERROR
+    $("#txtAccountSocial").val().toLowerCase().indexOf("twitter") < 0 &&
+    $("#txtAccountSocial").val().toLowerCase().indexOf("youtube.com/channel") < 0) { // Has no FB or Twitter - ERROR
       // Prevent the default action
       e.preventDefault();
 

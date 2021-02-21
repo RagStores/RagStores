@@ -199,7 +199,7 @@ jQuery(document).ready(function($) {
     "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",{
       //reverse: true,
       translation: {
-        'A': {pattern: /[A-zÀ-ÿ0-9@#!>?\_\-\+]/, optional: true}
+        'A': {pattern: /[A-zÀ-ÿ0-9@#!>?_-]/, optional: true}
       }
       
   });
