@@ -49,7 +49,7 @@ jQuery(document).ready(function ($) {
      ** Create Table
      * https://stackoverflow.com/questions/8749236/create-table-with-jquery-append
      */
-    
+
 
     /**
      ** Is btnAddItem pressed (manual insert)? 
@@ -139,7 +139,7 @@ jQuery(document).ready(function ($) {
           strCurrentBrief += ',"txtCards": "-"';
       } else {
           /** 
-           *! Deprecated It was used when this field was a JSON, see Edit Row - Pencil Button
+           *! DEPRECATED It was used when this field was a JSON, see Edit Row - Pencil Button
             var listCardsBrief = "";
             var listCardsBriefJSON = "";
             JSON.parse(txtCards).forEach(function(o, index){ // For each element in JSON
@@ -164,7 +164,7 @@ jQuery(document).ready(function ($) {
           strCurrentBrief += ',"txtEnchants": "-"';
       } else {
           /** 
-           *! Deprecated It was used when this field was a JSON, see Edit Row - Pencil Button 
+           *! DEPRECATED It was used when this field was a JSON, see Edit Row - Pencil Button 
             var listEnchantsBrief = "";
             var listEnchantsBriefJSON = "";
             (txtEnchants.split(",")).forEach(function(o){ // For each element in string
@@ -624,6 +624,11 @@ jQuery(document).ready(function ($) {
         $(".step-three .item-six li").addClass("has-error is-focused");
       }
     }
+
+    // Enable btnRenderSaved
+    $("#btnRenderSaved").prop("disabled", false);
+    $("#btnRenderSaved").removeClass("um-disabled");
+
   });
 
   /******************************************************************************************
@@ -637,6 +642,10 @@ jQuery(document).ready(function ($) {
     //var rowCount = $("#tbBrief tr").length;
     // Get COLUMN INDEX on click:
     //$(this).closest("td").index();
+
+    // Disable btnRenderSaved
+    $("#btnRenderSaved").prop("disabled", true); // use prop or attr
+    $("#btnRenderSaved").addClass("um-disabled");
 
     // Get ROW INDEX on click:
     rowIndex = $(this).closest("tr").index() - 1;
@@ -733,5 +742,80 @@ jQuery(document).ready(function ($) {
     createBriefTable(false, jsonStringClear);
 
   });
+
+  /*******************************************
+   ** btnRenderSaved (Load saved Table Item)
+   *******************************************/
+  $("#btnRenderSaved").click(function (e) {
+    e.preventDefault();
+
+    // Get our references
+    let inputIndex = $("#txtSavedTableItem").val();
+    let txtCurrentJsonSalesItems = $("#txtCurrentJsonSalesItems"+inputIndex).val();
+
+    // Count of Objects in JSON
+    rowCount = JSON.parse(txtCurrentJsonSalesItems).length;
+    //rowCount = Object.keys(txtCurrentJsonSalesItems).length;
+         
+    createBriefTable(false,txtCurrentJsonSalesItems);
+
+    // Scroll near to Brief Table
+    $.scroll(".union-group.item-six");
+
+  });
+
+  /******************************************************
+   *! DEPRECATED
+   ** btnRenderSaved (Load saved Table Item) 
+   ** AJAX - Get valeus from server without reload page
+   ******************************************************
+   $("#btnRenderSaved").click(function (e) {
+    e.preventDefault();
+
+    // Get our references
+    var txtSavedTableItem = $("#txtSavedTableItem").val();
+   
+    // ajax
+    $.ajax({
+      type: "GET", 
+      url: myAjax.ajaxurl, // Wordpress AJAX
+      dataType : "json",
+      data: ({
+        action: "get_json_item_table", // Function to get data
+        txtSavedTableItem: txtSavedTableItem // Input field
+      }),
+      
+      /beforeSend: function() {
+        // Disable buttons
+        $("#btnRenderSaved").attr("disabled", true);
+        $("#btnAddItem").attr("disabled", true);
+
+      },/
+      success:function(result) { 
+        // Create the brief table 
+        // Render the HTML table
+
+        // Count of Objects in JSON
+        rowCount = Object.keys(result).length;
+         
+        createBriefTable(false,JSON.stringify(result));
+
+        // Scroll near to Brief Table
+        $.scroll(".union-group.item-six");
+
+      },
+      error: function(xhr, status, error){
+        var errorMessage = xhr.status + ': ' + xhr.statusText
+        //alert('Error - ' + errorMessage);
+        console.log("Erro AJAX: " + errorMessage);
+      }
+    })
+    /.always(function(data) {
+      // Enable buttons
+      $("#btnRenderSaved").attr("disabled", false);
+      $("#btnAddItem").attr("disabled", false);
+    });/
+    });
+  */
 
 });

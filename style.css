@@ -43,7 +43,7 @@ body {
     /*cursor: url(/wp-content/uploads/2021/01/main-cursor.gif);*/
 }
 
-input, a, ul, li, li span, button, select, table.dataTable th, .um-field-radio-state, .um-field-checkbox-state, .nsl-button {
+input, a, ul, li, li span, button, select, table.dataTable th, .um-field-radio-state, .um-field-checkbox-state, .nsl-button, #wpd-bubble-wrapper>#wpd-bubble, #wpd-bubble-wrapper>#wpd-bubble-count, #wpd-post-rating .wpd-rating-wrap .wpd-rating-value:hover, #wpd-post-rating .wpd-rating-wrap .wpd-rating-value {
     cursor: url("/wp-content/uploads/2021/01/hand-cursor.gif"), auto !important;
 }
 
@@ -131,7 +131,7 @@ h1.hestia-title.title-in-content{
 @media (min-width: 1440px) {
     .type-post .section.section-blog-info {
         padding-bottom: 0px;
-        display: flex;
+        /*display: flex;*/
         margin-left: 60px;
     }
 
@@ -146,9 +146,9 @@ blockquote {
 .nsl-container-buttons {
     align-items: center !important;
 }
-.nsl-container.nsl-container-block {
+/*.nsl-container.nsl-container-block {
     margin-bottom: 20px;
-}
+}*/
 #post-4813 .um-form {
     display: none;
 }
@@ -236,7 +236,7 @@ blockquote {
 .rs_user_social { /* Link de Referência */
     font-size: 14px;
 }
-.rs_user_achievement { /* Pins */
+.rs_user_pins { /* Pins */
     font-size: 14px;
 }
 .sale-content-single .card-profile .col-md-10 {
@@ -510,8 +510,15 @@ blockquote {
 .hint-error{
     color: #f44336;
 }
+.sale-form-group .pvp-number {
+    height: 32px;
+    padding-right: 8px;
+    padding-top: 6px;
+}
 .sale-form-group .title {
     color: #5e4334;
+    display: inline-block;
+    vertical-align: top;
 }
 .sale-form-group .table-brief-form th, .sale-form-group .table-brief-form td {
     padding: 5px 0px 5px 12px;
@@ -762,10 +769,24 @@ input#txtRefine-flexdatalist, input#txtItens-flexdatalist, input#txtCards-flexda
     /*max-width: 174px;*/
     min-width: 174px;
 }
+input#txtCoord-flexdatalist {
+    width: 10% !important;
+    max-width: 85px;
+    min-width: 85px;
+}
+input#txtTabNiceName-flexdatalist, .saveItem ul {
+    max-width: 174px;
+    min-width: 174px;
+}
 
 /* reCaptcha */
 .g-recaptcha div {
     width: auto !important;
+}
+
+/* Comments */
+.ql-texteditor.form-group {
+    display: none !important;
 }
 
 
@@ -794,6 +815,20 @@ button.wprc-switch:after {
     right: -10px;
     /* top: 4px; */
 }
+.delete-post .input-button-gif {
+    display: inline;
+    position: absolute;
+    z-index: 2;
+    top: -10px;
+    right: 174px;
+}
+.sale-searchbar .input-button-gif {
+    display: inline;
+    position: absolute;
+    z-index: 2;
+    top: 6px;
+    left: 135px;
+}
 input#btnSubmit { /* Sale Form - Final Step - Button*/
     filter: drop-shadow(0px 0px 2px rgba(95, 66, 50, 0.7));
 }
@@ -814,7 +849,6 @@ input[type="submit"]:not(.search-submit) {
 /* Donate Button */
 .front_page_donate .btnDonate, img.btnDonate {
     filter: drop-shadow(0px 0px 2px rgba(95, 66, 50, 0.7));
-    cursor: pointer;
 }
 
 /* Search All Itens */
@@ -886,6 +920,40 @@ table.dataTable thead th, table.dataTable thead td {
     padding-right: 35px;
 }*/
 
+/*https://codepen.io/scottzirkel/pen/yNxNME*/
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5
+}
+.hr-text:before {
+    content: '';
+    /* use the linear-gradient for the fading effect
+     use a solid background color for a solid bar */
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+}
+.hr-text:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 .5em;
+    line-height: 1.5em;
+    /* this is really the only tricky part, you need to specify the background color of the container element...*/
+    color: #818078;
+    background-color: #fcfcfa;
+}
+  
 
 
 /*
@@ -964,4 +1032,8 @@ footer i.fab.fa-instagram-square {
 footer i.fab.fa-github-square { 
     font-size: 18px;
     color: #24292e !important;
+}
+
+.hestia-scroll-to-top {
+    right: 32px;
 }

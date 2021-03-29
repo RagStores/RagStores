@@ -110,6 +110,7 @@ jQuery(document).ready(function($) {
      searchIn: "name",
      url: "/wp-content/themes/hestia-child/js/bRO/dtlItens.json",
      visibleProperties: ["name","id"],
+     searchContain: true,
      searchByWord: true,
      selectionRequired: true,
      multiple: true,
@@ -122,6 +123,7 @@ jQuery(document).ready(function($) {
      searchIn: "name",
      url: "/wp-content/themes/hestia-child/js/bRO/dtlItens.json",
      visibleProperties: ["name","id"],
+     searchContain: true,
      searchByWord: true,
      selectionRequired: true,
      multiple: true,
@@ -134,6 +136,7 @@ jQuery(document).ready(function($) {
      searchIn: "name",
      url: "/wp-content/themes/hestia-child/js/bRO/dtlCards.json",
      visibleProperties: ["name","id"],
+     searchContain: true,
      searchByWord: true,
      selectionRequired: true,
      multiple: true,
@@ -147,6 +150,7 @@ jQuery(document).ready(function($) {
      searchIn: "name",
      url: "/wp-content/themes/hestia-child/js/bRO/dtlEnchantments.json",
      visibleProperties: ["name","id"],
+     searchContain: true,
      searchByWord: true,
      selectionRequired: true,
      multiple: true,
@@ -154,6 +158,31 @@ jQuery(document).ready(function($) {
      maxShownResults: 5
   });
   // $("#txtEnchants").val("FOR +1, FOR +2"); // For Debug
+
+  $("#txtMaps").flexdatalist({
+    limitOfValues: 1,
+    valueProperty: "id",
+    searchIn: ["name","id"],
+    url: "/wp-content/themes/hestia-child/js/bRO/dtlMaps.json",
+    visibleProperties: ["name","id"],
+    searchContain: true,
+    searchByWord: true,
+    selectionRequired: true,
+    multiple: true,
+    maxShownResults: 0
+ });
+
+ $("#txtSavedTableItem").flexdatalist({
+  minLength: 0,
+  limitOfValues: 1,
+  valueProperty: "value",
+  searchContain: true,
+  searchByWord: true,
+  selectionRequired: true,
+  multiple: true,
+  maxShownResults: 0
+});
+//
 
   $("#txtChar").flexdatalist({
     limitOfValues: 1,
@@ -199,12 +228,27 @@ jQuery(document).ready(function($) {
     "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",{
       //reverse: true,
       translation: {
-        'A': {pattern: /[A-zÀ-ÿ0-9@#!>?_-]/, optional: true}
+        'A': {pattern: /[ A-zÀ-ÿ0-9@#!>?_-]/, optional: true}
       }
       
   });
 
-  $("#txtLocal").flexdatalist({
+
+  $("#txtTabNiceName").flexdatalist({
+    limitOfValues: 1,
+    multiple: true,
+    minLength: 20
+  });
+  $("#txtTabNiceName-flexdatalist").mask(
+    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",{
+      //reverse: true,
+      translation: {
+        'A': {pattern: /[ A-zÀ-ÿ0-9@#!>?_-]/, optional: true}
+      }
+      
+  });
+
+  /*$("#txtLocal").flexdatalist({
      limitOfValues: 1,
      multiple: true,
      minLength: 999,
@@ -217,7 +261,20 @@ jQuery(document).ready(function($) {
         'A': {pattern: /[a-z0-9_.-]/, optional: true}
       }
       
-  });
+  });*/
+  $("#txtCoord").flexdatalist({
+    limitOfValues: 1,
+    multiple: true,
+    minLength: 999
+ });
+ $("#txtCoord-flexdatalist").mask(
+   "000 000",{
+     //reverse: true,
+     translation: {
+       'A': {pattern: /[0-9]/, optional: true}
+     }
+     
+ });
 
   $("#txtAccountNickname-flexdatalist").mask( // Account Page
     "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",{
