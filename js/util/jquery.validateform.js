@@ -49,7 +49,7 @@ jQuery(document).ready(function($) {
         dataTable.length > 0 && // Brief Table
         ((dataTable.length % 7) === 0) && // Has no array modification
         $("#txtTitleDeal").val() && // Title Deal 
-        $("#txtLocal").val() // Local
+        ($("#txtMaps").val() && $("#txtCoord").val()) // Local
         ) {
       // The checkboxes are selected and table has an item, RUN PHP File
       // Prevent the default action
@@ -74,7 +74,7 @@ jQuery(document).ready(function($) {
         $(".step-one .hint-error-div").removeClass("hide");
         $(".step-one .item-two li").addClass("has-error is-focused"); // Highlight the field
 
-        if($("#txtLocal").val()) {
+        if($("#txtMaps").val() && $("#txtCoord").val()) {
           $(".step-two .hint-error-div").addClass("hide");
         }
 
@@ -86,7 +86,7 @@ jQuery(document).ready(function($) {
 
 
       // Step Two
-      if (!$("#txtLocal").val()) {
+      if (!$("#txtMaps").val() || !$("#txtCoord").val()) {
         $(".step-two .hint-error-div").removeClass("hide");
         $(".step-two .item-one li").addClass("has-error is-focused");
 
@@ -137,8 +137,8 @@ jQuery(document).ready(function($) {
         $(".step-three .hint-error-div").removeClass("hide");
 
 
-        // Verify together if txtLocal or txtTitleDeal has value
-        if($("#txtLocal").val()) {
+        // Verify together if txtMaps or txtTitleDeal has value
+        if($("#txtMaps").val() && $("#txtCoord").val()) {
           $(".step-two .hint-error-div").addClass("hide");
         } else if ($("#txtTitleDeal").val()) {
           $(".step-one .hint-error-div").addClass("hide");
@@ -229,8 +229,8 @@ jQuery(document).ready(function($) {
     if(this.checked) {
       $(".step-two .item-three .checkbox-group-time div").addClass("hide"); // Hide 
 
-      // Verify together if txtLocal has value
-      if($("#txtLocal").val()) {
+      // Verify together if txtMaps has value
+      if($("#txtMaps").val() && $("#txtCoord").val()) {
         $(".step-two .hint-error-div").addClass("hide");
       }
     }
@@ -241,8 +241,8 @@ jQuery(document).ready(function($) {
     if(this.checked) {
       $(".step-two .item-three .checkbox-group-week div").addClass("hide");
 
-      // Verify together if txtLocal has value
-      if($("#txtLocal").val()) {
+      // Verify together if txtMaps has value
+      if($("#txtMaps").val() && $("#txtCoord").val()) {
         $(".step-two .hint-error-div").addClass("hide");
       }
     }
