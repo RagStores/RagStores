@@ -759,6 +759,9 @@ jQuery(document).ready(function ($) {
          
     createBriefTable(false,txtCurrentJsonSalesItems);
 
+    // Change txtTabNiceName value
+    $("#txtTabNiceName").val($("#savedTables option[value='"+inputIndex+"']").text());
+
     // Scroll near to Brief Table
     $.scroll(".union-group.item-six");
 
