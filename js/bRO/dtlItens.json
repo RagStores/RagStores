@@ -29056,6 +29056,7 @@
     "name": "Mochila de Amistr Vigorosa"
   },
   {
+<<<<<<< HEAD
     "id": "20808",
     "name": "Mochila de Amistr Reveladora"
   },
@@ -29064,6 +29065,8 @@
     "name": "Mochila de Amistr Furtiva"
   },
   {
+=======
+>>>>>>> 7392002390bf16dcbafdb5b48452ecc1e8a653ed
     "id": "20815",
     "name": "Capa do Serafim Caído"
   },
