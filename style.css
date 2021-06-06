@@ -22,6 +22,8 @@ Version: 0.1
 }
 .page-header img {
     filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -webkit-filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -moz-filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
 }
 
 
@@ -308,15 +310,48 @@ blockquote {
     color: #1eb7fc;
 }
 .sale-content-single .sale-card-avatar {
-    width: 200px;
+    width: 170px;
     /*margin-left: 30%;*/
+}
+.sale-content-single .sale-card-pin, .content-all-pins .sale-card-pin {
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.sale-content-single .sale-card-pin-inner, .content-all-pins .sale-card-pin-desc {
+    padding-left: 10px;
+}
+.content-all-pins .sale-card-pin-desc {
+    text-align: center;
+    font-size: 12px;
+}
+.content-all-pins .sale-card-pin-desc .pin-title {
+    font-family: Fredoka One;
+}
+.content-all-pins .sale-card-pin-desc .pin-date {
+    padding-top: 5px;
+    font-style: italic;
+    color: #888888;
+}
+.sale-content-single .sale-card-pin img.pin-card, .content-all-pins .sale-card-pin img.pin-card {
+    width: 75px !important;
+    max-width: 75px !important;
+    filter: contrast(105%) saturate(120%) drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -webkit-filter: contrast(105%) saturate(120%) drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -moz-filter: contrast(105%) saturate(120%) drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    /*box-shadow: 0px 0px 0px 3px #fafffd;*/
+    border-radius: 8px;
 }
 .sale-content-single h4.card-title {
     margin-bottom: 0px !important;
 }
 .sale-content-single img.avatar {
-    /*transform: skew(10deg, -10deg);*/
+    /*transform: skew(10deg, -10deg); */
     filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -webkit-filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -moz-filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
     /*width: 75%;*/
 }
 .sale-content-single img.kawaii {
@@ -326,6 +361,8 @@ blockquote {
     right: -3%;
     top: -1%;
     filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -webkit-filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -moz-filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
 }
 .sale-content-single i.fas.fa-check-circle {
     font-size: 14px;
@@ -462,6 +499,8 @@ blockquote {
     position: absolute;
     z-index: 999;
     filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -webkit-filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -moz-filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
 }
 .sale-form-group .steps.step-one img.kawaii {
     left: -4%;
@@ -504,11 +543,14 @@ blockquote {
     border-top: 1px solid #eee;
     padding-top: 6px;
 }
-.sale-form-group .hint, .delete-post .hint, .form-account-social span.hint, .form-account-nickname span.hint {
+.sale-form-group .hint, .delete-post .hint, .form-account-social span.hint, .form-account-nickname span.hint, span.hint {
     font-size: 13px;
 }
 .hint-error{
     color: #f44336;
+}
+.hint-sucess{
+    color: #649b2e;
 }
 .sale-form-group .pvp-number {
     height: 32px;
@@ -645,6 +687,8 @@ blockquote {
     right: 4%;
     bottom: -10%;
     filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -webkit-filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -moz-filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
 }
 .form-sale-searchbar .step-one.um-form.form-group, .account-social .step-one.um-form.form-group, .account-nickname .step-one.um-form.form-group {
     max-width: 50%;
@@ -679,6 +723,9 @@ blockquote {
 }
 a.um-profile-edit-a.um-profile-save {
     display: none;
+}
+.um.um-profile {
+    margin-top: 30px;
 }
 
 
@@ -829,10 +876,10 @@ button.wprc-switch:after {
     top: 6px;
     left: 135px;
 }
-input#btnSubmit { /* Sale Form - Final Step - Button*/
+input#btnSubmit, input#btnNewTable { /* Sale Form - Final Step - Button*/
     filter: drop-shadow(0px 0px 2px rgba(95, 66, 50, 0.7));
 }
-input#btnSubmit:hover, .front_page_donate a:not(.btn):not(.button):not(.added_to_cart):hover, img.btnDonate:hover { 
+input#btnSubmit:hover, .front_page_donate a:not(.btn):not(.button):not(.added_to_cart):hover, img.btnDonate:hover, input#btnNewTable:hover { 
     opacity: .85;
 }
 /* Ultimate Member Buttons */
@@ -851,12 +898,12 @@ input[type="submit"]:not(.search-submit) {
     filter: drop-shadow(0px 0px 2px rgba(95, 66, 50, 0.7));
 }
 
-/* Search All Itens */
-.page-template-search-all-itens .blog-posts-wrap {
+/* Search All Items */
+.page-template-search-all-items .blog-posts-wrap {
     margin-left: 2%;
     width: 97%;
 }
-.page-template-search-all-itens td.child-value, #tableHome td.child-value {
+.page-template-search-all-items td.child-value, #tableHome td.child-value {
     font-size: 12px;
 }
 
@@ -952,6 +999,16 @@ table.dataTable thead th, table.dataTable thead td {
     /* this is really the only tricky part, you need to specify the background color of the container element...*/
     color: #818078;
     background-color: #fcfcfa;
+}
+
+/* PICPAY Code */
+.picpay {
+    width: 50% !important;
+    filter: contrast(105%) saturate(120%) drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -webkit-filter: contrast(105%) saturate(120%) drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -moz-filter: contrast(105%) saturate(120%) drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    box-shadow: 0px 0px 0px 5px #fafffd;
+    border-radius: 4px;
 }
   
 

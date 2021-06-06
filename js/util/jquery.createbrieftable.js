@@ -755,9 +755,11 @@ jQuery(document).ready(function ($) {
 
     // Count of Objects in JSON
     rowCount = JSON.parse(txtCurrentJsonSalesItems).length;
-    //rowCount = Object.keys(txtCurrentJsonSalesItems).length;
          
     createBriefTable(false,txtCurrentJsonSalesItems);
+
+    // Change txtTabNiceName value
+    $("#txtTabNiceName").val($("#savedTables option[value='"+inputIndex+"']").text());
 
     // Scroll near to Brief Table
     $.scroll(".union-group.item-six");
