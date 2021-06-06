@@ -320,7 +320,6 @@ blockquote {
     align-content: center;
     align-items: center;
 }
-<<<<<<< HEAD
 .sale-content-single .sale-card-pin-inner, .content-all-pins .sale-card-pin-desc {
     padding-left: 10px;
 }
@@ -336,11 +335,6 @@ blockquote {
     font-style: italic;
     color: #888888;
 }
-=======
-.sale-content-single .sale-card-pin-inner, .content-all-pins .sale-card-pin-inner {
-    padding-left: 10px;
-}
->>>>>>> 7392002390bf16dcbafdb5b48452ecc1e8a653ed
 .sale-content-single .sale-card-pin img.pin-card, .content-all-pins .sale-card-pin img.pin-card {
     width: 75px !important;
     max-width: 75px !important;
