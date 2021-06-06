@@ -114,17 +114,6 @@ jQuery(document).ready(function($) {
         }
       }
 
-      /**
-       *! DEPRECATED
-       * Using reCaptcha as validator
-       *
-       *
-      if ($(".checkbox-group-enter.required :checkbox:checked").length <= 0) {
-        $(".final-step .hint-error-div").removeClass("hide");
-        $(".final-step .checkbox-group-enter div").removeClass("hide");
-
-      }*/
-
       if(grecaptcha.getResponse().length == 0) {
         $(".final-step .hint-error-div").removeClass("hide");
         $(".final-step .checkbox-group-enter div").removeClass("hide");
@@ -177,6 +166,38 @@ jQuery(document).ready(function($) {
     }
   });
 
+
+  /********************************
+   ** Edit Items/Table Items Page
+   ********************************/
+  $(document).on("click", "form #btnNewTable", function(e) {
+    
+    /**********************************************************************************
+     ** Validate is table has values
+     ** https://stackoverflow.com/questions/16805288/jquery-get-values-from-html-table
+     *********************************************************************************/
+    var dataTable = $("#tbBrief tr.dataRow").map(function (index, elem) { // Get all data and insert in a single array
+      var ret = [];
+      $(".inputValue", this).each(function () { // Get column     
+        var d = $(this).val()||$(this).text();
+        ret.push(d);
+      });
+      return ret;
+    });
+
+
+    if (dataTable.length > 0 ) { 
+      // Unclickable button
+      $("form #btnNewTable").css({ opacity: 0.2 }).attr("disabled");
+      $("form .animatedLoading").removeClass("hide");
+ 
+    } else {
+      e.preventDefault(); // Prevent the default action
+      $(".step-three .hint-error-div").removeClass("hide");
+      $.scroll(".step-three");
+
+    }
+  });
 
 
   /**********************

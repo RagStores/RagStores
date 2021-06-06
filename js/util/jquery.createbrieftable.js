@@ -755,7 +755,6 @@ jQuery(document).ready(function ($) {
 
     // Count of Objects in JSON
     rowCount = JSON.parse(txtCurrentJsonSalesItems).length;
-    //rowCount = Object.keys(txtCurrentJsonSalesItems).length;
          
     createBriefTable(false,txtCurrentJsonSalesItems);
 

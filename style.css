@@ -320,9 +320,27 @@ blockquote {
     align-content: center;
     align-items: center;
 }
+<<<<<<< HEAD
+.sale-content-single .sale-card-pin-inner, .content-all-pins .sale-card-pin-desc {
+    padding-left: 10px;
+}
+.content-all-pins .sale-card-pin-desc {
+    text-align: center;
+    font-size: 12px;
+}
+.content-all-pins .sale-card-pin-desc .pin-title {
+    font-family: Fredoka One;
+}
+.content-all-pins .sale-card-pin-desc .pin-date {
+    padding-top: 5px;
+    font-style: italic;
+    color: #888888;
+}
+=======
 .sale-content-single .sale-card-pin-inner, .content-all-pins .sale-card-pin-inner {
     padding-left: 10px;
 }
+>>>>>>> 7392002390bf16dcbafdb5b48452ecc1e8a653ed
 .sale-content-single .sale-card-pin img.pin-card, .content-all-pins .sale-card-pin img.pin-card {
     width: 75px !important;
     max-width: 75px !important;
@@ -531,11 +549,14 @@ blockquote {
     border-top: 1px solid #eee;
     padding-top: 6px;
 }
-.sale-form-group .hint, .delete-post .hint, .form-account-social span.hint, .form-account-nickname span.hint {
+.sale-form-group .hint, .delete-post .hint, .form-account-social span.hint, .form-account-nickname span.hint, span.hint {
     font-size: 13px;
 }
 .hint-error{
     color: #f44336;
+}
+.hint-sucess{
+    color: #649b2e;
 }
 .sale-form-group .pvp-number {
     height: 32px;
@@ -709,6 +730,9 @@ blockquote {
 a.um-profile-edit-a.um-profile-save {
     display: none;
 }
+.um.um-profile {
+    margin-top: 30px;
+}
 
 
 /* Report Content */
@@ -858,10 +882,10 @@ button.wprc-switch:after {
     top: 6px;
     left: 135px;
 }
-input#btnSubmit { /* Sale Form - Final Step - Button*/
+input#btnSubmit, input#btnNewTable { /* Sale Form - Final Step - Button*/
     filter: drop-shadow(0px 0px 2px rgba(95, 66, 50, 0.7));
 }
-input#btnSubmit:hover, .front_page_donate a:not(.btn):not(.button):not(.added_to_cart):hover, img.btnDonate:hover { 
+input#btnSubmit:hover, .front_page_donate a:not(.btn):not(.button):not(.added_to_cart):hover, img.btnDonate:hover, input#btnNewTable:hover { 
     opacity: .85;
 }
 /* Ultimate Member Buttons */
