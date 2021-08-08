@@ -148,6 +148,9 @@ blockquote {
 .nsl-container-buttons {
     align-items: center !important;
 }
+.nsl-container.nsl-container-block {
+    text-align: center !important;
+}
 /*.nsl-container.nsl-container-block {
     margin-bottom: 20px;
 }*/
