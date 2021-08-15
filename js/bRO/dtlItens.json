@@ -35860,6 +35860,10 @@
     "name": "Proteção de Vesper"
   },
   {
+    "id": "15842",
+    "name": "Cartola do Sumiço"
+  },
+  {
     "id": "15847",
     "name": "Boné Alado"
   },
@@ -48938,6 +48942,10 @@
   {
     "id": "20607",
     "name": "Voo de Baldur"
+  },
+  {
+    "id": "20613",
+    "name": "Pernas de Aranha"
   },
   {
     "id": "20700",
@@ -64736,6 +64744,10 @@
     "name": "Super Capacete de Kunlun"
   },
   {
+    "id": "31588",
+    "name": "Tiara da Nevasca"
+  },
+  {
     "id": "31593",
     "name": "Lenço do Deserto"
   },
@@ -65412,6 +65424,10 @@
     "name": "Marionete de Thanatos"
   },
   {
+    "id": "400047",
+    "name": "Capacete de Aceleração"
+  },
+  {
     "id": "400048",
     "name": "Dádiva das Divindades"
   },
@@ -65564,6 +65580,10 @@
     "name": "Glória Imperial"
   },
   {
+    "id": "420047",
+    "name": "Capa de Cavaleiro"
+  },
+  {
     "id": "430000",
     "name": "IDTest_»óÁß´ÜÅõ±¸"
   },
@@ -65616,6 +65636,10 @@
     "name": "Égide das Divindades"
   },
   {
+    "id": "470006",
+    "name": "Botas do Caçador"
+  },
+  {
     "id": "470008",
     "name": "Sapatilhas de Algodão"
   },
@@ -65628,6 +65652,10 @@
     "name": "Botas Elementais"
   },
   {
+    "id": "470050",
+    "name": "Chinela de Pau"
+  },
+  {
     "id": "470051",
     "name": "Botas Aladas"
   },
@@ -65638,6 +65666,10 @@
   {
     "id": "470070",
     "name": "Coturnos das Marés"
+  },
+  {
+    "id": "470084",
+    "name": "Grevas de Platina"
   },
   {
     "id": "480023",
