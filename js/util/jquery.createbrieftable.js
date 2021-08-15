@@ -138,14 +138,6 @@ jQuery(document).ready(function ($) {
           );
           strCurrentBrief += ',"txtCards": "-"';
       } else {
-          /** 
-           *! DEPRECATED It was used when this field was a JSON, see Edit Row - Pencil Button
-            var listCardsBrief = "";
-            var listCardsBriefJSON = "";
-            JSON.parse(txtCards).forEach(function(o, index){ // For each element in JSON
-              listCardsBrief += o["name"] + "\n";
-              listCardsBriefJSON += o["name"] + "*";
-            });*/
           
           table.append(
               $("<td style='white-space: pre;'>")
@@ -163,16 +155,7 @@ jQuery(document).ready(function ($) {
           );
           strCurrentBrief += ',"txtEnchants": "-"';
       } else {
-          /** 
-           *! DEPRECATED It was used when this field was a JSON, see Edit Row - Pencil Button 
-            var listEnchantsBrief = "";
-            var listEnchantsBriefJSON = "";
-            (txtEnchants.split(",")).forEach(function(o){ // For each element in string
-              listEnchantsBrief += o + "\n";
-              listEnchantsBriefJSON += o + "*";
-            });
-            */
-          
+            
           table.append(
               $("<td style='white-space: pre;'>")
               .addClass("inputValue")

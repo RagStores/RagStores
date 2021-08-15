@@ -228,6 +228,11 @@ jQuery(document).ready(function($) {
 
   });
 
+  $("#txtUserCupon").on("change", function() {
+    $("#btnUserCupon").prop("disabled", false); // Element(s) are now enabled.
+    $(".user-cupon .hint-error-div").addClass("hide"); // Hide error
+  });
+
   $("#btnEyeAccount .fa-eye-slash").on("click", function() {
     $("#rs-account-id input").attr("type", "text");
     $("#btnEyeAccount .fa-eye").removeClass("hide");
@@ -275,4 +280,4 @@ jQuery(document).ready(function($) {
     }
   });
 
-})
+});

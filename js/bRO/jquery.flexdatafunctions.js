@@ -103,6 +103,12 @@ jQuery(document).ready(function($) {
     minLength: 999
   });
 
+  $("#txtUserCupon").flexdatalist({ // Account Page
+    limitOfValues: 1,
+    multiple: true,
+    minLength: 999
+  });
+
 	$("#txtItens").flexdatalist({ // Search HTML tag by id
      minLength: 1,
      limitOfValues: 1,
@@ -201,7 +207,7 @@ jQuery(document).ready(function($) {
      minLength: 10
   });
   $("#txtQtd-flexdatalist").mask(
-    "A000",{
+    "0000",{
       translation: {
         'A': {pattern: /[1-9]/}
       }
@@ -286,4 +292,4 @@ jQuery(document).ready(function($) {
   });
 
 
-})
+});
