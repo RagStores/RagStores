@@ -35,9 +35,6 @@ jQuery(document).ready(function($) {
             
         });
 
-
-
-
   // Search Item Detail
   $(".a-search-toggle")
         .on("click", function(){
@@ -84,6 +81,24 @@ jQuery(document).ready(function($) {
               $("#"+idOfParent+" .server-dataRow").removeClass("table-vertical-top");
             }
             
+        });
+  
+  // Search Result Tables
+  $("#searchformstats #rdbServer-thor") 
+        .on("click", function(){
+          $("#myChartValhala").addClass("hide");
+          $("#myChartThor").removeClass("hide");
+
+          $("#search-table-valhala").addClass("hide");
+          $("#search-table-thor").removeClass("hide");
+        });
+  $("#searchformstats #rdbServer-valhala") 
+        .on("click", function(){
+          $("#myChartValhala").removeClass("hide");
+          $("#myChartThor").addClass("hide");
+
+          $("#search-table-valhala").removeClass("hide");
+          $("#search-table-thor").addClass("hide");
         });
 
 });

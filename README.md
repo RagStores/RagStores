@@ -37,6 +37,7 @@ All features are totally **free** to use forever and ever. &nbsp;&nbsp;&nbsp; °
 - Friendly form interface
 - Updated list of the game items
 - Advanced search for items 
+- Market Chart Price
 
 
 ## :video_game: Supported Servers and Language
@@ -54,5 +55,7 @@ This project uses this below libraries, our sincerely **thanks**.
 - [DataTables.js](https://datatables.net/)
 - [animatedCursor.js](https://github.com/alienmelon/animatedCursor.js)
 - [Divine Pride Tooltip](https://divine-pride.net/tools/tooltips)
+- [Clipboard JS](https://github.com/zenorocha/clipboard.js)
+- [Chart JS](https://www.chartjs.org/)
 
 ---
