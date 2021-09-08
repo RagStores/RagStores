@@ -120,7 +120,7 @@ jQuery(document).ready(function ($) {
       ); // Image
       table.append(
           $(
-              "<td class='inputValue'><a href='https://www.divine-pride.net/database/item/" +
+              "<td class='inputValue'><a href='/search/" +
               txtItens[0]["id"] +
               "' target='_blank'>" +
               txtItens[0]["name"] +
