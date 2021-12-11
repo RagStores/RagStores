@@ -1425,7 +1425,7 @@
   },
   {
     "id": "1026",
-    "name": "Avelã "
+    "name": "Avelã"
   },
   {
     "id": "1027",
@@ -1649,11 +1649,11 @@
   },
   {
     "id": "1082",
-    "name": "Caixa de Entrega "
+    "name": "Caixa de Entrega"
   },
   {
     "id": "1083",
-    "name": "Caixa de Entrega  "
+    "name": "Caixa de Entrega"
   },
   {
     "id": "1084",
@@ -1909,7 +1909,7 @@
   },
   {
     "id": "1148",
-    "name": "Lâmina de Poeira Estelar "
+    "name": "Lâmina de Poeira Estelar"
   },
   {
     "id": "1149",
@@ -2808,6 +2808,10 @@
     "name": "Lança de Iansã"
   },
   {
+    "id": "1447",
+    "name": "Lança Peçonhenta"
+  },
+  {
     "id": "1448",
     "name": "Lança de Oxóssi"
   },
@@ -3554,6 +3558,10 @@
   {
     "id": "1671",
     "name": "Cajado Esconjurante"
+  },
+  {
+    "id": "1672",
+    "name": "Cajado de Combate"
   },
   {
     "id": "1675",
@@ -4656,6 +4664,10 @@
     "name": "Bíblia da Promessa (Volume 1)"
   },
   {
+    "id": "2158",
+    "name": "Refletor dos Malditos"
+  },
+  {
     "id": "2160",
     "name": "Escudo Gigante"
   },
@@ -4766,6 +4778,10 @@
   {
     "id": "2192",
     "name": "Escudo da Rosa"
+  },
+  {
+    "id": "2194",
+    "name": "Escudo de Rouban"
   },
   {
     "id": "2195",
@@ -5393,7 +5409,7 @@
   },
   {
     "id": "2356",
-    "name": "Batina da Fé "
+    "name": "Batina da Fé"
   },
   {
     "id": "2357",
@@ -5789,7 +5805,7 @@
   },
   {
     "id": "2474",
-    "name": "Sandálias de Iemanjá "
+    "name": "Sandálias de Iemanjá"
   },
   {
     "id": "2475",
@@ -6160,6 +6176,10 @@
     "name": "Manto Brilhante"
   },
   {
+    "id": "2598",
+    "name": "Capa dos Malditos"
+  },
+  {
     "id": "2601",
     "name": "Anel"
   },
@@ -6397,7 +6417,7 @@
   },
   {
     "id": "2666",
-    "name": "Lanterna da Fé "
+    "name": "Lanterna da Fé"
   },
   {
     "id": "2667",
@@ -6573,7 +6593,7 @@
   },
   {
     "id": "2726",
-    "name": "Asas de Ícaro "
+    "name": "Asas de Ícaro"
   },
   {
     "id": "2727",
@@ -12840,6 +12860,10 @@
     "name": "Asas de Sigrún"
   },
   {
+    "id": "5593",
+    "name": "Capuz de Coelho"
+  },
+  {
     "id": "5594",
     "name": "Rosquinha"
   },
@@ -13324,8 +13348,16 @@
     "name": "Chapéu de Jardinagem"
   },
   {
+    "id": "5903",
+    "name": "Bandana Hitaikakushi"
+  },
+  {
     "id": "5904",
     "name": "Chapéu Luxuoso"
+  },
+  {
+    "id": "5905",
+    "name": "Chapéu de Maestro"
   },
   {
     "id": "5906",
@@ -13414,6 +13446,10 @@
   {
     "id": "5980",
     "name": "Chapéu da Zenny Drédiful"
+  },
+  {
+    "id": "5982",
+    "name": "Proteção dos Matadores"
   },
   {
     "id": "5983",
@@ -14864,6 +14900,14 @@
     "name": "Pingente Sagrado"
   },
   {
+    "id": "6584",
+    "name": "Pergaminho de Arma +12"
+  },
+  {
+    "id": "6585",
+    "name": "Pergaminho de Armadura +12"
+  },
+  {
     "id": "6592",
     "name": "Caixote"
   },
@@ -15549,7 +15593,7 @@
   },
   {
     "id": "7007",
-    "name": "Garra de Rato "
+    "name": "Garra de Rato"
   },
   {
     "id": "7008",
@@ -15641,7 +15685,7 @@
   },
   {
     "id": "7030",
-    "name": "Garra de Lobo do Deserto "
+    "name": "Garra de Lobo do Deserto"
   },
   {
     "id": "7031",
@@ -16313,7 +16357,7 @@
   },
   {
     "id": "7199",
-    "name": "Moeda do 11º Aniversário"
+    "name": "Moeda de Celebração"
   },
   {
     "id": "7200",
@@ -16932,154 +16976,6 @@
     "name": "Esfera de 1 Bilhão"
   },
   {
-    "id": "7362",
-    "name": "2¹ø °ø"
-  },
-  {
-    "id": "7363",
-    "name": "3¹ø °ø"
-  },
-  {
-    "id": "7364",
-    "name": "4¹ø °ø"
-  },
-  {
-    "id": "7365",
-    "name": "5¹ø °ø"
-  },
-  {
-    "id": "7366",
-    "name": "6¹ø °ø"
-  },
-  {
-    "id": "7367",
-    "name": "7¹ø °ø"
-  },
-  {
-    "id": "7368",
-    "name": "8¹ø °ø"
-  },
-  {
-    "id": "7369",
-    "name": "9¹ø °ø"
-  },
-  {
-    "id": "7370",
-    "name": "10¹ø °ø"
-  },
-  {
-    "id": "7371",
-    "name": "11¹ø °ø"
-  },
-  {
-    "id": "7372",
-    "name": "12¹ø °ø"
-  },
-  {
-    "id": "7373",
-    "name": "13¹ø °ø"
-  },
-  {
-    "id": "7374",
-    "name": "14¹ø °ø"
-  },
-  {
-    "id": "7375",
-    "name": "15¹ø °ø"
-  },
-  {
-    "id": "7376",
-    "name": "16¹ø °ø"
-  },
-  {
-    "id": "7377",
-    "name": "17¹ø °ø"
-  },
-  {
-    "id": "7378",
-    "name": "18¹ø °ø"
-  },
-  {
-    "id": "7379",
-    "name": "19¹ø °ø"
-  },
-  {
-    "id": "7380",
-    "name": "20¹ø °ø"
-  },
-  {
-    "id": "7381",
-    "name": "21¹ø °ø"
-  },
-  {
-    "id": "7382",
-    "name": "22¹ø °ø"
-  },
-  {
-    "id": "7383",
-    "name": "23¹ø °ø"
-  },
-  {
-    "id": "7384",
-    "name": "24¹ø °ø"
-  },
-  {
-    "id": "7385",
-    "name": "25¹ø °ø"
-  },
-  {
-    "id": "7386",
-    "name": "26¹ø °ø"
-  },
-  {
-    "id": "7387",
-    "name": "27¹ø °ø"
-  },
-  {
-    "id": "7388",
-    "name": "28¹ø °ø"
-  },
-  {
-    "id": "7389",
-    "name": "29¹ø °ø"
-  },
-  {
-    "id": "7390",
-    "name": "30¹ø °ø"
-  },
-  {
-    "id": "7391",
-    "name": "31¹ø °ø"
-  },
-  {
-    "id": "7392",
-    "name": "32¹ø °ø"
-  },
-  {
-    "id": "7393",
-    "name": "33¹ø °ø"
-  },
-  {
-    "id": "7394",
-    "name": "34¹ø °ø"
-  },
-  {
-    "id": "7395",
-    "name": "35¹ø °ø"
-  },
-  {
-    "id": "7396",
-    "name": "36¹ø °ø"
-  },
-  {
-    "id": "7397",
-    "name": "37¹ø °ø"
-  },
-  {
-    "id": "7398",
-    "name": "38¹ø °ø"
-  },
-  {
     "id": "7399",
     "name": "selamat"
   },
@@ -17545,51 +17441,23 @@
   },
   {
     "id": "7534",
-    "name": " Álbum de Fotos de Amatsu"
+    "name": "Álbum de Fotos de Amatsu"
   },
   {
     "id": "7535",
-    "name": " Álbum de Fotos de Kunlun"
+    "name": "Álbum de Fotos de Kunlun"
   },
   {
     "id": "7536",
-    "name": " Álbum de Fotos de Louyang"
+    "name": "Álbum de Fotos de Louyang"
   },
   {
     "id": "7537",
-    "name": " Álbum de Fotos de Ayothaya"
+    "name": "Álbum de Fotos de Ayothaya"
   },
   {
     "id": "7539",
     "name": "Moeda Poring"
-  },
-  {
-    "id": "7540",
-    "name": "39¹ø °ø"
-  },
-  {
-    "id": "7541",
-    "name": "40¹ø °ø"
-  },
-  {
-    "id": "7542",
-    "name": "41¹ø °ø"
-  },
-  {
-    "id": "7543",
-    "name": "42¹ø °ø"
-  },
-  {
-    "id": "7544",
-    "name": "43¹ø °ø"
-  },
-  {
-    "id": "7545",
-    "name": "44¹ø °ø"
-  },
-  {
-    "id": "7546",
-    "name": "45¹ø °ø"
   },
   {
     "id": "7547",
@@ -20409,7 +20277,7 @@
   },
   {
     "id": "12347",
-    "name": "Geleia de Avelã "
+    "name": "Geleia de Avelã"
   },
   {
     "id": "12348",
@@ -22152,6 +22020,10 @@
     "name": "Revólver de Oxóssi"
   },
   {
+    "id": "13138",
+    "name": "Viúva-Negra"
+  },
+  {
     "id": "13139",
     "name": "Revólver de Oxum"
   },
@@ -22445,7 +22317,7 @@
   },
   {
     "id": "13223",
-    "name": "Cápsula de Chamas "
+    "name": "Cápsula de Chamas"
   },
   {
     "id": "13224",
@@ -22860,6 +22732,18 @@
     "name": "Sabre Sobrenatural"
   },
   {
+    "id": "13460",
+    "name": "Selada Mágica"
+  },
+  {
+    "id": "13461",
+    "name": "Selada Maligna"
+  },
+  {
+    "id": "13462",
+    "name": "Selada Máxima"
+  },
+  {
     "id": "13463",
     "name": "Excalibur"
   },
@@ -23205,7 +23089,7 @@
   },
   {
     "id": "13764",
-    "name": "5Novice BattleManual Box "
+    "name": "5Novice BattleManual Box"
   },
   {
     "id": "13766",
@@ -24417,7 +24301,7 @@
   },
   {
     "id": "15088",
-    "name": "Uniforme Escolar "
+    "name": "Uniforme Escolar"
   },
   {
     "id": "15089",
@@ -24520,6 +24404,18 @@
     "name": "Veste Luxuosa de Doram"
   },
   {
+    "id": "15163",
+    "name": "Vestimenta Atraente"
+  },
+  {
+    "id": "15164",
+    "name": "Vestimenta Consulente"
+  },
+  {
+    "id": "15165",
+    "name": "Chapéu Festeiro"
+  },
+  {
     "id": "15166",
     "name": "Colar com Rosário"
   },
@@ -24540,12 +24436,20 @@
     "name": "Armadura dos Esquecidos"
   },
   {
+    "id": "15205",
+    "name": "Uniforme Cotidiano"
+  },
+  {
     "id": "15206",
     "name": "Armadura Tatenashi"
   },
   {
     "id": "15208",
     "name": "Armadura da Laura"
+  },
+  {
+    "id": "15212",
+    "name": "Armadura YSF01"
   },
   {
     "id": "15219",
@@ -24617,7 +24521,7 @@
   },
   {
     "id": "15354",
-    "name": "Armadura do Herói Astuto "
+    "name": "Armadura do Herói Astuto"
   },
   {
     "id": "15367",
@@ -24698,6 +24602,10 @@
   {
     "id": "15838",
     "name": "Proteção de Vesper"
+  },
+  {
+    "id": "15841",
+    "name": "Capacete com Visores"
   },
   {
     "id": "15842",
@@ -25700,6 +25608,10 @@
     "name": "AC-B44-OS"
   },
   {
+    "id": "18502",
+    "name": "Disfarce"
+  },
+  {
     "id": "18503",
     "name": "Chifrinhos"
   },
@@ -26109,7 +26021,7 @@
   },
   {
     "id": "18664",
-    "name": "Óculos de Quartzo Rubi "
+    "name": "Óculos de Quartzo Rubi"
   },
   {
     "id": "18665",
@@ -26149,7 +26061,7 @@
   },
   {
     "id": "18675",
-    "name": "Chapéu de Maçã Verde "
+    "name": "Chapéu de Maçã Verde"
   },
   {
     "id": "18676",
@@ -26416,6 +26328,10 @@
     "name": "Laço Divino"
   },
   {
+    "id": "18793",
+    "name": "Touca da Lua Minguante"
+  },
+  {
     "id": "18794",
     "name": "Chapéu Gracioso"
   },
@@ -26441,11 +26357,11 @@
   },
   {
     "id": "18816",
-    "name": "Boné do Aluno Exemplar "
+    "name": "Boné do Aluno Exemplar"
   },
   {
     "id": "18817",
-    "name": "Boné do Aluno Travesso "
+    "name": "Boné do Aluno Travesso"
   },
   {
     "id": "18818",
@@ -26696,6 +26612,10 @@
     "name": "Cartola da Natureza"
   },
   {
+    "id": "18948",
+    "name": "Máscara Sensei"
+  },
+  {
     "id": "18957",
     "name": "Boina do 9º Aniversário"
   },
@@ -26772,6 +26692,10 @@
     "name": "Chip Fugitivo"
   },
   {
+    "id": "19009",
+    "name": "Nimbus Trovejante"
+  },
+  {
     "id": "19019",
     "name": "Coroa da Rainha de Copas"
   },
@@ -26793,11 +26717,11 @@
   },
   {
     "id": "19038",
-    "name": "Coroa do 11º Aniversário do bRO"
+    "name": "Coroa de Celebração"
   },
   {
     "id": "19039",
-    "name": "Orelhas do 11º Aniversário do bRO"
+    "name": "Orelhas de Celebração"
   },
   {
     "id": "19048",
@@ -26874,6 +26798,10 @@
   {
     "id": "19114",
     "name": "Gravata de Sting"
+  },
+  {
+    "id": "19115",
+    "name": "Chapéu da República"
   },
   {
     "id": "19116",
@@ -27149,7 +27077,7 @@
   },
   {
     "id": "19326",
-    "name": "Livros da Sabedoria "
+    "name": "Livros da Sabedoria"
   },
   {
     "id": "19327",
@@ -27162,6 +27090,10 @@
   {
     "id": "19349",
     "name": "Chapepperoni"
+  },
+  {
+    "id": "19352",
+    "name": "Maçã Mordida"
   },
   {
     "id": "19364",
@@ -27196,6 +27128,14 @@
     "name": "Echarpe do Paraíso"
   },
   {
+    "id": "19390",
+    "name": "Chapéu Preguiçoso"
+  },
+  {
+    "id": "19391",
+    "name": "Olhos Ilusórios"
+  },
+  {
     "id": "19393",
     "name": "Pedra do Desbravador"
   },
@@ -27226,6 +27166,14 @@
   {
     "id": "19444",
     "name": "Tapa-Olho Cósmico"
+  },
+  {
+    "id": "19445",
+    "name": "Curativo YSF01"
+  },
+  {
+    "id": "19446",
+    "name": "Curativo YSF01"
   },
   {
     "id": "19451",
@@ -27826,6 +27774,10 @@
   {
     "id": "19746",
     "name": "Capuz do Coração Gelado"
+  },
+  {
+    "id": "19748",
+    "name": "Diadema com Rubi"
   },
   {
     "id": "19749",
@@ -28564,6 +28516,10 @@
     "name": "Brilho do Sol Nascente"
   },
   {
+    "id": "20065",
+    "name": "Cocar das Mil Penas"
+  },
+  {
     "id": "20069",
     "name": "Tiara de Grifo Real"
   },
@@ -28590,6 +28546,10 @@
   {
     "id": "20085",
     "name": "Cartola da Fortuna do Genka"
+  },
+  {
+    "id": "20086",
+    "name": "Dragão Ancião"
   },
   {
     "id": "20094",
@@ -28630,6 +28590,10 @@
   {
     "id": "20109",
     "name": "Chapéu Jolly Roger"
+  },
+  {
+    "id": "20110",
+    "name": "Chapéu de Sucuri"
   },
   {
     "id": "20112",
@@ -29352,6 +29316,10 @@
     "name": "Elmo de Unicórnio"
   },
   {
+    "id": "20447",
+    "name": "Auréola de Porings"
+  },
+  {
     "id": "20448",
     "name": "Dobra de Água"
   },
@@ -29378,6 +29346,14 @@
   {
     "id": "20454",
     "name": "Rainha das Serpentes"
+  },
+  {
+    "id": "20455",
+    "name": "Quepe da República"
+  },
+  {
+    "id": "20456",
+    "name": "Vestígios de Combate"
   },
   {
     "id": "20457",
@@ -29552,6 +29528,10 @@
     "name": "Mil e Uma Assombrações"
   },
   {
+    "id": "20548",
+    "name": "Aura de Poring"
+  },
+  {
     "id": "20570",
     "name": "Mochocochila"
   },
@@ -29586,6 +29566,10 @@
   {
     "id": "20578",
     "name": "Asas de Raquel"
+  },
+  {
+    "id": "20579",
+    "name": "Asas de Raphael"
   },
   {
     "id": "20582",
@@ -29652,12 +29636,20 @@
     "name": "Asas Camaleônicas"
   },
   {
+    "id": "20604",
+    "name": "Véu Abençoado"
+  },
+  {
     "id": "20605",
     "name": "Folha-chuva"
   },
   {
     "id": "20607",
     "name": "Voo de Baldur"
+  },
+  {
+    "id": "20612",
+    "name": "Escudo de Oridecon"
   },
   {
     "id": "20613",
@@ -29888,8 +29880,16 @@
     "name": "Capa Médica"
   },
   {
+    "id": "20856",
+    "name": "Manteau YSF01"
+  },
+  {
     "id": "20862",
     "name": "EXE Backpack"
+  },
+  {
+    "id": "20900",
+    "name": "Cachecol Dourado"
   },
   {
     "id": "20902",
@@ -29952,6 +29952,10 @@
     "name": "Manto do Monarca"
   },
   {
+    "id": "20952",
+    "name": "Echarpe Escarlate"
+  },
+  {
     "id": "20955",
     "name": "Guardiã do Natal"
   },
@@ -29988,8 +29992,24 @@
     "name": "Manto dos Espíritos"
   },
   {
+    "id": "20986",
+    "name": "Manto Abstrato"
+  },
+  {
+    "id": "20988",
+    "name": "Asas Mecânicas de Borboleta"
+  },
+  {
     "id": "20989",
     "name": "Parafuso de Corda"
+  },
+  {
+    "id": "20992",
+    "name": "Asas do Paraíso"
+  },
+  {
+    "id": "20993",
+    "name": "Capa Ajeitadinha"
   },
   {
     "id": "21000",
@@ -30172,6 +30192,10 @@
     "name": "Sapatos Cerúleos"
   },
   {
+    "id": "22063",
+    "name": "Sapatos de Rouban"
+  },
+  {
     "id": "22067",
     "name": "Sapatos de Bruxa"
   },
@@ -30292,6 +30316,10 @@
     "name": "Botas do Ocultista"
   },
   {
+    "id": "22141",
+    "name": "Grevas YSF01"
+  },
+  {
     "id": "22145",
     "name": "Chinela de Pau"
   },
@@ -30358,6 +30386,14 @@
   {
     "id": "22207",
     "name": "Botas Imperiais"
+  },
+  {
+    "id": "22210",
+    "name": "Sapatos Fofinhos"
+  },
+  {
+    "id": "22224",
+    "name": "Sapatos Fofinhos"
   },
   {
     "id": "22228",
@@ -30620,6 +30656,10 @@
     "name": "Bolsa com Roupa de Banho"
   },
   {
+    "id": "22825",
+    "name": ""
+  },
+  {
     "id": "22838",
     "name": "Sacola de Doces Misteriosa"
   },
@@ -30704,12 +30744,28 @@
     "name": "Caixa do ArchAngeling"
   },
   {
+    "id": "23076",
+    "name": "Poção SS"
+  },
+  {
+    "id": "23077",
+    "name": "Poção SC"
+  },
+  {
+    "id": "23078",
+    "name": "Poção AC"
+  },
+  {
     "id": "23079",
     "name": "Bolo de Frutas Vermelhas"
   },
   {
     "id": "23080",
     "name": "Cristal Ominoso"
+  },
+  {
+    "id": "23087",
+    "name": "Pochete de Couro"
   },
   {
     "id": "23100",
@@ -30770,6 +30826,10 @@
   {
     "id": "23202",
     "name": "Quentão"
+  },
+  {
+    "id": "23247",
+    "name": "Combinador de Atributo"
   },
   {
     "id": "23252",
@@ -30846,6 +30906,10 @@
   {
     "id": "23316",
     "name": "Magia da Tumba 4"
+  },
+  {
+    "id": "23331",
+    "name": "Cx. Asa de Mosca [7 Dias]"
   },
   {
     "id": "23342",
@@ -30932,6 +30996,18 @@
     "name": "Catálogo de Lojas"
   },
   {
+    "id": "23369",
+    "name": ""
+  },
+  {
+    "id": "23370",
+    "name": ""
+  },
+  {
+    "id": "23371",
+    "name": ""
+  },
+  {
     "id": "23409",
     "name": "RO Cross Promo6"
   },
@@ -30958,6 +31034,10 @@
   {
     "id": "23460",
     "name": "Bolsa Mágica"
+  },
+  {
+    "id": "23475",
+    "name": "Poção Infinita"
   },
   {
     "id": "23533",
@@ -31072,6 +31152,18 @@
     "name": "2018 July Costume Box"
   },
   {
+    "id": "23910",
+    "name": "Arca da Fruta"
+  },
+  {
+    "id": "23911",
+    "name": "Arca Maior da Fruta"
+  },
+  {
+    "id": "23912",
+    "name": "Arca do Passe"
+  },
+  {
     "id": "23919",
     "name": "Chave da Kachua"
   },
@@ -31108,6 +31200,58 @@
     "name": "Malha Sombria de Esquiva"
   },
   {
+    "id": "24033",
+    "name": "Luva Sombria Medicinal"
+  },
+  {
+    "id": "24034",
+    "name": "Luvas Sombrias SOR"
+  },
+  {
+    "id": "24035",
+    "name": "Brinco Sombrio FOR"
+  },
+  {
+    "id": "24036",
+    "name": "Colar Sombrio INT"
+  },
+  {
+    "id": "24037",
+    "name": "Malha Sombria DES"
+  },
+  {
+    "id": "24038",
+    "name": "Sapatos Sombrios VIT"
+  },
+  {
+    "id": "24039",
+    "name": "Escudo Sombrio AGI"
+  },
+  {
+    "id": "24040",
+    "name": "Malha Sombria SOR"
+  },
+  {
+    "id": "24041",
+    "name": "Colar Sombrio FOR"
+  },
+  {
+    "id": "24042",
+    "name": "Brinco Sombrio INT"
+  },
+  {
+    "id": "24043",
+    "name": "Luvas Sombrias DES"
+  },
+  {
+    "id": "24044",
+    "name": "Escudo Sombrio VIT"
+  },
+  {
+    "id": "24045",
+    "name": "Sapatos Sombrios AGI"
+  },
+  {
     "id": "24047",
     "name": "Colar Sombrio de Velocidade"
   },
@@ -31126,6 +31270,38 @@
   {
     "id": "24155",
     "name": "Colar Sombrio Indestrutível"
+  },
+  {
+    "id": "24180",
+    "name": "Malha Sombria Autoportante"
+  },
+  {
+    "id": "24181",
+    "name": "Greva Sombria Autoportante"
+  },
+  {
+    "id": "24182",
+    "name": "Escudo Sombrio Autoportante"
+  },
+  {
+    "id": "24183",
+    "name": "Luva Sombria Autoportante"
+  },
+  {
+    "id": "24184",
+    "name": "Brinco Sombrio Autoportante"
+  },
+  {
+    "id": "24185",
+    "name": "Colar Sombrio Autoportante"
+  },
+  {
+    "id": "24196",
+    "name": "Greva Sombria Fugaz"
+  },
+  {
+    "id": "24197",
+    "name": "Malha Sombria Fugaz"
   },
   {
     "id": "24208",
@@ -31176,8 +31352,68 @@
     "name": "Malha Sombria de Terra"
   },
   {
+    "id": "24326",
+    "name": "Armadura da Deusa"
+  },
+  {
+    "id": "24327",
+    "name": "Escudo da Deusa"
+  },
+  {
     "id": "24334",
     "name": "Malha Sombria Mágica"
+  },
+  {
+    "id": "24339",
+    "name": "Brinco Sombrio Total"
+  },
+  {
+    "id": "24340",
+    "name": "Colar Sombrio Total"
+  },
+  {
+    "id": "24360",
+    "name": "Luva Sombria de Tensão"
+  },
+  {
+    "id": "24361",
+    "name": "Brinco Sombrio de Tensão"
+  },
+  {
+    "id": "24362",
+    "name": "Colar Sombrio de Tensão"
+  },
+  {
+    "id": "24363",
+    "name": "Luva Sombria Elegante"
+  },
+  {
+    "id": "24364",
+    "name": "Brinco Sombrio Elegante"
+  },
+  {
+    "id": "24365",
+    "name": "Colar Sombrio Elegante"
+  },
+  {
+    "id": "24366",
+    "name": "Escudo Sombrio Medicinal"
+  },
+  {
+    "id": "24367",
+    "name": "Greva Sombria Medicinal"
+  },
+  {
+    "id": "24380",
+    "name": "Luva Sombria Sentimental"
+  },
+  {
+    "id": "24381",
+    "name": "Brinco Sombrio Sentimental"
+  },
+  {
+    "id": "24382",
+    "name": "Colar Sombrio Sentimental"
   },
   {
     "id": "25043",
@@ -31272,12 +31508,116 @@
     "name": "Travesseiro Moe da Alice"
   },
   {
+    "id": "25151",
+    "name": "Revólver de Rachel"
+  },
+  {
+    "id": "25152",
+    "name": "Buquê Cerimonial"
+  },
+  {
+    "id": "25153",
+    "name": "Resto de Arma Quebrada"
+  },
+  {
+    "id": "25154",
+    "name": "Pólvora Velha"
+  },
+  {
+    "id": "25155",
+    "name": "Brasão de Honra"
+  },
+  {
+    "id": "25156",
+    "name": "Pedaço de Quimera"
+  },
+  {
+    "id": "25157",
+    "name": "Galho de Folhas Secas"
+  },
+  {
+    "id": "25158",
+    "name": "Núcleo Gelatinoso"
+  },
+  {
+    "id": "25159",
+    "name": "Selo da Caça-Coração"
+  },
+  {
+    "id": "25160",
+    "name": "Livro Alugado"
+  },
+  {
+    "id": "25161",
+    "name": "Bolacha Caseira"
+  },
+  {
+    "id": "25162",
+    "name": "Anchova Crocante"
+  },
+  {
+    "id": "25163",
+    "name": "Panfleto de Loja"
+  },
+  {
+    "id": "25164",
+    "name": "Folhas Fresquinhas"
+  },
+  {
+    "id": "25165",
+    "name": "Chá Sofisicado"
+  },
+  {
+    "id": "25166",
+    "name": "Anéis Brilhantes"
+  },
+  {
+    "id": "25167",
+    "name": "Carta Antiga"
+  },
+  {
     "id": "25169",
     "name": "Gelatina Pegajosa"
   },
   {
+    "id": "25179",
+    "name": "Estrela da Bênção"
+  },
+  {
+    "id": "25180",
+    "name": "Antigas Alianças"
+  },
+  {
+    "id": "25181",
+    "name": "Rosário de Madeira"
+  },
+  {
+    "id": "25182",
+    "name": "Adaga de Assassino"
+  },
+  {
+    "id": "25183",
+    "name": "Dedal de Arco"
+  },
+  {
+    "id": "25184",
+    "name": "Materiais de Costura"
+  },
+  {
+    "id": "25185",
+    "name": "Colar com Medalhão"
+  },
+  {
     "id": "25187",
     "name": "Projétil Pesado"
+  },
+  {
+    "id": "25238",
+    "name": "Lubrificante Básico"
+  },
+  {
+    "id": "25239",
+    "name": "Lubrificante Refinado"
   },
   {
     "id": "25240",
@@ -31566,6 +31906,30 @@
   {
     "id": "27126",
     "name": "Carta Boitatá"
+  },
+  {
+    "id": "27147",
+    "name": "Carta Quimera Humana"
+  },
+  {
+    "id": "27148",
+    "name": "Carta Quimera Disforme"
+  },
+  {
+    "id": "27149",
+    "name": "Carta Caça-Coração"
+  },
+  {
+    "id": "27150",
+    "name": "Carta Quimera Venenosa"
+  },
+  {
+    "id": "27151",
+    "name": "Carta Malícia"
+  },
+  {
+    "id": "27152",
+    "name": "Carta Fofinho"
   },
   {
     "id": "27157",
@@ -31932,6 +32296,22 @@
     "name": "Exodus Joker XIII"
   },
   {
+    "id": "28223",
+    "name": "Finalizadora"
+  },
+  {
+    "id": "28224",
+    "name": "Tiro Centelha"
+  },
+  {
+    "id": "28225",
+    "name": "Rosa Labareda"
+  },
+  {
+    "id": "28226",
+    "name": "Vingador"
+  },
+  {
     "id": "28240",
     "name": "Olho de Cobra-Real"
   },
@@ -32100,6 +32480,14 @@
     "name": "Amuleto Minhocão"
   },
   {
+    "id": "28425",
+    "name": "Anel Mercenário A"
+  },
+  {
+    "id": "28426",
+    "name": "Anel Mercenário B"
+  },
+  {
     "id": "28430",
     "name": "Anel do Cardeal"
   },
@@ -32257,7 +32645,7 @@
   },
   {
     "id": "28598",
-    "name": "Fragmento de Chip "
+    "name": "Fragmento de Chip"
   },
   {
     "id": "28604",
@@ -32372,6 +32760,10 @@
     "name": "Escudo Higiênico"
   },
   {
+    "id": "28913",
+    "name": "Escudo de Davi"
+  },
+  {
     "id": "28921",
     "name": "Escudo de Anemos"
   },
@@ -32426,6 +32818,10 @@
   {
     "id": "28955",
     "name": "Escudo de Fotia"
+  },
+  {
+    "id": "28962",
+    "name": "Escudo Divino"
   },
   {
     "id": "29000",
@@ -33197,7 +33593,7 @@
   },
   {
     "id": "31062",
-    "name": "Peruca de Eleanor "
+    "name": "Peruca de Eleanor"
   },
   {
     "id": "31063",
@@ -33868,6 +34264,10 @@
     "name": "Peruca Rosa de Alice"
   },
   {
+    "id": "31409",
+    "name": "Elmo Reforçado"
+  },
+  {
     "id": "31420",
     "name": "Costume: Shining Santa Poring"
   },
@@ -34108,6 +34508,10 @@
     "name": "Gatchecol da Sorte"
   },
   {
+    "id": "31534",
+    "name": "Tiara Colorida"
+  },
+  {
     "id": "31536",
     "name": "Belzebu de Estimação"
   },
@@ -34142,6 +34546,10 @@
   {
     "id": "31547",
     "name": "Capuz de Poporing"
+  },
+  {
+    "id": "31557",
+    "name": "Elmo do Campeão"
   },
   {
     "id": "31559",
@@ -34180,6 +34588,10 @@
     "name": "Fones de Última Geração"
   },
   {
+    "id": "31570",
+    "name": "Visor Futurista"
+  },
+  {
     "id": "31571",
     "name": "Chipéu"
   },
@@ -34198,6 +34610,14 @@
   {
     "id": "31575",
     "name": "Peruca Turquesa de Waifu"
+  },
+  {
+    "id": "31584",
+    "name": "Cachecol de Marin"
+  },
+  {
+    "id": "31585",
+    "name": "Cachecol de Drops"
   },
   {
     "id": "31586",
@@ -34448,6 +34868,10 @@
     "name": "Chapéu de Casca"
   },
   {
+    "id": "31717",
+    "name": "Peruca Loira Ondulada"
+  },
+  {
     "id": "31719",
     "name": "Dobra de Fogo"
   },
@@ -34484,8 +34908,16 @@
     "name": "Gargalheira de Yawata"
   },
   {
+    "id": "31737",
+    "name": "Asas de Lúcifer"
+  },
+  {
     "id": "31762",
     "name": "Ás de Copas"
+  },
+  {
+    "id": "31765",
+    "name": "Tiara Adornada com Rubi"
   },
   {
     "id": "31787",
@@ -34494,6 +34926,10 @@
   {
     "id": "31788",
     "name": "Peruca Prateada da Piamette"
+  },
+  {
+    "id": "31798",
+    "name": "Panda Companheiro"
   },
   {
     "id": "31800",
@@ -34548,6 +34984,10 @@
     "name": "Peruca Curta de Gatinha Má"
   },
   {
+    "id": "31841",
+    "name": "Fone da Curtição"
+  },
+  {
     "id": "31842",
     "name": "Protetor do Almirante"
   },
@@ -34580,12 +35020,48 @@
     "name": "Manto de Lacinho"
   },
   {
+    "id": "31855",
+    "name": "Penteado Arrumadinho"
+  },
+  {
     "id": "31856",
     "name": "Peruca da Corte"
   },
   {
     "id": "31857",
     "name": "Peruca Lilás da Corte"
+  },
+  {
+    "id": "31858",
+    "name": "Aplique Azul"
+  },
+  {
+    "id": "31859",
+    "name": "Aplique Vermelho"
+  },
+  {
+    "id": "31860",
+    "name": "Aplique Amarelo"
+  },
+  {
+    "id": "31861",
+    "name": "Aplique Verde"
+  },
+  {
+    "id": "31862",
+    "name": "Aplique Preto"
+  },
+  {
+    "id": "31863",
+    "name": "Aplique Branco"
+  },
+  {
+    "id": "31864",
+    "name": "Aplique Marrom"
+  },
+  {
+    "id": "31865",
+    "name": "Aplique Roxo"
   },
   {
     "id": "31874",
@@ -34618,6 +35094,10 @@
   {
     "id": "31881",
     "name": "Peruca de Jaspe"
+  },
+  {
+    "id": "31884",
+    "name": "Elmo de Dragão Roxo"
   },
   {
     "id": "31885",
@@ -34656,6 +35136,10 @@
     "name": "Gravata Chique"
   },
   {
+    "id": "31921",
+    "name": "Peruca Natural"
+  },
+  {
     "id": "31923",
     "name": "Bebê Polar"
   },
@@ -34674,6 +35158,10 @@
   {
     "id": "31937",
     "name": "Adorno de Unicórnio"
+  },
+  {
+    "id": "31938",
+    "name": "Peruca de Trança Dupla"
   },
   {
     "id": "31939",
@@ -34700,12 +35188,60 @@
     "name": "Coleira do Vassalo"
   },
   {
+    "id": "31959",
+    "name": "Cabeleira Preta"
+  },
+  {
+    "id": "31960",
+    "name": "Cabeleira Azul"
+  },
+  {
+    "id": "31961",
+    "name": "Cabeleira Verde"
+  },
+  {
+    "id": "31962",
+    "name": "Cabeleira Bege"
+  },
+  {
+    "id": "31963",
+    "name": "Cabeleira Rosa"
+  },
+  {
+    "id": "31964",
+    "name": "Cabeleira Roxa"
+  },
+  {
+    "id": "31965",
+    "name": "Cabeleira Ruiva"
+  },
+  {
+    "id": "31966",
+    "name": "Cabeleira Branca"
+  },
+  {
+    "id": "31967",
+    "name": "Cabeleira Loira"
+  },
+  {
+    "id": "31968",
+    "name": "Peruca Castanho Claro"
+  },
+  {
+    "id": "31969",
+    "name": "Peruca Lilás"
+  },
+  {
+    "id": "31971",
+    "name": "Peruca Branca"
+  },
+  {
     "id": "32000",
     "name": "Lança de Oxum"
   },
   {
     "id": "32006",
-    "name": "Lança de Xangô "
+    "name": "Lança de Xangô"
   },
   {
     "id": "32013",
@@ -34752,6 +35288,10 @@
     "name": "Anel do Desbravador"
   },
   {
+    "id": "32258",
+    "name": "Anel de Júpiter"
+  },
+  {
     "id": "32262",
     "name": "Orbe Demoníaco"
   },
@@ -34761,7 +35301,7 @@
   },
   {
     "id": "32265",
-    "name": "??? ?? ?2?"
+    "name": "Diário do Renegado Cap.2"
   },
   {
     "id": "32268",
@@ -34776,12 +35316,32 @@
     "name": "Revólver Ancestral"
   },
   {
+    "id": "100007",
+    "name": "Super Poção Ilimitada"
+  },
+  {
+    "id": "100008",
+    "name": "Super Poção Infinita"
+  },
+  {
     "id": "100023",
     "name": "Joia Ancestral do Poder"
   },
   {
     "id": "100025",
     "name": "Joia Ancestral da Magia"
+  },
+  {
+    "id": "100579",
+    "name": "Gemas de Pingente"
+  },
+  {
+    "id": "100580",
+    "name": "Gema da Escuridão"
+  },
+  {
+    "id": "101053",
+    "name": "Arca Maior do Passe"
   },
   {
     "id": "200001",
@@ -34872,6 +35432,22 @@
     "name": "Protetor das Marés"
   },
   {
+    "id": "400113",
+    "name": "Adorno da Vitória"
+  },
+  {
+    "id": "400114",
+    "name": "Adorno da Vitória"
+  },
+  {
+    "id": "400158",
+    "name": "Coroa do Mal"
+  },
+  {
+    "id": "400166",
+    "name": "Capacete Aquatico"
+  },
+  {
     "id": "410000",
     "name": "Aura de Shen"
   },
@@ -34888,8 +35464,20 @@
     "name": "Aparato Flutuante"
   },
   {
+    "id": "410010",
+    "name": "Olhos Ilusórios"
+  },
+  {
     "id": "410011",
     "name": "Venda Sombrosa"
+  },
+  {
+    "id": "410023",
+    "name": "Laçarotes Vitalícios"
+  },
+  {
+    "id": "410024",
+    "name": "Laçarotes Vitalícios"
   },
   {
     "id": "410025",
@@ -34936,6 +35524,38 @@
     "name": "Trancinhas Roxas"
   },
   {
+    "id": "410038",
+    "name": "Trançado Azulado"
+  },
+  {
+    "id": "410039",
+    "name": "Trançado Avermelhado"
+  },
+  {
+    "id": "410040",
+    "name": "Trançado Amarelado"
+  },
+  {
+    "id": "410041",
+    "name": "Trançado Esverdejado"
+  },
+  {
+    "id": "410042",
+    "name": "Trançado Escurecido"
+  },
+  {
+    "id": "410043",
+    "name": "Trançado Branquinho"
+  },
+  {
+    "id": "410044",
+    "name": "Trançado Bronzeado"
+  },
+  {
+    "id": "410045",
+    "name": "Trançado Roxinho"
+  },
+  {
     "id": "410048",
     "name": "Tigre Companheiro"
   },
@@ -34946,6 +35566,38 @@
   {
     "id": "410055",
     "name": "Sombrinha Florida"
+  },
+  {
+    "id": "410056",
+    "name": "Patinho Bonito"
+  },
+  {
+    "id": "410061",
+    "name": "Avental de Deviruchi"
+  },
+  {
+    "id": "410064",
+    "name": "Visor de Mergulho"
+  },
+  {
+    "id": "410065",
+    "name": "Visor de Mergulho"
+  },
+  {
+    "id": "410066",
+    "name": "Mini Óculos"
+  },
+  {
+    "id": "410067",
+    "name": "Mini Óculos"
+  },
+  {
+    "id": "410082",
+    "name": "Balões de Aniversário"
+  },
+  {
+    "id": "410095",
+    "name": "Angorá de Ombro"
   },
   {
     "id": "420006",
@@ -34992,6 +35644,18 @@
     "name": "Broto dos Anciões INT"
   },
   {
+    "id": "420025",
+    "name": "Olho Gigante"
+  },
+  {
+    "id": "420026",
+    "name": "Gravata Bombom"
+  },
+  {
+    "id": "420027",
+    "name": "Peruca de Sereia"
+  },
+  {
     "id": "420028",
     "name": "Ombreiras da Glória"
   },
@@ -35006,6 +35670,46 @@
   {
     "id": "420047",
     "name": "Capa de Cavaleiro"
+  },
+  {
+    "id": "420050",
+    "name": "Peruca com Bao-Bao"
+  },
+  {
+    "id": "420053",
+    "name": "Sombra de Deviruchi"
+  },
+  {
+    "id": "420054",
+    "name": "Cachecol de Fumacento"
+  },
+  {
+    "id": "420057",
+    "name": "Peruca Ruiva"
+  },
+  {
+    "id": "420058",
+    "name": "Peruca Loira"
+  },
+  {
+    "id": "420059",
+    "name": "Peruca Azul"
+  },
+  {
+    "id": "420060",
+    "name": "Peruca Verde"
+  },
+  {
+    "id": "420061",
+    "name": "Peruca Rosa"
+  },
+  {
+    "id": "420062",
+    "name": "Peruca Roxa"
+  },
+  {
+    "id": "420071",
+    "name": "Cachecol com Tiras"
   },
   {
     "id": "436003",
@@ -35036,6 +35740,14 @@
     "name": "Biquíni de Escamas"
   },
   {
+    "id": "450010",
+    "name": "Robe Chique"
+  },
+  {
+    "id": "450120",
+    "name": "Armadura Resistente"
+  },
+  {
     "id": "450132",
     "name": "Robe Mágico"
   },
@@ -35044,8 +35756,20 @@
     "name": "Couraça do Orc"
   },
   {
+    "id": "450162",
+    "name": "Vestimenta Impecável"
+  },
+  {
+    "id": "450163",
+    "name": "Manto do Cientista"
+  },
+  {
     "id": "450164",
     "name": "Cota das Marés"
+  },
+  {
+    "id": "450176",
+    "name": "Jetpack Robusta"
   },
   {
     "id": "460000",
@@ -35068,6 +35792,10 @@
     "name": "Botas Elementais"
   },
   {
+    "id": "470049",
+    "name": "Botas da Pororoca"
+  },
+  {
     "id": "470050",
     "name": "Chinela de Pau"
   },
@@ -35080,8 +35808,20 @@
     "name": "Sapatos do Perseguidor"
   },
   {
+    "id": "470060",
+    "name": "Botas de Teste"
+  },
+  {
+    "id": "470061",
+    "name": "Botas de Teste"
+  },
+  {
     "id": "470070",
     "name": "Coturnos das Marés"
+  },
+  {
+    "id": "470075",
+    "name": "Sandálias Antigas"
   },
   {
     "id": "470084",
@@ -35108,6 +35848,10 @@
     "name": "Asas Amaldiçoadas de Arcanjo"
   },
   {
+    "id": "480058",
+    "name": "Asas Áureas de Arcanjo"
+  },
+  {
     "id": "480064",
     "name": "Abafador de Tempestades"
   },
@@ -35124,8 +35868,20 @@
     "name": "Capa de Magma"
   },
   {
+    "id": "480081",
+    "name": "Manto Do Flamingo Negro"
+  },
+  {
+    "id": "480082",
+    "name": "Asas Radiantes"
+  },
+  {
     "id": "480083",
     "name": "Sobrepeliz das Marés"
+  },
+  {
+    "id": "480084",
+    "name": "Manto De Fafnir"
   },
   {
     "id": "480085",
@@ -35136,12 +35892,56 @@
     "name": "Cetro da Dinastia"
   },
   {
+    "id": "480094",
+    "name": "Manto de Javali"
+  },
+  {
     "id": "480095",
     "name": "Mochila de Coelho"
   },
   {
     "id": "480096",
     "name": "Casaco Aconchegante"
+  },
+  {
+    "id": "480107",
+    "name": "Espadas Cruzadas"
+  },
+  {
+    "id": "480108",
+    "name": "Cesta de Porings"
+  },
+  {
+    "id": "480110",
+    "name": "Mochila do Doram Aventureiro"
+  },
+  {
+    "id": "480111",
+    "name": "Buquê de Asas"
+  },
+  {
+    "id": "480118",
+    "name": "Espada do General"
+  },
+  {
+    "id": "480121",
+    "name": "Asas Orientais"
+  },
+  {
+    "id": "480123",
+    "name": "Asas Floridas"
+  },
+  {
+    "id": "480126",
+    "name": "Tubarão Fofinho"
+  },
+  {
+    "id": "480127",
+    "name": "Chapéu Pendurado de Palha"
+  },
+  {
+    "id": "480131",
+    "name": "Chama Circular"
   },
   {
     "id": "490013",
@@ -35164,6 +35964,14 @@
     "name": "Anel Obscuro"
   },
   {
+    "id": "490068",
+    "name": "Anel de Vênus"
+  },
+  {
+    "id": "490071",
+    "name": "Amuleto Caolho"
+  },
+  {
     "id": "490076",
     "name": "Anel Distorcido"
   },
@@ -35182,6 +35990,30 @@
   {
     "id": "490093",
     "name": "Pingente das Marés"
+  },
+  {
+    "id": "490096",
+    "name": "Joia do Renegado"
+  },
+  {
+    "id": "490099",
+    "name": "Pingente de Thanatos"
+  },
+  {
+    "id": "490100",
+    "name": "Pingente da Força Física"
+  },
+  {
+    "id": "490101",
+    "name": "Pingente da Força Mental"
+  },
+  {
+    "id": "490104",
+    "name": "Anel da Águia Escarlate"
+  },
+  {
+    "id": "490130",
+    "name": "Pulseira de Ferro Trançado"
   },
   {
     "id": "500003",

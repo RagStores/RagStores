@@ -13,8 +13,8 @@ jQuery(document).ready(function($) {
         // Restrict elements
         if (txtFullName != "txtRefine-flexdatalist" &&
         txtFullName != "txtItens-flexdatalist" &&
-        txtFullName != "flexdatalist-txtCards" &&
-        txtFullName != "flexdatalist-txtEnchants" &&
+        txtFullName != "txtCards-flexdatalist" &&
+        txtFullName != "txtEnchants-flexdatalist" &&
         txtFullName != "s-flexdatalist") {
 
             // Lost focus

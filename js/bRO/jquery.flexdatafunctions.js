@@ -103,7 +103,7 @@ jQuery(document).ready(function($) {
     minLength: 999
   });
 
-  $("#txtUserCupon").flexdatalist({ // Account Page
+  $("#txtUserCoupon").flexdatalist({ // Account Page
     limitOfValues: 1,
     multiple: true,
     minLength: 999
@@ -246,7 +246,21 @@ jQuery(document).ready(function($) {
     minLength: 20
   });
   $("#txtTabNiceName-flexdatalist").mask(
-    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",{
+    "AAAAAAAAAAAAAAAAAAAA",{
+      //reverse: true,
+      translation: {
+        'A': {pattern: /[ A-zÀ-ÿ0-9@#!>?_-]/, optional: true}
+      }
+      
+  });
+
+  $("#txtTabNiceNameChild").flexdatalist({ // Account Page
+    limitOfValues: 1,
+    multiple: true,
+    minLength: 20
+  });
+  $("#txtTabNiceNameChild-flexdatalist").mask(
+    "AAAAAAAAAAAAAAAAAAAA",{
       //reverse: true,
       translation: {
         'A': {pattern: /[ A-zÀ-ÿ0-9@#!>?_-]/, optional: true}
@@ -283,6 +297,15 @@ jQuery(document).ready(function($) {
  });
 
   $("#txtAccountNickname-flexdatalist").mask( // Account Page
+    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",{
+      //reverse: true,
+      translation: {
+        'A': {pattern: /[ A-z0-9_-]/}
+      }
+      
+  });
+
+  $("#txtUserCoupon-flexdatalist").mask( // Account Page
     "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",{
       //reverse: true,
       translation: {

@@ -120,4 +120,17 @@ jQuery(document).ready(function($) {
     }
   });
 
+  /**
+   * Visual Costume List
+   */
+   $("#costume-list").dataTable({
+    "iDisplayLength": 10,
+    "aLengthMenu": [[10, 18, 45, 90, -1], [10, 18, 45, 90, "Todos"]],
+    "pagingType": "full",
+    "ordering": false,
+    language: {
+      url: "https://cdn.datatables.net/plug-ins/1.10.22/i18n/Portuguese-Brasil.json"
+    }
+  });
+
 });
