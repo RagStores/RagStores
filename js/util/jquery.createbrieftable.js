@@ -277,7 +277,7 @@ jQuery(document).ready(function ($) {
         ); // Image
         table.append(
           $(
-              "<td class='inputValue'><a href='https://www.divine-pride.net/database/item/" +
+              "<td class='inputValue'><a href='/search/" +
               jsonGlobalBrief[index]["txtItensId"] +
               "' target='_blank'>" +
               jsonGlobalBrief[index]["txtItensName"] +
@@ -290,7 +290,7 @@ jQuery(document).ready(function ($) {
           $("<td style='white-space: pre;'>")
           .addClass("inputValue")
           .addClass("txtCardsRow")
-          .text(jsonGlobalBrief[index]["txtCards"].replaceAll("*", "<br>"))
+          .text(jsonGlobalBrief[index]["txtCards"].replaceAll("*", "\n"))
         ); // Name
 
         // Enchants
@@ -298,7 +298,7 @@ jQuery(document).ready(function ($) {
           $("<td style='white-space: pre;'>")
           .addClass("inputValue")
           .addClass("txtEnchantsRow")
-          .text(jsonGlobalBrief[index]["txtEnchants"].replaceAll("*", "<br>"))
+          .text(jsonGlobalBrief[index]["txtEnchants"].replaceAll("*", "\n"))
         ); // Name
 
         // Amount

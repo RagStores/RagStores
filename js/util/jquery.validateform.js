@@ -206,19 +206,23 @@ jQuery(document).ready(function($) {
   // Account Page
   $("#txtAccountNickname").on("change", function() {
     $("#btnAcchountNickname").prop("disabled", false); // Element(s) are now enabled.
-    $(".account-nickname .hint-error-div").addClass("hide"); // Hide error
+    $(".account-nickname .hint-error-div").addClass("hide");
+    $(".account-nickname .hint-div").addClass("hide");
   });
 
   $("#txtAccountSocial").on("change", function() {
     //alert($("#txtAccountSocial").val());
     $("#btnAcchountSocial").prop("disabled", false); // Element(s) are now enabled.
     $(".account-social .hint-error-div").addClass("hide"); // Hide error
+    $(".account-social .hint-div").addClass("hide");
   });
+  
   $(document).on("click", "#btnAcchountSocial", function(e) {
 
     if ($("#txtAccountSocial").val().toLowerCase().indexOf("facebook") < 0 &&
     $("#txtAccountSocial").val().toLowerCase().indexOf("twitter") < 0 &&
-    $("#txtAccountSocial").val().toLowerCase().indexOf("youtube.com/channel") < 0) { // Has no FB or Twitter - ERROR
+    $("#txtAccountSocial").val().toLowerCase().indexOf("youtube.com/channel") < 0 &&
+    $("#txtAccountSocial").val().toLowerCase().indexOf("twitch.tv/") < 0) { // Has no FB or Twitter - ERROR
       // Prevent the default action
       e.preventDefault();
 
@@ -228,9 +232,9 @@ jQuery(document).ready(function($) {
 
   });
 
-  $("#txtUserCupon").on("change", function() {
-    $("#btnUserCupon").prop("disabled", false); // Element(s) are now enabled.
-    $(".user-cupon .hint-error-div").addClass("hide"); // Hide error
+  $("#txtUserCoupon").on("change", function() {
+    $("#btnUsercoupon").prop("disabled", false); // Element(s) are now enabled.
+    $(".user-coupon .hint-error-div").addClass("hide"); // Hide error
   });
 
   $("#btnEyeAccount .fa-eye-slash").on("click", function() {

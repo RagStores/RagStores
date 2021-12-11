@@ -101,4 +101,37 @@ jQuery(document).ready(function($) {
           $("#search-table-thor").addClass("hide");
         });
 
+  // 'Tabela de Itens' Rename and Delete options
+  $("a.btnTabSaleEditRow") // Edit
+        .on("click", function(){
+          var idOfParent = $(this).parents("tr").attr("id");
+          var txtTabNiceName = $(".name-dataRow-"+idOfParent).text();
+
+          // Toggled
+          $("#child-nicename").removeClass("hide");
+          $(".child-delete").addClass("hide");
+          $(".table-sale-edit-div .hint-error-div").addClass("hide");
+
+          // Check the correct Radio Button
+          $("input[name='rdbTabSaleRowId'][value='"+idOfParent+"']").prop("checked",true);
+
+          // Insert value in input text name
+          $("#txtTabNiceNameChild").val(txtTabNiceName);
+        });
+  $("a.btnTabSaleDeleteRow") // Delete
+        .on("click", function(){
+          var idOfParent = $(this).parents("tr").attr("id");
+          var childDeleteRow = "#child-delete-"+idOfParent;
+
+          // Toggled
+          $(".child-delete").addClass("hide");
+          $(childDeleteRow).removeClass("hide");
+          $("#child-nicename").addClass("hide");
+          $(".table-sale-edit-div .hint-error-div").addClass("hide");
+
+          // Check the correct Radio Button
+          $("input[name='rdbTabSaleRowId'][value='"+idOfParent+"']").prop("checked",true);
+        });
+    
+
 });
