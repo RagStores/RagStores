@@ -40,6 +40,9 @@ a.navbar-brand {
 a.menu-image-title-hide.menu-image-not-hovered { /*Image Menu*/
     padding: 0px !important;
 }
+.menu-item-4794 a, .menu-item-4827 a { /* Criar anúncio */
+    color: #1ba4e2 !important;
+}
 
 /*
 ============
@@ -275,7 +278,7 @@ blockquote {
 .rs-comum-post p {
     margin: 0 0 15px !important;
 }
-.sale-content-single .table-sale-form-post th.qdt-dataTitle {
+.sale-content-single .table-sale-form-post th.qdt-dataTitle, .sale-content-single .table-sale-form-post th.zeny-dataTitle {
     text-align: center;
 }
 .sale-content-single .table-sale-form-post th, .sale-content-single .table-sale-form-post td, .search-result .table-sale-form-post th, .search-result .table-sale-form-post td {
@@ -312,7 +315,7 @@ blockquote {
 .sale-content-single .table-sale-form-post td.img-dataRow {
     width: 38px;
 }
-.sale-content-single span.hint {
+.sale-content-single .sale-main-content span.hint {
     font-size: 11px;
 }
 .sale-content-single .policies {
@@ -410,9 +413,16 @@ input[type="submit"].offer-button:hover {
     box-shadow: 0 14px 26px -12px rgba(177,124,100,0.42), 0 4px 23px 0 rgba(177,124,100,0.12), 0 8px 10px -5px rgba(177,124,100,0.2) !important;
 
 }
+.countdown {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
 
 
-.dataRow img.ingame-item:hover {
+.dataRow img.ingame-item:hover, .img-item-search img:hover {
     transform: scale(1.2);
 
 }
@@ -435,6 +445,14 @@ input[type="submit"].offer-button:hover {
     .sale-content-single .single-post-wrap p:not(.meta-in-content) {
         font-size: 16px;
     }
+}
+
+.item-name-id {
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-items: start;
+    justify-content: start;
 }
 
 
@@ -557,6 +575,11 @@ input[type="submit"].offer-button:hover {
     left: -12%;
     top: -4%;
 }
+.offer-content .sale-form-group .steps.step-three img.kawaii {
+    width: 20%;
+    left: -1%;
+    top: -4%;
+}
 .sale-form-group .steps.final-step img.kawaii {
     right: -8%;
     bottom: -2%;
@@ -584,7 +607,7 @@ input[type="submit"].offer-button:hover {
     border-top: 1px solid #eee;
     padding-top: 6px;
 }
-.sale-form-group .hint, .delete-post .hint, .form-account-social span.hint, .form-account-nickname span.hint, span.hint {
+.sale-form-group .hint, .offer-content .hint, .delete-post .hint, .form-account-social span.hint, .form-account-nickname span.hint, span.hint {
     font-size: 13px;
 }
 .hint-error{
@@ -639,7 +662,7 @@ input[type="submit"].offer-button:hover {
     padding: 0px;
     margin-bottom: 10px;
 }
-.sale-form-group .sale-margin {
+.sale-form-group .sale-margin, .container-margin {
     margin: 4% 0px 4% 0px;
 }
 .sale-form-group .um-field-area {
@@ -670,11 +693,21 @@ input[type="submit"].offer-button:hover {
 i.fas.fa-trash-alt {
     color: #b04a65;
 }
+i.fas.fa-ban, i.fa-long-arrow-alt-right, .profit-right, .offer-manager .child th {
+    color: #7a7a7a;
+}
 .sale-form-group .animatedLoading {
     position: absolute;
     right: 46%;
     top: 35%;
 }
+i.fa-long-arrow-alt-up, .profit-up {
+    color: #4ca6a6;    
+}
+i.fa-long-arrow-alt-down, .profit-down {
+    color: #ff7373;  
+}
+
 
 /* Seta */
 .arrow {
@@ -718,19 +751,19 @@ i.fas.fa-trash-alt {
 .search-result .a-table-name-item {
     color: #1580b0;
 }
-.search-database .min-item-search, .visual-costume .min-item-search {
+.min-item-search {
     display: flex;
     align-items: center;
     align-content: center;
     flex-direction: row;
 }
-.search-database .img-item-search, .visual-costume .img-item-search {
+.img-item-search {
     padding: 5px;
     background-color: #fbf7e2;
     border-radius: 8px;
     margin-right: 8px;
 }
-.search-database .desc-item-search, .visual-costume .desc-item-search {
+.desc-item-search {
     margin-top: 4px;
     display: flex;
     align-items: center;
@@ -738,24 +771,24 @@ i.fas.fa-trash-alt {
     align-content: center;
     flex-direction: row;
 }
-.search-database hr, .visual-costume hr {
+hr {
     margin-top: 5px;
     margin-bottom: 5px;  
 }
 .search-no-results .col-md-12 h1.hestia-title.title-in-content {
     display: none;
 }
-.search-database h1.hestia-title.title-in-content, .visual-costume h1.hestia-title.title-in-content {
+h1.hestia-title.title-in-content {
     margin-bottom: 60px;
 }
-.search-database .left-info, .visual-costume .left-info{
+.left-info {
     margin-top: 30px;
 }
-.search-database .left-info ul, .visual-costume .left-info ul{
+.left-info ul {
     padding-left: 1em;
-    font-size: 12px;
+    font-size: 12px !important;
 }
-.search-database .list-left-info, .visual-costume .list-left-info{
+.list-left-info {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -763,10 +796,10 @@ i.fas.fa-trash-alt {
     justify-content: space-between;
     align-items: center;
 }
-.search-database .wp-block-columns, .visual-costume .wp-block-columns {
+.wp-block-columns {
     margin: 0px;
 }
-.search-database .info-item-search.wp-block-column, .visual-costume .info-item-search.wp-block-column{
+.info-item-search.wp-block-column {
     padding-left: 10px;
 }
 
@@ -815,8 +848,11 @@ i.fas.fa-trash-alt {
     -webkit-filter: contrast(105%) saturate(120%) drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
     -moz-filter: contrast(105%) saturate(120%) drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
 }
-form#view-all-costume {
-    text-align: end;
+form#view-all-costume, .left-info-date-time {
+    text-align: right;
+}
+table#costume-list thead {
+    display: none;
 }
 
 /* Search Statistics */
@@ -1124,10 +1160,10 @@ button.wprc-switch:after {
 }
 
 
-input#btnSubmit, input#btnNewTable { /* Sale Form - Final Step - Button*/
+input#btnSubmit, input#btnSubmitOffer, input#btnNewTable { /* Sale Form - Final Step - Button*/
     filter: drop-shadow(0px 0px 2px rgba(95, 66, 50, 0.7));
 }
-input#btnSubmit:hover, .front_page_donate a:not(.btn):not(.button):not(.added_to_cart):hover, img.btnDonate:hover, input#btnNewTable:hover { 
+input#btnSubmit:hover, input#btnSubmitOffer:hover, .front_page_donate a:not(.btn):not(.button):not(.added_to_cart):hover, img.btnDonate:hover, input#btnNewTable:hover { 
     opacity: .85;
 }
 /* Ultimate Member Buttons */
@@ -1151,7 +1187,7 @@ input[type="submit"]:not(.search-submit) {
     margin-left: 2%;
     width: 97%;
 }
-.page-template-search-all-items td.child-value, #tableHome td.child-value {
+.page-template-search-all-items td.child-value, #tableHome td.child-value, .offer-manager .child th {
     font-size: 12px;
 }
 

@@ -3,6 +3,14 @@ jQuery(document).ready(function($) {
 	 ** Validate some fields before submit
    ** https://stackoverflow.com/questions/28123236/validate-form-before-submit-jquery
 	 */
+
+  /**********************************************************************
+   ** Generate random numbers
+   ** https://stackoverflow.com/questions/4959975/generate-random-number-between-two-numbers-in-javascript  
+   ***********************************************************************/ 
+  $.randomIntFromInterval = function(min, max) { // min and max included 
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  }
    
   /************************************************************************
    ** Scroll to element
@@ -56,7 +64,7 @@ jQuery(document).ready(function($) {
       ////e.preventDefault(); 
 
       // Unclickable button
-      $("form #btnSubmit").css({ opacity: 0.2 }).attr("disabled");
+      $("form #btnSubmit").css({ opacity: 0.2 })/*.prop("disabled", true)*/;
       $("form .animatedLoading").removeClass("hide");
 
     } else {
@@ -115,7 +123,12 @@ jQuery(document).ready(function($) {
       }
 
       if(grecaptcha.getResponse().length == 0) {
-        $(".final-step .hint-error-div").removeClass("hide");
+        //$(".final-step .hint-error-div").removeClass("hide");
+        $(".final-step .checkbox-group-enter div").removeClass("hide");
+      }
+
+      if(hcaptcha.getResponse().length == 0) {
+        //$(".final-step .hint-error-div").removeClass("hide");
         $(".final-step .checkbox-group-enter div").removeClass("hide");
       }
 
@@ -188,7 +201,7 @@ jQuery(document).ready(function($) {
 
     if (dataTable.length > 0 ) { 
       // Unclickable button
-      $("form #btnNewTable").css({ opacity: 0.2 }).attr("disabled");
+      $("form #btnNewTable").css({ opacity: 0.2 })/*.prop("disabled", true)*/;
       $("form .animatedLoading").removeClass("hide");
  
     } else {
@@ -222,6 +235,9 @@ jQuery(document).ready(function($) {
     if ($("#txtAccountSocial").val().toLowerCase().indexOf("facebook") < 0 &&
     $("#txtAccountSocial").val().toLowerCase().indexOf("twitter") < 0 &&
     $("#txtAccountSocial").val().toLowerCase().indexOf("youtube.com/channel") < 0 &&
+    $("#txtAccountSocial").val().toLowerCase().indexOf("youtube.com/c") < 0 &&
+    $("#txtAccountSocial").val().toLowerCase().indexOf("youtube.com/user") < 0 &&
+    $("#txtAccountSocial").val().toLowerCase().indexOf("@discord") < 0 &&
     $("#txtAccountSocial").val().toLowerCase().indexOf("twitch.tv/") < 0) { // Has no FB or Twitter - ERROR
       // Prevent the default action
       e.preventDefault();
@@ -259,7 +275,7 @@ jQuery(document).ready(function($) {
     if(this.checked) {
       $(".step-two .item-three .checkbox-group-time div").addClass("hide"); // Hide 
 
-      // Verify together if txtMaps has value
+      // Verify also if txtMaps has value
       if($("#txtMaps").val() && $("#txtCoord").val()) {
         $(".step-two .hint-error-div").addClass("hide");
       }
@@ -271,7 +287,7 @@ jQuery(document).ready(function($) {
     if(this.checked) {
       $(".step-two .item-three .checkbox-group-week div").addClass("hide");
 
-      // Verify together if txtMaps has value
+      // Verify also if txtMaps has value
       if($("#txtMaps").val() && $("#txtCoord").val()) {
         $(".step-two .hint-error-div").addClass("hide");
       }
@@ -283,5 +299,84 @@ jQuery(document).ready(function($) {
       $(".final-step .checkbox-group-enter div").addClass("hide");
     }
   });
+
+
+  /**********************
+   ** Offer Form
+   **********************/
+  /**
+   ** Items removed by the author of the post
+   */
+  $("#btnActionStopOfferRow .fas.fa-ban").on("click", function() {
+    $("#offer-form .step-brief .hint-error-div").toggleClass("hide");
+  });
+
+  /** 
+   ** Disable form submit on Enter
+   ** https://stackoverflow.com/questions/11235622/jquery-disable-form-submit-on-enter 
+  */
+  $("#offer-form").on("keyup keypress", function(e) {
+    var keyCode = e.keyCode || e.which;
+    if (keyCode === 13) { 
+      e.preventDefault();
+      return false;
+    }
+  });
+
+  $(document).on("click", "form #btnSubmitOffer", function(e) {
+
+    if(hcaptcha.getResponse().length > 0) {
+      // All good, go ahead
+      // Unclickable button
+      $("form #btnSubmitOffer").css({ opacity: 0.2 })/*.prop("disabled", true)*/;
+      $("form .animatedLoading").removeClass("hide");
+
+    } else {
+      e.preventDefault();
+      
+      $(".step-three .hint-error-div").addClass("hide");
+      $(".final-step .checkbox-group-enter div").removeClass("hide");
+      
+    }
+
+
+  });
+
+  /***************************************************************
+   ** Countdown 
+   ** https://www.w3schools.com/howto/howto_js_countdown.asp
+   ***************************************************************/
+  /** @type {number} Unix timestamp. */ var lastEdition = parseInt($("#last-offer-edition").val());
+  // Adding random time to prevent often update 
+  lastEdition = (lastEdition + $.randomIntFromInterval(240,720))*1000;
+
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+
+    /** @type {number} Unix timestamp in miliseconds now. */var now = new Date().getTime();
+      
+    // Find the distance between now and the count down date
+    var distance = lastEdition - now;
+      
+    // Time calculations for days, hours, minutes and seconds
+    //var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    //var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+    // Output the result in an element with id="demo"
+    $("div.countdown span").text("Aguarde " + minutes + "m " + seconds + "s para fazer uma nova oferta.");
+      
+    // If the count down is over, write some text 
+    if (distance < 0) {
+      clearInterval(x);
+      $("div.countdown").addClass("hide");
+      $("form #btnSubmitOffer").css({ opacity: 1 }).prop("disabled", false);
+      
+    } else {
+      $("div.countdown").removeClass("hide");
+      $("form #btnSubmitOffer").css({ opacity: 0.2 }).prop("disabled", true);
+    }
+  }, 1000);
 
 });

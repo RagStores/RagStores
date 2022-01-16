@@ -9208,6 +9208,10 @@
     "name": "Carta Belzebu Selada"
   },
   {
+    "id": "4488",
+    "name": "Carta Senhor das Trevas Selada"
+  },
+  {
     "id": "4491",
     "name": "Carta Atiradora de Elite Cecil Selada"
   },
@@ -13378,6 +13382,10 @@
   {
     "id": "5914",
     "name": "Aura Esplêndida"
+  },
+  {
+    "id": "5915",
+    "name": "Véu de Anjo"
   },
   {
     "id": "5918",
@@ -27088,6 +27096,10 @@
     "name": "Mão do Demônio"
   },
   {
+    "id": "19337",
+    "name": "Capacete de Aviador"
+  },
+  {
     "id": "19349",
     "name": "Chapepperoni"
   },
@@ -27126,6 +27138,10 @@
   {
     "id": "19381",
     "name": "Echarpe do Paraíso"
+  },
+  {
+    "id": "19387",
+    "name": "Amistr Resistente"
   },
   {
     "id": "19390",
@@ -27392,6 +27408,10 @@
     "name": "Máscara do Xogum"
   },
   {
+    "id": "19570",
+    "name": "Elmo Mercurial"
+  },
+  {
     "id": "19573",
     "name": "Tiara do Amor"
   },
@@ -27582,6 +27602,10 @@
   {
     "id": "19661",
     "name": "Cartola Adocicada"
+  },
+  {
+    "id": "19664",
+    "name": "Tiara do Festival"
   },
   {
     "id": "19667",
@@ -29532,6 +29556,14 @@
     "name": "Aura de Poring"
   },
   {
+    "id": "20559",
+    "name": "Aura Escarlate"
+  },
+  {
+    "id": "20567",
+    "name": "Aura Gótica"
+  },
+  {
     "id": "20570",
     "name": "Mochocochila"
   },
@@ -29606,6 +29638,10 @@
   {
     "id": "20591",
     "name": "Arco da Coragem"
+  },
+  {
+    "id": "20592",
+    "name": "Bolsa de Brinquedos"
   },
   {
     "id": "20593",
@@ -30088,6 +30124,10 @@
     "name": "Porquinho"
   },
   {
+    "id": "21207",
+    "name": "Máscara de Minorous"
+  },
+  {
     "id": "22000",
     "name": "Botas Temporais FOR"
   },
@@ -30406,6 +30446,10 @@
   {
     "id": "22235",
     "name": "Botas Felpudas"
+  },
+  {
+    "id": "22245",
+    "name": "[MEGA] Botas Espaciais"
   },
   {
     "id": "22507",
@@ -34072,6 +34116,10 @@
     "name": "Asinhas Estilosas (Baixo)"
   },
   {
+    "id": "31290",
+    "name": "Quepe com Asinhas"
+  },
+  {
     "id": "31293",
     "name": "Coroa de Pétalas de Lavanda"
   },
@@ -34270,6 +34318,10 @@
   {
     "id": "31420",
     "name": "Costume: Shining Santa Poring"
+  },
+  {
+    "id": "31431",
+    "name": "Chapéu de Curupira"
   },
   {
     "id": "31432",
@@ -34960,6 +35012,10 @@
     "name": "Coelhos Celestiais"
   },
   {
+    "id": "31818",
+    "name": "O Melhor Jogador"
+  },
+  {
     "id": "31819",
     "name": "Cabeça Invisível"
   },
@@ -35062,6 +35118,38 @@
   {
     "id": "31865",
     "name": "Aplique Roxo"
+  },
+  {
+    "id": "31866",
+    "name": "Tiara de Trança Azul"
+  },
+  {
+    "id": "31867",
+    "name": "Tiara de Trança Ruiva"
+  },
+  {
+    "id": "31868",
+    "name": "Tiara de Trança Loira"
+  },
+  {
+    "id": "31869",
+    "name": "Tiara de Trança Verde"
+  },
+  {
+    "id": "31870",
+    "name": "Tiara de Trança Preta"
+  },
+  {
+    "id": "31871",
+    "name": "Tiara de Trança Branca"
+  },
+  {
+    "id": "31872",
+    "name": "Tiara de Trança Marrom"
+  },
+  {
+    "id": "31873",
+    "name": "Tiara de Trança Roxa"
   },
   {
     "id": "31874",
@@ -35188,6 +35276,10 @@
     "name": "Coleira do Vassalo"
   },
   {
+    "id": "31957",
+    "name": "Aura Venenosa"
+  },
+  {
     "id": "31959",
     "name": "Cabeleira Preta"
   },
@@ -35312,6 +35404,10 @@
     "name": "Brincos de Carnium"
   },
   {
+    "id": "32295",
+    "name": "Colar de Cristal"
+  },
+  {
     "id": "32302",
     "name": "Revólver Ancestral"
   },
@@ -35338,6 +35434,10 @@
   {
     "id": "100580",
     "name": "Gema da Escuridão"
+  },
+  {
+    "id": "100710",
+    "name": "Processador Avançado"
   },
   {
     "id": "101053",
@@ -35412,6 +35512,10 @@
     "name": "Coroa Brilhante Adornada"
   },
   {
+    "id": "400073",
+    "name": "Pétalas de Rosa"
+  },
+  {
     "id": "400075",
     "name": "Tiara de Astrea"
   },
@@ -35445,7 +35549,7 @@
   },
   {
     "id": "400166",
-    "name": "Capacete Aquatico"
+    "name": "Capacete Aquático"
   },
   {
     "id": "410000",
@@ -35470,6 +35574,10 @@
   {
     "id": "410011",
     "name": "Venda Sombrosa"
+  },
+  {
+    "id": "410013",
+    "name": "Comunicador Avançado"
   },
   {
     "id": "410023",
@@ -35558,6 +35666,10 @@
   {
     "id": "410048",
     "name": "Tigre Companheiro"
+  },
+  {
+    "id": "410051",
+    "name": "Mini Geada"
   },
   {
     "id": "410054",
@@ -35756,6 +35868,10 @@
     "name": "Couraça do Orc"
   },
   {
+    "id": "450158",
+    "name": "[MEGA] Robe Gelado"
+  },
+  {
     "id": "450162",
     "name": "Vestimenta Impecável"
   },
@@ -35770,6 +35886,14 @@
   {
     "id": "450176",
     "name": "Jetpack Robusta"
+  },
+  {
+    "id": "450179",
+    "name": "Vestido da Celine"
+  },
+  {
+    "id": "450181",
+    "name": "[MEGA] Vestimenta de Seda"
   },
   {
     "id": "460000",
@@ -35790,6 +35914,10 @@
   {
     "id": "470033",
     "name": "Botas Elementais"
+  },
+  {
+    "id": "470047",
+    "name": "[MEGA] Patas de Raposas"
   },
   {
     "id": "470049",
@@ -36014,6 +36142,10 @@
   {
     "id": "490130",
     "name": "Pulseira de Ferro Trançado"
+  },
+  {
+    "id": "490141",
+    "name": "Palheta de Elunium"
   },
   {
     "id": "500003",
