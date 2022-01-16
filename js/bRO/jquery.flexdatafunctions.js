@@ -120,7 +120,7 @@ jQuery(document).ready(function($) {
      searchByWord: true,
      selectionRequired: true,
      multiple: true,
-     maxShownResults: 5
+     maxShownResults: 8
 	});
   $(".item-search-bar").flexdatalist({ // Search Bar
      minLength: 1,
@@ -133,7 +133,7 @@ jQuery(document).ready(function($) {
      searchByWord: true,
      selectionRequired: true,
      multiple: true,
-     maxShownResults: 5
+     maxShownResults: 8
   });
   
   $("#txtCards").flexdatalist({
@@ -147,7 +147,7 @@ jQuery(document).ready(function($) {
      selectionRequired: true,
      multiple: true,
      allowDuplicateValues: true,
-     maxShownResults: 5
+     maxShownResults: 8
 	});
 
   $("#txtEnchants").flexdatalist({
@@ -161,7 +161,7 @@ jQuery(document).ready(function($) {
      selectionRequired: true,
      multiple: true,
      allowDuplicateValues: true,
-     maxShownResults: 5
+     maxShownResults: 10
   });
   // $("#txtEnchants").val("FOR +1, FOR +2"); // For Debug
 

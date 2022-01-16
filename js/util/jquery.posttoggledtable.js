@@ -132,6 +132,17 @@ jQuery(document).ready(function($) {
           // Check the correct Radio Button
           $("input[name='rdbTabSaleRowId'][value='"+idOfParent+"']").prop("checked",true);
         });
-    
 
+  
+  // Offer
+  $("#offer-open-post") 
+        .on("click", function(){
+          if ($(".offer-content").hasClass( "hide" )) {
+            $(".offer-content").removeClass("hide");
+            $.scroll(".offer-content-form");
+          } else {
+            $(".offer-content").addClass("hide");
+          }
+        });
+    
 });

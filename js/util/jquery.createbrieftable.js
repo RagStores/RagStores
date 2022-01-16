@@ -21,9 +21,11 @@ jQuery(document).ready(function ($) {
    * @param {string} txtPrice The unit price of the item.
    * @param {string} txtItensId (optional) The ID of the item, see file "js/[server]/dtlItens.json".
    * @param {string} txtItensName (optional) The name of the item.
+   * @param {string} txtOffer (optional) The offer value of the item.
+   * @param {string} txtSold (optional) The bollean of the item, was this negotiated?
    * @returns {json} The JSON used to render the HMTL table.
    **************************************/
-  var clearBriefJSON = function (json,fRowIndex,txtRefine,txtCards,txtEnchants,txtQtd,txtPrice,txtItensId,txtItensName) {
+  var clearBriefJSON = function (json,fRowIndex,txtRefine,txtCards,txtEnchants,txtQtd,txtPrice,txtItensId,txtItensName,txtOffer,txtSold) {
     // Create a JSON with all clear values
     json[fRowIndex]["txtRefine"] = txtRefine;
     json[fRowIndex]["txtCards"] = txtCards.replace(/,/g, "*");
@@ -34,6 +36,8 @@ jQuery(document).ready(function ($) {
     // Optional param https://stackoverflow.com/questions/148901/is-there-a-better-way-to-do-optional-function-parameters-in-javascript
     (typeof txtItensId === "undefined") ? "skip" : json[fRowIndex]["txtItensId"] = txtItensId;
     (typeof txtItensName === "undefined") ? "skip" : json[fRowIndex]["txtItensName"] = txtItensName;
+    (typeof txtOffer === "undefined") ? "true" : json[fRowIndex]["offer"] = txtOffer;
+    (typeof txtSold === "undefined") ? "false" : json[fRowIndex]["sold"] = txtSold;
 
     return json;
   };
@@ -49,6 +53,9 @@ jQuery(document).ready(function ($) {
      ** Create Table
      * https://stackoverflow.com/questions/8749236/create-table-with-jquery-append
      */
+
+    // Controler
+    let rebuild = false;
 
 
     /**
@@ -184,6 +191,9 @@ jQuery(document).ready(function ($) {
           .text(txtPriceMasked + " Z")
       );
       strCurrentBrief += ',"txtPrice": "' + txtPriceMasked + ' Z"';
+
+      // Offer and sold
+      strCurrentBrief += ',"offer": true, "sold": false';
       
       // Row action buttons
       table.append(
@@ -203,33 +213,21 @@ jQuery(document).ready(function ($) {
       if (!$("#divBrief #txtBrief").val()) {
         // Has no value, first item
         strCurrentBrief += "}]"; // End JSON String
+
+        // Set value in global variable
+        jsonGlobalBrief = JSON.parse(strCurrentBrief);
+
+        // Set to the HTML the string JSON of Table, used to create the post
+        createHTMLJSON(strCurrentBrief);
+
       } else {
         /**
          * This part of code will append the new row of table in the existent JSON of the table
+         * Has value
          */
+        rebuildingJSON(strCurrentBrief, isAddItem);
 
-        // Has value
-        let arrBrief = "["; // Get into a String
-        JSON.parse($("#divBrief #txtBrief").val()).forEach(function (o, index) {
-          // For each element in JSON
-
-          arrBrief += '{"txtRefine": "' + o["txtRefine"] + '"';
-          arrBrief += ',"txtItensId": "' + o["txtItensId"] + '"';
-          arrBrief += ',"txtItensName": "' + o["txtItensName"] + '"';
-          arrBrief += ',"txtCards": "' + o["txtCards"] + '"';
-          arrBrief += ',"txtEnchants": "' + o["txtEnchants"] + '"';
-          arrBrief += ',"txtQtd": "' + o["txtQtd"] + '"';
-          arrBrief += ',"txtPrice": "' + o["txtPrice"] + '"},';
-        });
-
-        strCurrentBrief = arrBrief + "{" + strCurrentBrief + "}]"; // Complete JSON
       }
-
-      // Set value in global variable
-      jsonGlobalBrief = JSON.parse(strCurrentBrief);
-
-      // Set to the HTML the string JSON of Table, used to create the post
-      createHTMLJSON(strCurrentBrief);
 
     
     } else {
@@ -239,8 +237,6 @@ jQuery(document).ready(function ($) {
 
       // Set to the HTML the string JSON of Table, used to create the post
       createHTMLJSON(strCurrentBrief);
-
-
 
       $("#tbBrief tr.dataRow").remove(); // Clear the whole table
 
@@ -326,10 +322,23 @@ jQuery(document).ready(function ($) {
           )
         );
 
+        // There is no property 'offer' in json
+        if (!jsonGlobalBrief[index].hasOwnProperty("offer")) {
+          rebuild = true;
+        }
+
         // Append a row in table tbBrief
         $("#tbBrief").append(table);
 
       } // End For
+
+      // Rebuild the JSON
+      if (rebuild) {
+
+        rebuildingJSON(strCurrentBrief, isAddItem);
+
+      }
+
     } // End Else
   };
 
@@ -369,34 +378,92 @@ jQuery(document).ready(function ($) {
 
   /**********************************************************************************
    ** Create the input to insert JSON
-   * @param {string} strCurrentBrief Stringify the return of clearBriefJSON function. 
+   * @param {string} strCurrentBrief Stringify the return of clearBriefJSON function.
+   * @param {number} fRowIndex (optional) The index of the row. 
    **********************************************************************************/
-  var createHTMLJSON = function (strCurrentBrief) {
-    /**
-     ** Adding the brief data in input (HTML) to the next item validation
-     */
-    $("#divBrief #txtBrief").remove();
-    $("#divBrief").append(
-      "<input type='text' id='txtBrief' name='txtBrief' autocomplete='off' tabindex='-1' style='position: absolute; top: -14000px; left: -14000px;'>"
-    ); // Append to HTML the input
-    $("#divBrief #txtBrief").val(strCurrentBrief); // Set the value
-    //console.log(strCurrentBrief);
+  var createHTMLJSON = function (strCurrentBrief, fRowIndex) {
+    
+    if (typeof fRowIndex === "undefined") {
+      /**
+       ** Adding the brief data in input (HTML) to the next item validation
+      */
+      $("#divBrief #txtBrief").remove();
+      $("#divBrief").append(
+        "<input type='text' id='txtBrief' name='txtBrief' autocomplete='off' tabindex='-1' style='position: absolute; top: -14000px; left: -14000px;'>"
+      ); // Append to HTML the input
+      $("#divBrief #txtBrief").val(strCurrentBrief); // Set the value
+      //console.log(strCurrentBrief);
 
-    /**
-     ** Adding the brief data in a input
-     *? Do not remove, using this input to convert into a JSON in process-upload.php
-     */
-    $("#divBrief #txtSendBrief").remove(); // Clear to insert the new one
-    // https://stackoverflow.com/questions/38298158/php-json-decode-returns-null-from-string
-    // Replace all " to the hex code
-    $("#divBrief").append(
-      "<input type='text' id='txtSendBrief' name='txtSendBrief' autocomplete='off' tabindex='-1' style='position: absolute; top: -14000px; left: -14000px;' value='" +
-        strCurrentBrief.replace(/"/g, "&quot;") +
-        "'>"
-    );
-    //console.log($("#txtBrief").val());
-    //console.log(strCurrentBrief);
+      /**
+       ** Adding the brief data in a input
+      *? Do not remove, using this input to convert into a JSON in process-upload.php
+      */
+      $("#divBrief #txtSendBrief").remove(); // Clear to insert the new one
+      // https://stackoverflow.com/questions/38298158/php-json-decode-returns-null-from-string
+      // Replace all " to the hex code
+      $("#divBrief").append(
+        "<input type='text' id='txtSendBrief' name='txtSendBrief' autocomplete='off' tabindex='-1' style='position: absolute; top: -14000px; left: -14000px;' value='" +
+          strCurrentBrief.replace(/"/g, "&quot;") +
+          "'>"
+      );
+      //console.log($("#txtBrief").val());
+      //console.log(strCurrentBrief);
+
+    } else {
+
+      /**
+       ** Offer Form 
+      */
+      if ($("#divBrief #txtSendBrief"+fRowIndex).val()) {
+        $("#divBrief #txtSendBrief"+fRowIndex).remove(); // Clear to insert the new one
+      }
+
+      $("#divBrief").append(
+        "<input type='text' id='txtSendBrief"+fRowIndex+"' name='txtSendBrief"+fRowIndex+"' autocomplete='off' tabindex='-1' style='position: absolute; top: -14000px; left: -14000px;' value='" +
+          strCurrentBrief.replace(/"/g, "&quot;") +
+          "'>"
+      );
+    }
   };
+
+  /*******************************************************************************************
+   ** This part of code will append the new row of table in the existent JSON of the table
+   * @param {string} strCurrentBrief Stringify the return of clearBriefJSON function.
+   * @param {boolean} isAddItem Controller to know if is a manual insert.
+   *******************************************************************************************/
+  var rebuildingJSON = function (strCurrentBrief, isAddItem) {
+    // Has value
+    let arrBrief = "["; // Get into a String
+    JSON.parse($("#divBrief #txtBrief").val()).forEach(function (o, index) {
+      // For each element in JSON
+
+      arrBrief += '{"txtRefine": "' + o["txtRefine"] + '"';
+      arrBrief += ',"txtItensId": "' + o["txtItensId"] + '"';
+      arrBrief += ',"txtItensName": "' + o["txtItensName"] + '"';
+      arrBrief += ',"txtCards": "' + o["txtCards"] + '"';
+      arrBrief += ',"txtEnchants": "' + o["txtEnchants"] + '"';
+      arrBrief += ',"txtQtd": "' + o["txtQtd"] + '"';
+      arrBrief += ',"txtPrice": "' + o["txtPrice"] + '"';
+      arrBrief += ',"offer": true';
+      arrBrief += ',"sold": false },';
+    });
+
+    if (isAddItem) {
+
+      // It is a new json, created by manual insert
+      strCurrentBrief = arrBrief + "{" + strCurrentBrief + "}]"; // Complete JSON
+
+    } else {
+
+      strCurrentBrief = (arrBrief + ",]").replace(/,,/g, ""); // Complete JSON
+    }
+
+    // Set value in global variable
+    jsonGlobalBrief = JSON.parse(strCurrentBrief);
+
+    // Set to the HTML the string JSON of Table, used to create the post
+    createHTMLJSON(strCurrentBrief);
+  }
 
   /****************************************************
    ** Clear all inputs
@@ -420,6 +487,8 @@ jQuery(document).ready(function ($) {
 
     $("#txtPrice").val("");
     $(".step-three .item-six li").css("display", "");
+
+    $("#txtSavedTableItem").val("");
   };
 
 
@@ -488,7 +557,7 @@ jQuery(document).ready(function ($) {
       $("#txtItens").val() &&
       $("#txtQtd").val() &&
       $("#txtPrice").val() &&
-      rowCount < 12
+      rowCount < 50
     ) { // All good
       e.preventDefault();
       rowCount++; // Controller increase +1
@@ -802,5 +871,163 @@ jQuery(document).ready(function ($) {
     });/
     });
   */
+
+
+//? ------------------------ OFFER FORM ------------------------ ?//
+
+  /*************************************************
+   ** btnEditOffer (Confirm Edition - Pink button)
+   ** This function set the changes made on the item
+   **************************************************/
+  //$(document).on("click", "#btnEditOffer", function (e) {
+  $("#btnEditOffer").click(function (e) {
+    e.preventDefault();
+
+    // Hide the error hint
+    $(".step-three #hint-error").addClass("hide");
+    $("#offer-form .step-brief .hint-error-div").addClass("hide");
+    $("#offer-form .step-three .hint-bellow-title.hint-error-div").addClass("hide");
+
+    // Validate fields
+    if ($("#txtSavedTableItem").val() && $("#txtPrice").val() && parseInt($("#txtPrice").val(),10) > 0 && $("#txtChar").val()) {
+
+      /**
+       ** Get the input field's values
+       */
+      rowIndex = $("#txtSavedTableItem").val();
+      let strCurrentBrief = '';
+      let txtItemId = $(".table-sale-form-post tr#child-"+rowIndex+" td.detail td.child-value a").html().replace(/^(\d+).*/, "$1");
+      
+      // Create a Offer Json
+      strCurrentBrief +=
+        '[{'+
+        '"txtCharName":"'+
+        $("#txtChar").val()+
+        '",'+
+        '"txtItensId":"'+txtItemId+'",'+
+        '"txtOffer":"'+priceMask($("#txtPrice").val())+' Z"'+
+        '}]'
+      ;
+      
+      // Insert in HTML to php process
+      createHTMLJSON(strCurrentBrief, rowIndex)
+
+      // Change in HTML Table
+      $("#tbBrief tr#"+txtItemId+"-"+rowIndex+" td.inputValue.txtOfferRow").html("<font color='#1ba4e2'><b>"+priceMask($("#txtPrice").val())+" Z</b></font>");
+
+      // Remove the render of similar pattern of FlexDatalist.
+      $(
+        "div.steps.step-three div.union-group.item-two.form-group ul li"
+      ).removeClass(
+        // Find the corret local
+        "hide" // Hide the input
+      );
+      $(
+        "div.steps.step-three div.union-group.item-two.form-group ul .editItem"
+      ).remove();
+
+      // Clear all
+      clearInputs();
+
+    } else {
+      // Wich field has no value?
+
+      if (!$("#txtChar").val()) {
+        $(".step-three .item-one-offer li").addClass("has-error is-focused"); // Highlight the field
+      }
+
+      if (!$("#txtSavedTableItem").val()) {
+        // Is emtpy
+        $(".step-three .item-two li").addClass("has-error is-focused"); // Highlight the field
+      }
+
+      if (!$("#txtPrice").val() || parseInt($("#txtPrice").val(),10) <= 0) {
+        $(".step-three .item-three li").addClass("has-error is-focused");
+        $("#offer-form .step-three .hint-bellow-title.hint-error-div").removeClass("hide");
+      }
+    }
+
+  });
+
+  /******************************************************************************************
+   ** btnActionEditOfferRow (Edit Row - Pencil button)
+   ** This function will set the correct values of selected row in the FlexDatalist inputs of the form
+   *******************************************************************************************/
+  $(document).on("click", "a.btnActionEditOfferRow", function () {
+
+    // Enable btnEditOffer
+    $("#btnEditOffer").prop("disabled", false); // use prop or attr
+    $("#btnEditOffer").removeClass("um-disabled");
+
+    // Hide the error hint
+    $(".step-three #hint-error").addClass("hide");
+    $("#offer-form .step-brief .hint-error-div").addClass("hide");
+    $("#offer-form .step-three .hint-bellow-title.hint-error-div").addClass("hide");
+
+
+    /**
+     ** Set values in the inputs
+     */
+    $("#txtSavedTableItem").val($(this).closest("tr").index() - 1); // Get ROW INDEX on click
+    // Render a similar pattern of FlexDatalist just to user know wich item is.
+    $(
+      "div.steps.step-three div.union-group.item-two.form-group ul li"
+    ).addClass(
+      // Find the corret local
+      "hide" // Hide the input
+    );
+    $(
+      "div.steps.step-three div.union-group.item-two.form-group ul .editItem"
+    ).remove();
+    $("div.steps.step-three div.union-group.item-two.form-group ul").append(
+      // Find the corret local
+      "<li class='value editItem'><span class='text'>" +
+      $(this).closest("tr").find(".txtItemName").html() +
+      "</span></li>" // Render the pattern
+    );
+
+    // Values in JSON if they are different of '-', it means not empty input
+    if ($(this).closest("tr").find(".txtOfferRow").html() != "-") {
+      $("#txtPrice").val($(this).closest("tr").find(".txtOfferRow").html().replace(" Z", "").replace(/,/g, ""));
+    } else {
+      $("#txtPrice").val("0");
+    }
+
+  });
+
+  /************************************************
+   ** btnActionDeleteOfferRow (Delete Row - Bin button) 
+   ** This function will delete the selected row
+   ************************************************/
+  $(document).on("click", "a.btnActionDeleteOfferRow", function () {
+    // Get ROW INDEX on click:
+    rowIndex = $(this).closest("tr").index() - 1;
+    let txtItemId = $(".table-sale-form-post tr#child-"+rowIndex+" td.detail td.child-value a").html().replace(/^(\d+).*/, "$1");
+
+    // Hide the error hint
+    $(".step-three #hint-error").addClass("hide");
+    $("#offer-form .step-brief .hint-error-div").addClass("hide");
+    $("#offer-form .step-three .hint-bellow-title.hint-error-div").addClass("hide");
+
+    // Change in HTML Table
+    $("#tbBrief tr#"+txtItemId+"-"+rowIndex+" td.inputValue.txtOfferRow").html("-");
+
+    // Remove from divBrief
+    $("#divBrief #txtSendBrief"+rowIndex).remove();
+
+    // Remove the render of similar pattern of FlexDatalist.
+    $(
+      "div.steps.step-three div.union-group.item-two.form-group ul li"
+    ).removeClass(
+      // Find the corret local
+      "hide" // Hide the input
+    );
+    $(
+      "div.steps.step-three div.union-group.item-two.form-group ul .editItem"
+    ).remove();
+
+    // Clear all
+    clearInputs();
+  });
 
 });
