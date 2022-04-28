@@ -306,7 +306,7 @@ jQuery(document).ready(function($) {
   });
 
   $("#txtUserCoupon-flexdatalist").mask( // Account Page
-    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",{
+    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",{
       //reverse: true,
       translation: {
         'A': {pattern: /[ A-z0-9_-]/}

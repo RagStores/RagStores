@@ -144,5 +144,17 @@ jQuery(document).ready(function($) {
             $(".offer-content").addClass("hide");
           }
         });
+
+  // TLM
+  $("#tlm-cards-en-us") 
+        .on("click", function(){
+          $(".tlm-cards .card-pt-br").addClass("hide");
+          $(".tlm-cards .card-en-us").removeClass("hide");
+        });
+  $("#tlm-cards-pt-br") 
+        .on("click", function(){
+          $(".tlm-cards .card-en-us").addClass("hide");
+          $(".tlm-cards .card-pt-br").removeClass("hide");
+        });
     
 });
