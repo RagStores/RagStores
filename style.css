@@ -19,9 +19,14 @@ Version: 0.1
 }
 .page-header {
     border-bottom: 8px dotted #5f4232;
+    min-height: 10px !important;
+    max-height: 300px;
 }
 .page-header.header-small {
     min-height: 170px !important;
+}
+.page-header .widget {
+    margin: 0px;
 }
 .page-header img {
     filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
@@ -240,11 +245,11 @@ blockquote {
 }
 /*Category*/
 .sale-content-single .cat-modal.modal-shop::before {
-    content: url(/wp-content/uploads/2021/11/shop.gif);
+    content: url(/wp-content/uploads/2021/11/shopimg.gif);
     vertical-align: middle;
 }
 .sale-content-single .cat-modal.modal-buyshop::before {
-    content: url(/wp-content/uploads/2021/11/buyingshop.gif);
+    content: url(/wp-content/uploads/2021/11/buyingshopimg.gif);
     vertical-align: middle;
 }
 
@@ -367,6 +372,12 @@ blockquote {
     /*box-shadow: 0px 0px 0px 3px #fafffd;*/
     border-radius: 8px;
 }
+img.pin-card-tlm {
+    filter: contrast(105%) saturate(120%) drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -webkit-filter: contrast(105%) saturate(120%) drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -moz-filter: contrast(105%) saturate(120%) drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    /*box-shadow: 0px 0px 0px 3px #fafffd;*/
+}
 .sale-content-single h4.card-title {
     margin-bottom: 0px !important;
 }
@@ -422,7 +433,7 @@ input[type="submit"].offer-button:hover {
 }
 
 
-.dataRow img.ingame-item:hover, .img-item-search img:hover {
+img.ingame-item:hover, .img-item-search img:hover {
     transform: scale(1.2);
 
 }
@@ -471,6 +482,10 @@ input[type="submit"].offer-button:hover {
 /* Peso da Fonte */
 .hestia-title, .title, .card-title, .info-title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .woocommerce ul.products[class*="columns-"] li.product-category h2 {
 	font-weight: 500;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #3C4858;
 }
 
 
@@ -528,6 +543,45 @@ input[type="submit"].offer-button:hover {
 	transform: skew(3deg, -5deg);
 }
 
+/* Shop */
+.shop-rops .sale-container {
+    border-radius: 3px;
+    box-shadow: 0px 0px 0px 5px #fefdf8
+}
+
+.shop-rops .sale-container-content {
+    text-align: center;
+    padding: 5% 7%;
+}
+
+.shop-rops span.hint.old-price {
+    font-style: italic;
+    color: #aaa;
+    text-decoration: line-through;
+}
+.shop-rops span.hint.tos {
+    font-size: 10px;
+}
+
+.shop-rops span.price {
+    font-family: 'Fredoka One';
+    font-size: larger;
+}
+
+.shop-rops h5 {
+    color: #5e4334;
+}
+
+.shop-rops img.view-costume-card {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    filter: contrast(105%) saturate(120%) drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -webkit-filter: contrast(105%) saturate(120%) drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+    -moz-filter: contrast(105%) saturate(120%) drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+}
 
 
 /* Sale Form */
@@ -613,7 +667,7 @@ input[type="submit"].offer-button:hover {
 .hint-error{
     color: #f44336;
 }
-.hint-sucess{
+.hint-sucess, .confirm-clip {
     color: #649b2e;
 }
 .sale-form-group .pvp-number {
@@ -748,8 +802,11 @@ i.fa-long-arrow-alt-down, .profit-down {
     padding-right: 6px;
     color: #61ccfc;
 }
-.search-result .a-table-name-item {
+.search-result .a-table-name-item, .stats-search a {
     color: #1580b0;
+}
+a:not(.btn):not(.button):not(.added_to_cart):hover {
+    opacity: 1;
 }
 .min-item-search {
     display: flex;
@@ -802,6 +859,24 @@ h1.hestia-title.title-in-content {
 .info-item-search.wp-block-column {
     padding-left: 10px;
 }
+/*.search-database h1.hestia-title.title-in-content {
+    margin-bottom: 45px;
+}*/
+.search-database form#searchform, .search-database .step-one {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* float: right; */
+}
+.search-database .sale-searchbar.um, .search-database li.input-container.flexdatalist-multiple-value {
+   margin: 0px !important; 
+}
+.search-database .sale-searchbar.um {
+    display: contents;
+}
+
 
 /* Visual */
 .visual-costume {
@@ -812,6 +887,19 @@ h1.hestia-title.title-in-content {
 }
 .visual-costume .info-item-search.wp-block-column {
     padding-left: 30px;
+}
+@media only screen and (max-width: 64em) { /* https://stackoverflow.com/questions/32301206/how-to-fold-table-columns-into-rows-on-mobile-devices */ /* table visual */
+    .visual-costume-display-full thead th:not(:first-child) {
+        display: none;
+    }
+
+    .visual-costume-display-full td, .visual-costume-display-full th {
+        display: block;
+    }
+
+    .visual-costume-display-full td[data-th]:before  {
+        content: attr(data-th);
+    }
 }
 @media only screen and (max-width: 85em) { /* https://stackoverflow.com/questions/32301206/how-to-fold-table-columns-into-rows-on-mobile-devices */ /* table visual */
     .visual-costume-display thead th:not(:first-child) {
@@ -835,9 +923,14 @@ h1.hestia-title.title-in-content {
         text-align: center;
     }
 
-    .search-home .cta-buttons .all-sales-button {
+    .search-home .cta-buttons .all-sales-button, .search-cta-content .cta-buttons .all-sales-button {
         margin-bottom: 42px;
     }
+    
+    .tlm-cards .wp-block-columns, .tlm-cards-button-collection {
+        display: contents;
+    }
+
 }
 .view-costume-gif {
     text-align: center;
@@ -913,15 +1006,38 @@ i.fas.fa-external-link-square-alt, i.fas.fa-clone {
     margin-top: -40px;
     margin-bottom: 0px;
 }
+.search-cta-content .cta-buttons .form-sale-searchbar.full-list {
+    margin-top: 30px;
+}
 .form-sale-searchbar img.kawaii {
     width: 25%;
     position: absolute;
     z-index: 999;
-    right: 4%;
-    bottom: -10%;
+    right: 0%;
+    bottom: 50%;
     filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
     -webkit-filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
     -moz-filter: drop-shadow(1px 4px 2px rgba(95, 66, 50, 0.7));
+}
+/* Table Top Search */
+.stats-search-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+table.stats-search {
+    max-width: 250px;
+}
+.stats-search td {
+    padding: 2px 0px 2px 0px;
+}
+.stats-search th {
+    padding: 0px;
+}
+.form-sale-searchbar h6 {
+    margin: 0px;
 }
 /* bRO Wiki */
 img.browiki-rag {
@@ -1119,21 +1235,21 @@ button.wprc-switch:after {
 .search-home .cta-buttons .all-sales-button {
     margin-right: 50px;
 }
-.search-home .cta-buttons .all-sales-button .input-button-gif {
+.search-home .cta-buttons .all-sales-button .input-button-gif, .search-cta-content .cta-buttons .all-sales-button .input-button-gif {
     display: inline;
     position: absolute;
     z-index: 2;
     top: 6px;
     left: 135px;
 }
-.search-home .cta-buttons {
+.search-home .cta-buttons, .search-cta-content .cta-buttons {
     display: flex;
     flex-wrap: wrap;
 }
 .search-home .cta-buttons .all-costume-button input.costume-list {
     min-width: 144px;
 }
-.search-home .cta-buttons .all-costume-button .input-button-gif {
+.search-home .cta-buttons .all-costume-button .input-button-gif, .search-cta-content .cta-buttons .all-costume-button .input-button-gif {
     display: inline;
     position: relative;
     z-index: 2;
@@ -1342,6 +1458,25 @@ footer .container {
 	float: none !important;
 }
 
+/* TLM - The Lost Memories */
+.tlm-cards-button-collection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.tlm-cards .search-database {
+    margin-bottom: 40px;
+}
+.tlm-actions i, .tlm-actions span {
+    font-size: 10px;
+}
+.tlm-actions {
+    padding-left: 4px;
+}
+
+
 /* Cor do Texto */
 footer.footer.footer-black h5, footer.footer.footer-black h4, footer.footer.footer-black i, footer.footer.footer-black .copyright {
 	color: #030016;
@@ -1373,6 +1508,17 @@ footer i.fab.fa-instagram-square {
 footer i.fab.fa-github-square { 
     font-size: 18px;
     color: #24292e !important;
+}
+footer i.fab.fa-discord { 
+    font-size: 16px;
+    color: #5865f2 !important;
+}
+
+i.fas.fa-star { 
+    color: #f4b157 !important;
+}
+i.far.fa-star { 
+    color: #777777 !important;
 }
 
 .hestia-scroll-to-top {
