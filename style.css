@@ -45,7 +45,7 @@ a.navbar-brand {
 a.menu-image-title-hide.menu-image-not-hovered { /*Image Menu*/
     padding: 0px !important;
 }
-.menu-item-4794 a, .menu-item-4827 a { /* Criar anúncio */
+.menu-item-4794 a, .menu-item-4827 a { /* Criar post */
     color: #1ba4e2 !important;
 }
 
@@ -90,7 +90,12 @@ h1.hestia-title.title-in-content{
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
     */
 }
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
+    .main-raised {
+        margin: -60px 20px 60px 20px;
+    }
+}
+@media (max-width: 1370px) {
     .main-raised {
         margin: -60px 20px 60px 20px;
     }
@@ -862,13 +867,25 @@ h1.hestia-title.title-in-content {
 /*.search-database h1.hestia-title.title-in-content {
     margin-bottom: 45px;
 }*/
-.search-database form#searchform, .search-database .step-one {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    /* float: right; */
+@media (max-width: 320px) {
+    .search-database form#searchform, .search-database .step-one {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}
+@media (min-width: 430px) {
+    .search-database form#searchform, .search-database .step-one {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        /* float: right; */
+    }
 }
 .search-database .sale-searchbar.um, .search-database li.input-container.flexdatalist-multiple-value {
    margin: 0px !important; 
@@ -876,6 +893,10 @@ h1.hestia-title.title-in-content {
 .search-database .sale-searchbar.um {
     display: contents;
 }
+.search-database .btnReadMore {
+    display: block;
+}
+
 
 
 /* Visual */

@@ -83,6 +83,29 @@ jQuery(document).ready(function($) {
             
         });
   
+  // Search Item Database Description
+  $(".btnReadMore")
+        .on("click", function(){
+
+          if ($(".info-item-search #more").hasClass( "hide" )) {
+            $(".info-item-search #more").removeClass("hide");
+            $(".info-item-search .fa-angle-up").removeClass("hide"); // icon
+            
+            $(".info-item-search #dots").addClass("hide");
+            $(".info-item-search .fa-angle-down").addClass("hide");
+
+          } else {
+            $(".info-item-search #dots").removeClass("hide");
+            $(".info-item-search .fa-angle-down").removeClass("hide");
+
+            $(".info-item-search #more").addClass("hide");
+            $(".info-item-search .fa-angle-up").addClass("hide");
+
+            $.scroll(".search-database");
+          }
+                        
+        });
+  
   // Search Result Tables
   $("#searchformstats #rdbServer-thor") 
         .on("click", function(){
