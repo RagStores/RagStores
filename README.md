@@ -49,6 +49,7 @@ This project uses this below libraries, our sincerely **thanks**.
 
 ★’ﾟ･:*:･｡: (≧▽≦) :｡･:*:･ﾟ’★
 
+- [Telegram Bot API](https://core.telegram.org/bots/api)
 - [jQuery.Flexdatalist](https://github.com/sergiodlopes/jquery-flexdatalist)
 - [jQuery Mask Plugin](https://github.com/igorescobar/jQuery-Mask-Plugin)
 - [Tilt.js](https://github.com/gijsroge/tilt.js)
